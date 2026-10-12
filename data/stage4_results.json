@@ -1,0 +1,7115 @@
+{
+ "summary": {
+  "exact_kmp": {
+   "answerable_questions": 23,
+   "hit@1": 0.522,
+   "hit@3": 0.565,
+   "hit@5": 0.783,
+   "mrr": 0.596,
+   "mean_time_ms": 926.7,
+   "median_time_ms": 628.8,
+   "mean_chunks_examined": 2249,
+   "by_kind": {
+    "direct": {
+     "n": 11,
+     "hit@1": 0.636,
+     "hit@3": 0.727
+    },
+    "inflection": {
+     "n": 1,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    },
+    "no_name": {
+     "n": 2,
+     "hit@1": 0.5,
+     "hit@3": 0.5
+    },
+    "symbol": {
+     "n": 2,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    },
+    "synonym": {
+     "n": 3,
+     "hit@1": 0.333,
+     "hit@3": 0.333
+    },
+    "typo": {
+     "n": 4,
+     "hit@1": 0.0,
+     "hit@3": 0.0
+    }
+   },
+   "unanswerable_returned_hits": 3,
+   "unanswerable_total": 3
+  },
+  "exact_kmp_lex": {
+   "answerable_questions": 23,
+   "hit@1": 0.783,
+   "hit@3": 0.783,
+   "hit@5": 0.783,
+   "mrr": 0.785,
+   "mean_time_ms": 1104.8,
+   "median_time_ms": 843.1,
+   "mean_chunks_examined": 2249,
+   "by_kind": {
+    "direct": {
+     "n": 11,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    },
+    "inflection": {
+     "n": 1,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    },
+    "no_name": {
+     "n": 2,
+     "hit@1": 0.5,
+     "hit@3": 0.5
+    },
+    "symbol": {
+     "n": 2,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    },
+    "synonym": {
+     "n": 3,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    },
+    "typo": {
+     "n": 4,
+     "hit@1": 0.0,
+     "hit@3": 0.0
+    }
+   },
+   "unanswerable_returned_hits": 3,
+   "unanswerable_total": 3
+  },
+  "exact_index": {
+   "answerable_questions": 23,
+   "hit@1": 0.783,
+   "hit@3": 0.783,
+   "hit@5": 0.783,
+   "mrr": 0.785,
+   "mean_time_ms": 3.0,
+   "median_time_ms": 2.3,
+   "mean_chunks_examined": 819,
+   "by_kind": {
+    "direct": {
+     "n": 11,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    },
+    "inflection": {
+     "n": 1,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    },
+    "no_name": {
+     "n": 2,
+     "hit@1": 0.5,
+     "hit@3": 0.5
+    },
+    "symbol": {
+     "n": 2,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    },
+    "synonym": {
+     "n": 3,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    },
+    "typo": {
+     "n": 4,
+     "hit@1": 0.0,
+     "hit@3": 0.0
+    }
+   },
+   "unanswerable_returned_hits": 3,
+   "unanswerable_total": 3
+  },
+  "approx_nolex": {
+   "answerable_questions": 23,
+   "hit@1": 0.652,
+   "hit@3": 0.783,
+   "hit@5": 1.0,
+   "mrr": 0.765,
+   "mean_time_ms": 13.8,
+   "median_time_ms": 10.1,
+   "mean_chunks_examined": 783,
+   "by_kind": {
+    "direct": {
+     "n": 11,
+     "hit@1": 0.636,
+     "hit@3": 0.727
+    },
+    "inflection": {
+     "n": 1,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    },
+    "no_name": {
+     "n": 2,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    },
+    "symbol": {
+     "n": 2,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    },
+    "synonym": {
+     "n": 3,
+     "hit@1": 0.333,
+     "hit@3": 0.333
+    },
+    "typo": {
+     "n": 4,
+     "hit@1": 0.5,
+     "hit@3": 1.0
+    }
+   },
+   "unanswerable_returned_hits": 3,
+   "unanswerable_total": 3
+  },
+  "approx": {
+   "answerable_questions": 23,
+   "hit@1": 1.0,
+   "hit@3": 1.0,
+   "hit@5": 1.0,
+   "mrr": 1.0,
+   "mean_time_ms": 15.3,
+   "median_time_ms": 11.6,
+   "mean_chunks_examined": 966,
+   "by_kind": {
+    "direct": {
+     "n": 11,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    },
+    "inflection": {
+     "n": 1,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    },
+    "no_name": {
+     "n": 2,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    },
+    "symbol": {
+     "n": 2,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    },
+    "synonym": {
+     "n": 3,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    },
+    "typo": {
+     "n": 4,
+     "hit@1": 1.0,
+     "hit@3": 1.0
+    }
+   },
+   "unanswerable_returned_hits": 3,
+   "unanswerable_total": 3
+  }
+ },
+ "per_question": {
+  "What rarity is Blueprint?": {
+   "kind": "direct",
+   "page": "Blueprint",
+   "needle": "Rarity: Rare",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 1,
+     "time_ms": 559.21,
+     "terms": [
+      "rarity",
+      "blueprint"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "blueprint"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 95,
+       "title": "Blueprint",
+       "score": 11.913,
+       "matched": {
+        "rarity": 1,
+        "blueprint": 7
+       }
+      },
+      {
+       "id": 99,
+       "title": "Blueprint",
+       "score": 9.393,
+       "matched": {
+        "blueprint": 7
+       }
+      },
+      {
+       "id": 101,
+       "title": "Blueprint",
+       "score": 9.111,
+       "matched": {
+        "blueprint": 5
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 1,
+     "time_ms": 606.17,
+     "terms": [
+      "rarity",
+      "blueprint"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "blueprint"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 95,
+       "title": "Blueprint",
+       "score": 11.913,
+       "matched": {
+        "rarity": 1,
+        "blueprint": 7
+       }
+      },
+      {
+       "id": 99,
+       "title": "Blueprint",
+       "score": 9.393,
+       "matched": {
+        "blueprint": 7
+       }
+      },
+      {
+       "id": 101,
+       "title": "Blueprint",
+       "score": 9.111,
+       "matched": {
+        "blueprint": 5
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 1,
+     "time_ms": 0.99,
+     "terms": [
+      "rarity",
+      "blueprint"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "blueprint"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 95,
+       "title": "Blueprint",
+       "score": 11.913,
+       "matched": {
+        "rarity": 1,
+        "blueprint": 1
+       }
+      },
+      {
+       "id": 99,
+       "title": "Blueprint",
+       "score": 9.393,
+       "matched": {
+        "blueprint": 1
+       }
+      },
+      {
+       "id": 101,
+       "title": "Blueprint",
+       "score": 9.111,
+       "matched": {
+        "blueprint": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 1,
+     "time_ms": 5.06,
+     "terms": [
+      "rarity",
+      "blueprint"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "blueprint"
+     ],
+     "expanded": [],
+     "variants": {
+      "blueprint": [
+       [
+        "blueprints",
+        0.9,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 95,
+       "title": "Blueprint",
+       "score": 11.879,
+       "matched": {
+        "rarity": 1,
+        "blueprint": 1
+       }
+      },
+      {
+       "id": 99,
+       "title": "Blueprint",
+       "score": 9.359,
+       "matched": {
+        "blueprint": 1
+       }
+      },
+      {
+       "id": 101,
+       "title": "Blueprint",
+       "score": 9.079,
+       "matched": {
+        "blueprint": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 7.54,
+     "terms": [
+      "rarity",
+      "blueprint"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "blueprint"
+     ],
+     "expanded": [],
+     "variants": {
+      "blueprint": [
+       [
+        "blueprints",
+        0.9,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 95,
+       "title": "Blueprint",
+       "score": 11.879,
+       "matched": {
+        "rarity": 1,
+        "blueprint": 1
+       }
+      },
+      {
+       "id": 99,
+       "title": "Blueprint",
+       "score": 9.359,
+       "matched": {
+        "blueprint": 1
+       }
+      },
+      {
+       "id": 101,
+       "title": "Blueprint",
+       "score": 9.079,
+       "matched": {
+        "blueprint": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "How do I unlock Brainstorm?": {
+   "kind": "direct",
+   "page": "Brainstorm",
+   "needle": "Unlock Requirement: Discard a Royal Flush",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 1,
+     "time_ms": 551.02,
+     "terms": [
+      "unlock",
+      "brainstorm"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "brainstorm"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 114,
+       "title": "Brainstorm",
+       "score": 10.973,
+       "matched": {
+        "unlock": 1,
+        "brainstorm": 7
+       }
+      },
+      {
+       "id": 120,
+       "title": "Brainstorm",
+       "score": 10.908,
+       "matched": {
+        "unlock": 1,
+        "brainstorm": 5
+       }
+      },
+      {
+       "id": 118,
+       "title": "Brainstorm",
+       "score": 9.295,
+       "matched": {
+        "brainstorm": 5
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 1,
+     "time_ms": 834.27,
+     "terms": [
+      "unlock",
+      "brainstorm"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "brainstorm"
+     ],
+     "expanded": [
+      "requirement"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 114,
+       "title": "Brainstorm",
+       "score": 12.098,
+       "matched": {
+        "unlock": 1,
+        "brainstorm": 7,
+        "requirement": 1
+       }
+      },
+      {
+       "id": 120,
+       "title": "Brainstorm",
+       "score": 10.908,
+       "matched": {
+        "unlock": 1,
+        "brainstorm": 5
+       }
+      },
+      {
+       "id": 118,
+       "title": "Brainstorm",
+       "score": 9.295,
+       "matched": {
+        "brainstorm": 5
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 1,
+     "time_ms": 2.05,
+     "terms": [
+      "unlock",
+      "brainstorm"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "brainstorm"
+     ],
+     "expanded": [
+      "requirement"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 114,
+       "title": "Brainstorm",
+       "score": 12.098,
+       "matched": {
+        "unlock": 1,
+        "brainstorm": 1,
+        "requirement": 1
+       }
+      },
+      {
+       "id": 120,
+       "title": "Brainstorm",
+       "score": 10.908,
+       "matched": {
+        "unlock": 1,
+        "brainstorm": 1
+       }
+      },
+      {
+       "id": 118,
+       "title": "Brainstorm",
+       "score": 9.295,
+       "matched": {
+        "brainstorm": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 1,
+     "time_ms": 5.96,
+     "terms": [
+      "unlock",
+      "brainstorm"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "brainstorm"
+     ],
+     "expanded": [],
+     "variants": {
+      "unlock": [
+       [
+        "unlocks",
+        0.857,
+        "levenshtein"
+       ]
+      ],
+      "brainstorm": [
+       [
+        "brainstorms",
+        0.909,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 114,
+       "title": "Brainstorm",
+       "score": 10.928,
+       "matched": {
+        "unlock": 1,
+        "brainstorm": 1
+       }
+      },
+      {
+       "id": 120,
+       "title": "Brainstorm",
+       "score": 10.863,
+       "matched": {
+        "unlock": 1,
+        "brainstorm": 1
+       }
+      },
+      {
+       "id": 118,
+       "title": "Brainstorm",
+       "score": 9.261,
+       "matched": {
+        "brainstorm": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 8.82,
+     "terms": [
+      "unlock",
+      "brainstorm"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "brainstorm"
+     ],
+     "expanded": [
+      "requirement"
+     ],
+     "variants": {
+      "unlock": [
+       [
+        "unlocks",
+        0.857,
+        "levenshtein"
+       ]
+      ],
+      "brainstorm": [
+       [
+        "brainstorms",
+        0.909,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 114,
+       "title": "Brainstorm",
+       "score": 12.053,
+       "matched": {
+        "unlock": 1,
+        "brainstorm": 1,
+        "requirement": 1
+       }
+      },
+      {
+       "id": 120,
+       "title": "Brainstorm",
+       "score": 10.863,
+       "matched": {
+        "unlock": 1,
+        "brainstorm": 1
+       }
+      },
+      {
+       "id": 118,
+       "title": "Brainstorm",
+       "score": 9.261,
+       "matched": {
+        "brainstorm": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "What does Mime do?": {
+   "kind": "direct",
+   "page": "Mime",
+   "needle": "Effect: Retrigger all card held in hand",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 5,
+     "time_ms": 382.15,
+     "terms": [
+      "mime"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mime"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 700,
+       "title": "Mime",
+       "score": 9.888,
+       "matched": {
+        "mime": 6
+       }
+      },
+      {
+       "id": 706,
+       "title": "Mime",
+       "score": 9.83,
+       "matched": {
+        "mime": 6
+       }
+      },
+      {
+       "id": 704,
+       "title": "Mime",
+       "score": 9.725,
+       "matched": {
+        "mime": 5
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 1,
+     "time_ms": 708.37,
+     "terms": [
+      "mime"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mime"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 699,
+       "title": "Mime",
+       "score": 10.702,
+       "matched": {
+        "mime": 3,
+        "effect": 1
+       }
+      },
+      {
+       "id": 700,
+       "title": "Mime",
+       "score": 9.888,
+       "matched": {
+        "mime": 6
+       }
+      },
+      {
+       "id": 706,
+       "title": "Mime",
+       "score": 9.83,
+       "matched": {
+        "mime": 6
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 1,
+     "time_ms": 1.98,
+     "terms": [
+      "mime"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mime"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 699,
+       "title": "Mime",
+       "score": 10.702,
+       "matched": {
+        "mime": 1,
+        "effect": 1
+       }
+      },
+      {
+       "id": 700,
+       "title": "Mime",
+       "score": 9.888,
+       "matched": {
+        "mime": 1
+       }
+      },
+      {
+       "id": 706,
+       "title": "Mime",
+       "score": 9.83,
+       "matched": {
+        "mime": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 5,
+     "time_ms": 2.95,
+     "terms": [
+      "mime"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mime"
+     ],
+     "expanded": [],
+     "variants": {
+      "mime": [
+       [
+        "mimes",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 700,
+       "title": "Mime",
+       "score": 9.888,
+       "matched": {
+        "mime": 1
+       }
+      },
+      {
+       "id": 706,
+       "title": "Mime",
+       "score": 9.83,
+       "matched": {
+        "mime": 1
+       }
+      },
+      {
+       "id": 704,
+       "title": "Mime",
+       "score": 9.725,
+       "matched": {
+        "mime": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 3.06,
+     "terms": [
+      "mime"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mime"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {
+      "mime": [
+       [
+        "mimes",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 699,
+       "title": "Mime",
+       "score": 10.702,
+       "matched": {
+        "mime": 1,
+        "effect": 1
+       }
+      },
+      {
+       "id": 700,
+       "title": "Mime",
+       "score": 9.888,
+       "matched": {
+        "mime": 1
+       }
+      },
+      {
+       "id": 706,
+       "title": "Mime",
+       "score": 9.83,
+       "matched": {
+        "mime": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "What does The Fool tarot card do?": {
+   "kind": "direct",
+   "page": "The Fool",
+   "needle": "Effect: Creates the last Tarot or Planet card",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 1,
+     "time_ms": 2241.42,
+     "terms": [
+      "fool",
+      "tarot",
+      "card"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "the fool"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1276,
+       "title": "The Fool",
+       "score": 29.817,
+       "matched": {
+        "fool": 5,
+        "tarot": 5,
+        "card": 4,
+        "the fool": 5
+       }
+      },
+      {
+       "id": 1277,
+       "title": "The Fool",
+       "score": 28.496,
+       "matched": {
+        "fool": 8,
+        "tarot": 2,
+        "card": 3,
+        "the fool": 8
+       }
+      },
+      {
+       "id": 1278,
+       "title": "The Fool",
+       "score": 27.265,
+       "matched": {
+        "fool": 4,
+        "tarot": 2,
+        "the fool": 4
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 1,
+     "time_ms": 2550.3,
+     "terms": [
+      "fool",
+      "tarot",
+      "card"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "the fool"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1276,
+       "title": "The Fool",
+       "score": 30.931,
+       "matched": {
+        "fool": 5,
+        "tarot": 5,
+        "card": 4,
+        "effect": 1,
+        "the fool": 5
+       }
+      },
+      {
+       "id": 1277,
+       "title": "The Fool",
+       "score": 28.496,
+       "matched": {
+        "fool": 8,
+        "tarot": 2,
+        "card": 3,
+        "the fool": 8
+       }
+      },
+      {
+       "id": 1278,
+       "title": "The Fool",
+       "score": 27.265,
+       "matched": {
+        "fool": 4,
+        "tarot": 2,
+        "the fool": 4
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 1,
+     "time_ms": 10.17,
+     "terms": [
+      "fool",
+      "tarot",
+      "card"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "the fool"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1276,
+       "title": "The Fool",
+       "score": 16.471,
+       "matched": {
+        "fool": 1,
+        "tarot": 1,
+        "card": 1,
+        "effect": 1
+       }
+      },
+      {
+       "id": 1277,
+       "title": "The Fool",
+       "score": 14.047,
+       "matched": {
+        "fool": 1,
+        "tarot": 1,
+        "card": 1
+       }
+      },
+      {
+       "id": 1278,
+       "title": "The Fool",
+       "score": 13.338,
+       "matched": {
+        "fool": 1,
+        "tarot": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 1,
+     "time_ms": 22.29,
+     "terms": [
+      "fool",
+      "tarot",
+      "card"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "the fool"
+     ],
+     "expanded": [],
+     "variants": {
+      "fool": [
+       [
+        "fools",
+        0.8,
+        "levenshtein"
+       ]
+      ],
+      "tarot": [
+       [
+        "tarots",
+        0.833,
+        "levenshtein"
+       ]
+      ],
+      "card": [
+       [
+        "cards",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 1276,
+       "title": "The Fool",
+       "score": 14.559,
+       "matched": {
+        "fool": 1,
+        "tarot": 1,
+        "card": 1
+       }
+      },
+      {
+       "id": 1278,
+       "title": "The Fool",
+       "score": 13.5,
+       "matched": {
+        "fool": 1,
+        "tarot": 1,
+        "card~cards": 1
+       }
+      },
+      {
+       "id": 1277,
+       "title": "The Fool",
+       "score": 13.381,
+       "matched": {
+        "fool": 1,
+        "tarot": 1,
+        "card": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 22.29,
+     "terms": [
+      "fool",
+      "tarot",
+      "card"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "the fool"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {
+      "fool": [
+       [
+        "fools",
+        0.8,
+        "levenshtein"
+       ]
+      ],
+      "tarot": [
+       [
+        "tarots",
+        0.833,
+        "levenshtein"
+       ]
+      ],
+      "card": [
+       [
+        "cards",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 1276,
+       "title": "The Fool",
+       "score": 15.674,
+       "matched": {
+        "fool": 1,
+        "tarot": 1,
+        "card": 1,
+        "effect": 1
+       }
+      },
+      {
+       "id": 1278,
+       "title": "The Fool",
+       "score": 13.5,
+       "matched": {
+        "fool": 1,
+        "tarot": 1,
+        "card~cards": 1
+       }
+      },
+      {
+       "id": 1277,
+       "title": "The Fool",
+       "score": 13.381,
+       "matched": {
+        "fool": 1,
+        "tarot": 1,
+        "card": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "What does Cavendish do?": {
+   "kind": "direct",
+   "page": "Cavendish",
+   "needle": "Effect: X3 Mult",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 4,
+     "time_ms": 333.47,
+     "terms": [
+      "cavendish"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "cavendish"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 213,
+       "title": "Cavendish",
+       "score": 10.877,
+       "matched": {
+        "cavendish": 5
+       }
+      },
+      {
+       "id": 211,
+       "title": "Cavendish",
+       "score": 10.57,
+       "matched": {
+        "cavendish": 5
+       }
+      },
+      {
+       "id": 210,
+       "title": "Cavendish",
+       "score": 10.435,
+       "matched": {
+        "cavendish": 4
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 1,
+     "time_ms": 546.79,
+     "terms": [
+      "cavendish"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "cavendish"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 208,
+       "title": "Cavendish",
+       "score": 11.193,
+       "matched": {
+        "cavendish": 4,
+        "effect": 1
+       }
+      },
+      {
+       "id": 213,
+       "title": "Cavendish",
+       "score": 10.877,
+       "matched": {
+        "cavendish": 5
+       }
+      },
+      {
+       "id": 211,
+       "title": "Cavendish",
+       "score": 10.57,
+       "matched": {
+        "cavendish": 5
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 1,
+     "time_ms": 1.82,
+     "terms": [
+      "cavendish"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "cavendish"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 208,
+       "title": "Cavendish",
+       "score": 11.193,
+       "matched": {
+        "cavendish": 1,
+        "effect": 1
+       }
+      },
+      {
+       "id": 213,
+       "title": "Cavendish",
+       "score": 10.877,
+       "matched": {
+        "cavendish": 1
+       }
+      },
+      {
+       "id": 211,
+       "title": "Cavendish",
+       "score": 10.57,
+       "matched": {
+        "cavendish": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 4,
+     "time_ms": 8.91,
+     "terms": [
+      "cavendish"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "cavendish"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 213,
+       "title": "Cavendish",
+       "score": 10.877,
+       "matched": {
+        "cavendish": 1
+       }
+      },
+      {
+       "id": 211,
+       "title": "Cavendish",
+       "score": 10.57,
+       "matched": {
+        "cavendish": 1
+       }
+      },
+      {
+       "id": 210,
+       "title": "Cavendish",
+       "score": 10.435,
+       "matched": {
+        "cavendish": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 8.83,
+     "terms": [
+      "cavendish"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "cavendish"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 208,
+       "title": "Cavendish",
+       "score": 11.193,
+       "matched": {
+        "cavendish": 1,
+        "effect": 1
+       }
+      },
+      {
+       "id": 213,
+       "title": "Cavendish",
+       "score": 10.877,
+       "matched": {
+        "cavendish": 1
+       }
+      },
+      {
+       "id": 211,
+       "title": "Cavendish",
+       "score": 10.57,
+       "matched": {
+        "cavendish": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "What is the effect of Fibonacci?": {
+   "kind": "direct",
+   "page": "Fibonacci",
+   "needle": "Effect: Each played Ace, 2, 3, 5, or 8 gives +8 Mult",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 1,
+     "time_ms": 613.2,
+     "terms": [
+      "effect",
+      "fibonacci"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "fibonacci"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 375,
+       "title": "Fibonacci",
+       "score": 12.042,
+       "matched": {
+        "effect": 1,
+        "fibonacci": 3
+       }
+      },
+      {
+       "id": 380,
+       "title": "Fibonacci",
+       "score": 11.042,
+       "matched": {
+        "effect": 1,
+        "fibonacci": 3
+       }
+      },
+      {
+       "id": 376,
+       "title": "Fibonacci",
+       "score": 10.846,
+       "matched": {
+        "fibonacci": 6
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 1,
+     "time_ms": 646.87,
+     "terms": [
+      "effect",
+      "fibonacci"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "fibonacci"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 375,
+       "title": "Fibonacci",
+       "score": 12.042,
+       "matched": {
+        "effect": 1,
+        "fibonacci": 3
+       }
+      },
+      {
+       "id": 380,
+       "title": "Fibonacci",
+       "score": 11.042,
+       "matched": {
+        "effect": 1,
+        "fibonacci": 3
+       }
+      },
+      {
+       "id": 376,
+       "title": "Fibonacci",
+       "score": 10.846,
+       "matched": {
+        "fibonacci": 6
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 1,
+     "time_ms": 2.52,
+     "terms": [
+      "effect",
+      "fibonacci"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "fibonacci"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 375,
+       "title": "Fibonacci",
+       "score": 12.042,
+       "matched": {
+        "effect": 1,
+        "fibonacci": 1
+       }
+      },
+      {
+       "id": 380,
+       "title": "Fibonacci",
+       "score": 11.042,
+       "matched": {
+        "effect": 1,
+        "fibonacci": 1
+       }
+      },
+      {
+       "id": 376,
+       "title": "Fibonacci",
+       "score": 10.846,
+       "matched": {
+        "fibonacci": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 1,
+     "time_ms": 13.95,
+     "terms": [
+      "effect",
+      "fibonacci"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "fibonacci"
+     ],
+     "expanded": [],
+     "variants": {
+      "effect": [
+       [
+        "effects",
+        0.857,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 375,
+       "title": "Fibonacci",
+       "score": 11.864,
+       "matched": {
+        "effect": 1,
+        "fibonacci": 1
+       }
+      },
+      {
+       "id": 380,
+       "title": "Fibonacci",
+       "score": 10.899,
+       "matched": {
+        "effect": 1,
+        "fibonacci": 1
+       }
+      },
+      {
+       "id": 376,
+       "title": "Fibonacci",
+       "score": 10.846,
+       "matched": {
+        "fibonacci": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 14.03,
+     "terms": [
+      "effect",
+      "fibonacci"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "fibonacci"
+     ],
+     "expanded": [],
+     "variants": {
+      "effect": [
+       [
+        "effects",
+        0.857,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 375,
+       "title": "Fibonacci",
+       "score": 11.864,
+       "matched": {
+        "effect": 1,
+        "fibonacci": 1
+       }
+      },
+      {
+       "id": 380,
+       "title": "Fibonacci",
+       "score": 10.899,
+       "matched": {
+        "effect": 1,
+        "fibonacci": 1
+       }
+      },
+      {
+       "id": 376,
+       "title": "Fibonacci",
+       "score": 10.846,
+       "matched": {
+        "fibonacci": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "What rarity is Chicot?": {
+   "kind": "direct",
+   "page": "Chicot",
+   "needle": "Rarity: Legendary",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 1,
+     "time_ms": 644.08,
+     "terms": [
+      "rarity",
+      "chicot"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "chicot"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 244,
+       "title": "Chicot",
+       "score": 13.033,
+       "matched": {
+        "rarity": 1,
+        "chicot": 3
+       }
+      },
+      {
+       "id": 247,
+       "title": "Chicot",
+       "score": 11.203,
+       "matched": {
+        "chicot": 6
+       }
+      },
+      {
+       "id": 251,
+       "title": "Chicot",
+       "score": 11.145,
+       "matched": {
+        "chicot": 6
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 1,
+     "time_ms": 568.1,
+     "terms": [
+      "rarity",
+      "chicot"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "chicot"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 244,
+       "title": "Chicot",
+       "score": 13.033,
+       "matched": {
+        "rarity": 1,
+        "chicot": 3
+       }
+      },
+      {
+       "id": 247,
+       "title": "Chicot",
+       "score": 11.203,
+       "matched": {
+        "chicot": 6
+       }
+      },
+      {
+       "id": 251,
+       "title": "Chicot",
+       "score": 11.145,
+       "matched": {
+        "chicot": 6
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 1,
+     "time_ms": 0.62,
+     "terms": [
+      "rarity",
+      "chicot"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "chicot"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 244,
+       "title": "Chicot",
+       "score": 13.033,
+       "matched": {
+        "rarity": 1,
+        "chicot": 1
+       }
+      },
+      {
+       "id": 247,
+       "title": "Chicot",
+       "score": 11.203,
+       "matched": {
+        "chicot": 1
+       }
+      },
+      {
+       "id": 251,
+       "title": "Chicot",
+       "score": 11.145,
+       "matched": {
+        "chicot": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 1,
+     "time_ms": 4.6,
+     "terms": [
+      "rarity",
+      "chicot"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "chicot"
+     ],
+     "expanded": [],
+     "variants": {
+      "chicot": [
+       [
+        "chicots",
+        0.857,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 244,
+       "title": "Chicot",
+       "score": 13.033,
+       "matched": {
+        "rarity": 1,
+        "chicot": 1
+       }
+      },
+      {
+       "id": 247,
+       "title": "Chicot",
+       "score": 11.203,
+       "matched": {
+        "chicot": 1
+       }
+      },
+      {
+       "id": 251,
+       "title": "Chicot",
+       "score": 11.145,
+       "matched": {
+        "chicot": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 4.1,
+     "terms": [
+      "rarity",
+      "chicot"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "chicot"
+     ],
+     "expanded": [],
+     "variants": {
+      "chicot": [
+       [
+        "chicots",
+        0.857,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 244,
+       "title": "Chicot",
+       "score": 13.033,
+       "matched": {
+        "rarity": 1,
+        "chicot": 1
+       }
+      },
+      {
+       "id": 247,
+       "title": "Chicot",
+       "score": 11.203,
+       "matched": {
+        "chicot": 1
+       }
+      },
+      {
+       "id": 251,
+       "title": "Chicot",
+       "score": 11.145,
+       "matched": {
+        "chicot": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "What does Mercury do?": {
+   "kind": "direct",
+   "page": "Mercury",
+   "needle": "Effect: Increases Pair hand value",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 1,
+     "time_ms": 252.72,
+     "terms": [
+      "mercury"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mercury"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1335,
+       "title": "Mercury",
+       "score": 14.473,
+       "matched": {
+        "mercury": 3
+       }
+      },
+      {
+       "id": 1337,
+       "title": "Mercury",
+       "score": 14.388,
+       "matched": {
+        "mercury": 2
+       }
+      },
+      {
+       "id": 1336,
+       "title": "Mercury",
+       "score": 13.162,
+       "matched": {
+        "mercury": 3
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 1,
+     "time_ms": 523.43,
+     "terms": [
+      "mercury"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mercury"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1335,
+       "title": "Mercury",
+       "score": 15.665,
+       "matched": {
+        "mercury": 3,
+        "effect": 1
+       }
+      },
+      {
+       "id": 1337,
+       "title": "Mercury",
+       "score": 14.388,
+       "matched": {
+        "mercury": 2
+       }
+      },
+      {
+       "id": 1336,
+       "title": "Mercury",
+       "score": 13.162,
+       "matched": {
+        "mercury": 3
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 1,
+     "time_ms": 2.09,
+     "terms": [
+      "mercury"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mercury"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1335,
+       "title": "Mercury",
+       "score": 15.665,
+       "matched": {
+        "mercury": 1,
+        "effect": 1
+       }
+      },
+      {
+       "id": 1337,
+       "title": "Mercury",
+       "score": 14.388,
+       "matched": {
+        "mercury": 1
+       }
+      },
+      {
+       "id": 1336,
+       "title": "Mercury",
+       "score": 13.162,
+       "matched": {
+        "mercury": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 1,
+     "time_ms": 4.14,
+     "terms": [
+      "mercury"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mercury"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1335,
+       "title": "Mercury",
+       "score": 14.473,
+       "matched": {
+        "mercury": 1
+       }
+      },
+      {
+       "id": 1337,
+       "title": "Mercury",
+       "score": 14.388,
+       "matched": {
+        "mercury": 1
+       }
+      },
+      {
+       "id": 1336,
+       "title": "Mercury",
+       "score": 13.162,
+       "matched": {
+        "mercury": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 3.58,
+     "terms": [
+      "mercury"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mercury"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1335,
+       "title": "Mercury",
+       "score": 15.665,
+       "matched": {
+        "mercury": 1,
+        "effect": 1
+       }
+      },
+      {
+       "id": 1337,
+       "title": "Mercury",
+       "score": 14.388,
+       "matched": {
+        "mercury": 1
+       }
+      },
+      {
+       "id": 1336,
+       "title": "Mercury",
+       "score": 13.162,
+       "matched": {
+        "mercury": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "What does the Overstock voucher do?": {
+   "kind": "direct",
+   "page": "Overstock",
+   "needle": "Effect: +1 card slot available in shop",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 1,
+     "time_ms": 613.61,
+     "terms": [
+      "overstock",
+      "voucher"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "overstock"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1554,
+       "title": "Overstock",
+       "score": 15.658,
+       "matched": {
+        "overstock": 4,
+        "voucher": 2
+       }
+      },
+      {
+       "id": 1557,
+       "title": "Overstock",
+       "score": 14.19,
+       "matched": {
+        "overstock": 4,
+        "voucher": 2
+       }
+      },
+      {
+       "id": 1555,
+       "title": "Overstock",
+       "score": 13.629,
+       "matched": {
+        "overstock": 3,
+        "voucher": 2
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 1,
+     "time_ms": 703.09,
+     "terms": [
+      "overstock",
+      "voucher"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "overstock"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1554,
+       "title": "Overstock",
+       "score": 16.813,
+       "matched": {
+        "overstock": 4,
+        "voucher": 2,
+        "effect": 1
+       }
+      },
+      {
+       "id": 1557,
+       "title": "Overstock",
+       "score": 14.19,
+       "matched": {
+        "overstock": 4,
+        "voucher": 2
+       }
+      },
+      {
+       "id": 1555,
+       "title": "Overstock",
+       "score": 13.629,
+       "matched": {
+        "overstock": 3,
+        "voucher": 2
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 1,
+     "time_ms": 3.4,
+     "terms": [
+      "overstock",
+      "voucher"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "overstock"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1554,
+       "title": "Overstock",
+       "score": 16.813,
+       "matched": {
+        "overstock": 1,
+        "voucher": 1,
+        "effect": 1
+       }
+      },
+      {
+       "id": 1557,
+       "title": "Overstock",
+       "score": 14.19,
+       "matched": {
+        "overstock": 1,
+        "voucher": 1
+       }
+      },
+      {
+       "id": 1555,
+       "title": "Overstock",
+       "score": 13.629,
+       "matched": {
+        "overstock": 1,
+        "voucher": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 1,
+     "time_ms": 19.36,
+     "terms": [
+      "overstock",
+      "voucher"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "overstock"
+     ],
+     "expanded": [],
+     "variants": {
+      "voucher": [
+       [
+        "vouchers",
+        0.875,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 1554,
+       "title": "Overstock",
+       "score": 14.106,
+       "matched": {
+        "overstock": 1,
+        "voucher": 1
+       }
+      },
+      {
+       "id": 1557,
+       "title": "Overstock",
+       "score": 12.89,
+       "matched": {
+        "overstock": 1,
+        "voucher": 1
+       }
+      },
+      {
+       "id": 1555,
+       "title": "Overstock",
+       "score": 12.337,
+       "matched": {
+        "overstock": 1,
+        "voucher": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 16.8,
+     "terms": [
+      "overstock",
+      "voucher"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "overstock"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {
+      "voucher": [
+       [
+        "vouchers",
+        0.875,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 1554,
+       "title": "Overstock",
+       "score": 15.261,
+       "matched": {
+        "overstock": 1,
+        "voucher": 1,
+        "effect": 1
+       }
+      },
+      {
+       "id": 1557,
+       "title": "Overstock",
+       "score": 12.89,
+       "matched": {
+        "overstock": 1,
+        "voucher": 1
+       }
+      },
+      {
+       "id": 1555,
+       "title": "Overstock",
+       "score": 12.337,
+       "matched": {
+        "overstock": 1,
+        "voucher": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "How do I unlock Mr. Bones?": {
+   "kind": "direct",
+   "page": "Mr. Bones",
+   "needle": "Unlock Requirement: Lose 5 runs",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 2,
+     "time_ms": 2067.08,
+     "terms": [
+      "unlock",
+      "mr",
+      "bones"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mr bones"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 722,
+       "title": "Mr. Bones",
+       "score": 35.136,
+       "matched": {
+        "mr": 6,
+        "bones": 6,
+        "mr bones": 6
+       }
+      },
+      {
+       "id": 716,
+       "title": "Mr. Bones",
+       "score": 34.772,
+       "matched": {
+        "unlock": 1,
+        "mr": 5,
+        "bones": 5,
+        "mr bones": 5
+       }
+      },
+      {
+       "id": 717,
+       "title": "Mr. Bones",
+       "score": 34.543,
+       "matched": {
+        "mr": 6,
+        "bones": 6,
+        "mr bones": 6
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 1,
+     "time_ms": 2231.05,
+     "terms": [
+      "unlock",
+      "mr",
+      "bones"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mr bones"
+     ],
+     "expanded": [
+      "requirement"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 716,
+       "title": "Mr. Bones",
+       "score": 35.922,
+       "matched": {
+        "unlock": 1,
+        "mr": 5,
+        "bones": 5,
+        "requirement": 1,
+        "mr bones": 5
+       }
+      },
+      {
+       "id": 717,
+       "title": "Mr. Bones",
+       "score": 35.725,
+       "matched": {
+        "mr": 6,
+        "bones": 6,
+        "requirement": 1,
+        "mr bones": 6
+       }
+      },
+      {
+       "id": 722,
+       "title": "Mr. Bones",
+       "score": 35.136,
+       "matched": {
+        "mr": 6,
+        "bones": 6,
+        "mr bones": 6
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 1,
+     "time_ms": 2.74,
+     "terms": [
+      "unlock",
+      "mr",
+      "bones"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mr bones"
+     ],
+     "expanded": [
+      "requirement"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 716,
+       "title": "Mr. Bones",
+       "score": 35.922,
+       "matched": {
+        "unlock": 1,
+        "mr": 1,
+        "bones": 1,
+        "requirement": 1,
+        "mr bones": 5
+       }
+      },
+      {
+       "id": 717,
+       "title": "Mr. Bones",
+       "score": 35.725,
+       "matched": {
+        "mr": 1,
+        "bones": 1,
+        "requirement": 1,
+        "mr bones": 6
+       }
+      },
+      {
+       "id": 722,
+       "title": "Mr. Bones",
+       "score": 35.136,
+       "matched": {
+        "mr": 1,
+        "bones": 1,
+        "mr bones": 6
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 2,
+     "time_ms": 4.81,
+     "terms": [
+      "unlock",
+      "mr",
+      "bones"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mr bones"
+     ],
+     "expanded": [],
+     "variants": {
+      "unlock": [
+       [
+        "unlocks",
+        0.857,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 722,
+       "title": "Mr. Bones",
+       "score": 35.136,
+       "matched": {
+        "mr": 1,
+        "bones": 1,
+        "mr bones": 6
+       }
+      },
+      {
+       "id": 716,
+       "title": "Mr. Bones",
+       "score": 34.761,
+       "matched": {
+        "unlock": 1,
+        "mr": 1,
+        "bones": 1,
+        "mr bones": 5
+       }
+      },
+      {
+       "id": 717,
+       "title": "Mr. Bones",
+       "score": 34.543,
+       "matched": {
+        "mr": 1,
+        "bones": 1,
+        "mr bones": 6
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 4.39,
+     "terms": [
+      "unlock",
+      "mr",
+      "bones"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mr bones"
+     ],
+     "expanded": [
+      "requirement"
+     ],
+     "variants": {
+      "unlock": [
+       [
+        "unlocks",
+        0.857,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 716,
+       "title": "Mr. Bones",
+       "score": 35.912,
+       "matched": {
+        "unlock": 1,
+        "mr": 1,
+        "bones": 1,
+        "requirement": 1,
+        "mr bones": 5
+       }
+      },
+      {
+       "id": 717,
+       "title": "Mr. Bones",
+       "score": 35.725,
+       "matched": {
+        "mr": 1,
+        "bones": 1,
+        "requirement": 1,
+        "mr bones": 6
+       }
+      },
+      {
+       "id": 722,
+       "title": "Mr. Bones",
+       "score": 35.136,
+       "matched": {
+        "mr": 1,
+        "bones": 1,
+        "mr bones": 6
+       }
+      }
+     ]
+    }
+   }
+  },
+  "How much does Hologram cost?": {
+   "kind": "synonym",
+   "page": "Hologram",
+   "needle": "Buy Price: $7",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 5,
+     "time_ms": 770.89,
+     "terms": [
+      "much",
+      "hologram",
+      "cost"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "hologram"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 552,
+       "title": "Hologram",
+       "score": 13.005,
+       "matched": {
+        "hologram": 4,
+        "cost": 1
+       }
+      },
+      {
+       "id": 550,
+       "title": "Hologram",
+       "score": 10.711,
+       "matched": {
+        "hologram": 6
+       }
+      },
+      {
+       "id": 554,
+       "title": "Hologram",
+       "score": 10.617,
+       "matched": {
+        "hologram": 5
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 1,
+     "time_ms": 1347.6,
+     "terms": [
+      "much",
+      "hologram",
+      "cost"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "hologram"
+     ],
+     "expanded": [
+      "buy",
+      "price"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 549,
+       "title": "Hologram",
+       "score": 13.124,
+       "matched": {
+        "hologram": 3,
+        "buy": 1,
+        "price": 2
+       }
+      },
+      {
+       "id": 552,
+       "title": "Hologram",
+       "score": 13.005,
+       "matched": {
+        "hologram": 4,
+        "cost": 1
+       }
+      },
+      {
+       "id": 550,
+       "title": "Hologram",
+       "score": 10.711,
+       "matched": {
+        "hologram": 6
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 1,
+     "time_ms": 1.9,
+     "terms": [
+      "much",
+      "hologram",
+      "cost"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "hologram"
+     ],
+     "expanded": [
+      "buy",
+      "price"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 549,
+       "title": "Hologram",
+       "score": 13.124,
+       "matched": {
+        "hologram": 1,
+        "buy": 1,
+        "price": 1
+       }
+      },
+      {
+       "id": 552,
+       "title": "Hologram",
+       "score": 13.005,
+       "matched": {
+        "hologram": 1,
+        "cost": 1
+       }
+      },
+      {
+       "id": 550,
+       "title": "Hologram",
+       "score": 10.711,
+       "matched": {
+        "hologram": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 5,
+     "time_ms": 7.74,
+     "terms": [
+      "much",
+      "hologram",
+      "cost"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "hologram"
+     ],
+     "expanded": [],
+     "variants": {
+      "cost": [
+       [
+        "costs",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 552,
+       "title": "Hologram",
+       "score": 12.935,
+       "matched": {
+        "hologram": 1,
+        "cost": 1
+       }
+      },
+      {
+       "id": 550,
+       "title": "Hologram",
+       "score": 10.711,
+       "matched": {
+        "hologram": 1
+       }
+      },
+      {
+       "id": 554,
+       "title": "Hologram",
+       "score": 10.617,
+       "matched": {
+        "hologram": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 7.99,
+     "terms": [
+      "much",
+      "hologram",
+      "cost"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "hologram"
+     ],
+     "expanded": [
+      "buy",
+      "price"
+     ],
+     "variants": {
+      "cost": [
+       [
+        "costs",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 549,
+       "title": "Hologram",
+       "score": 13.124,
+       "matched": {
+        "hologram": 1,
+        "buy": 1,
+        "price": 1
+       }
+      },
+      {
+       "id": 552,
+       "title": "Hologram",
+       "score": 12.935,
+       "matched": {
+        "hologram": 1,
+        "cost": 1
+       }
+      },
+      {
+       "id": 550,
+       "title": "Hologram",
+       "score": 10.711,
+       "matched": {
+        "hologram": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "How much does Mr. Bones cost?": {
+   "kind": "synonym",
+   "page": "Mr. Bones",
+   "needle": "Buy Price: $5",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 4,
+     "time_ms": 2332.78,
+     "terms": [
+      "much",
+      "mr",
+      "bones",
+      "cost"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mr bones"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 722,
+       "title": "Mr. Bones",
+       "score": 35.136,
+       "matched": {
+        "mr": 6,
+        "bones": 6,
+        "mr bones": 6
+       }
+      },
+      {
+       "id": 717,
+       "title": "Mr. Bones",
+       "score": 34.543,
+       "matched": {
+        "mr": 6,
+        "bones": 6,
+        "mr bones": 6
+       }
+      },
+      {
+       "id": 725,
+       "title": "Mr. Bones",
+       "score": 34.17,
+       "matched": {
+        "mr": 4,
+        "bones": 4,
+        "mr bones": 4
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 1,
+     "time_ms": 3159.24,
+     "terms": [
+      "much",
+      "mr",
+      "bones",
+      "cost"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mr bones"
+     ],
+     "expanded": [
+      "buy",
+      "price"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 716,
+       "title": "Mr. Bones",
+       "score": 36.184,
+       "matched": {
+        "mr": 5,
+        "bones": 5,
+        "buy": 1,
+        "price": 2,
+        "mr bones": 5
+       }
+      },
+      {
+       "id": 722,
+       "title": "Mr. Bones",
+       "score": 35.136,
+       "matched": {
+        "mr": 6,
+        "bones": 6,
+        "mr bones": 6
+       }
+      },
+      {
+       "id": 717,
+       "title": "Mr. Bones",
+       "score": 34.543,
+       "matched": {
+        "mr": 6,
+        "bones": 6,
+        "mr bones": 6
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 1,
+     "time_ms": 1.86,
+     "terms": [
+      "much",
+      "mr",
+      "bones",
+      "cost"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mr bones"
+     ],
+     "expanded": [
+      "buy",
+      "price"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 716,
+       "title": "Mr. Bones",
+       "score": 36.184,
+       "matched": {
+        "mr": 1,
+        "bones": 1,
+        "buy": 1,
+        "price": 1,
+        "mr bones": 5
+       }
+      },
+      {
+       "id": 722,
+       "title": "Mr. Bones",
+       "score": 35.136,
+       "matched": {
+        "mr": 1,
+        "bones": 1,
+        "mr bones": 6
+       }
+      },
+      {
+       "id": 717,
+       "title": "Mr. Bones",
+       "score": 34.543,
+       "matched": {
+        "mr": 1,
+        "bones": 1,
+        "mr bones": 6
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 4,
+     "time_ms": 6.26,
+     "terms": [
+      "much",
+      "mr",
+      "bones",
+      "cost"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mr bones"
+     ],
+     "expanded": [],
+     "variants": {
+      "cost": [
+       [
+        "costs",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 722,
+       "title": "Mr. Bones",
+       "score": 35.136,
+       "matched": {
+        "mr": 1,
+        "bones": 1,
+        "mr bones": 6
+       }
+      },
+      {
+       "id": 717,
+       "title": "Mr. Bones",
+       "score": 34.543,
+       "matched": {
+        "mr": 1,
+        "bones": 1,
+        "mr bones": 6
+       }
+      },
+      {
+       "id": 725,
+       "title": "Mr. Bones",
+       "score": 34.17,
+       "matched": {
+        "mr": 1,
+        "bones": 1,
+        "mr bones": 4
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 9.87,
+     "terms": [
+      "much",
+      "mr",
+      "bones",
+      "cost"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "mr bones"
+     ],
+     "expanded": [
+      "buy",
+      "price"
+     ],
+     "variants": {
+      "cost": [
+       [
+        "costs",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 716,
+       "title": "Mr. Bones",
+       "score": 36.184,
+       "matched": {
+        "mr": 1,
+        "bones": 1,
+        "buy": 1,
+        "price": 1,
+        "mr bones": 5
+       }
+      },
+      {
+       "id": 722,
+       "title": "Mr. Bones",
+       "score": 35.136,
+       "matched": {
+        "mr": 1,
+        "bones": 1,
+        "mr bones": 6
+       }
+      },
+      {
+       "id": 717,
+       "title": "Mr. Bones",
+       "score": 34.543,
+       "matched": {
+        "mr": 1,
+        "bones": 1,
+        "mr bones": 6
+       }
+      }
+     ]
+    }
+   }
+  },
+  "How much is Brainstorm worth when sold?": {
+   "kind": "synonym",
+   "page": "Brainstorm",
+   "needle": "Sell Price: $5",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 1,
+     "time_ms": 1201.56,
+     "terms": [
+      "much",
+      "brainstorm",
+      "worth",
+      "sold"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "brainstorm"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 114,
+       "title": "Brainstorm",
+       "score": 9.351,
+       "matched": {
+        "brainstorm": 7
+       }
+      },
+      {
+       "id": 118,
+       "title": "Brainstorm",
+       "score": 9.295,
+       "matched": {
+        "brainstorm": 5
+       }
+      },
+      {
+       "id": 120,
+       "title": "Brainstorm",
+       "score": 9.134,
+       "matched": {
+        "brainstorm": 5
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 1,
+     "time_ms": 1748.2,
+     "terms": [
+      "much",
+      "brainstorm",
+      "worth",
+      "sold"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "brainstorm"
+     ],
+     "expanded": [
+      "sell",
+      "price"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 114,
+       "title": "Brainstorm",
+       "score": 12.334,
+       "matched": {
+        "brainstorm": 7,
+        "sell": 1,
+        "price": 2
+       }
+      },
+      {
+       "id": 789,
+       "title": "Perkeo",
+       "score": 9.672,
+       "matched": {
+        "worth": 1,
+        "sold": 2,
+        "sell": 1
+       }
+      },
+      {
+       "id": 574,
+       "title": "Invisible Joker",
+       "score": 9.48,
+       "matched": {
+        "brainstorm": 2,
+        "sold": 1,
+        "sell": 2
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 1,
+     "time_ms": 2.51,
+     "terms": [
+      "much",
+      "brainstorm",
+      "worth",
+      "sold"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "brainstorm"
+     ],
+     "expanded": [
+      "sell",
+      "price"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 114,
+       "title": "Brainstorm",
+       "score": 12.334,
+       "matched": {
+        "brainstorm": 1,
+        "sell": 1,
+        "price": 1
+       }
+      },
+      {
+       "id": 789,
+       "title": "Perkeo",
+       "score": 9.672,
+       "matched": {
+        "worth": 1,
+        "sold": 1,
+        "sell": 1
+       }
+      },
+      {
+       "id": 574,
+       "title": "Invisible Joker",
+       "score": 9.48,
+       "matched": {
+        "brainstorm": 1,
+        "sold": 1,
+        "sell": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 1,
+     "time_ms": 13.43,
+     "terms": [
+      "much",
+      "brainstorm",
+      "worth",
+      "sold"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "brainstorm"
+     ],
+     "expanded": [],
+     "variants": {
+      "brainstorm": [
+       [
+        "brainstorms",
+        0.909,
+        "levenshtein"
+       ]
+      ],
+      "worth": [
+       [
+        "worthy",
+        0.833,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 114,
+       "title": "Brainstorm",
+       "score": 9.316,
+       "matched": {
+        "brainstorm": 1
+       }
+      },
+      {
+       "id": 118,
+       "title": "Brainstorm",
+       "score": 9.261,
+       "matched": {
+        "brainstorm": 1
+       }
+      },
+      {
+       "id": 120,
+       "title": "Brainstorm",
+       "score": 9.1,
+       "matched": {
+        "brainstorm": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 16.8,
+     "terms": [
+      "much",
+      "brainstorm",
+      "worth",
+      "sold"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "brainstorm"
+     ],
+     "expanded": [
+      "sell",
+      "price"
+     ],
+     "variants": {
+      "brainstorm": [
+       [
+        "brainstorms",
+        0.909,
+        "levenshtein"
+       ]
+      ],
+      "worth": [
+       [
+        "worthy",
+        0.833,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 114,
+       "title": "Brainstorm",
+       "score": 12.299,
+       "matched": {
+        "brainstorm": 1,
+        "sell": 1,
+        "price": 1
+       }
+      },
+      {
+       "id": 789,
+       "title": "Perkeo",
+       "score": 9.649,
+       "matched": {
+        "worth": 1,
+        "sold": 1,
+        "sell": 1
+       }
+      },
+      {
+       "id": 574,
+       "title": "Invisible Joker",
+       "score": 9.464,
+       "matched": {
+        "brainstorm": 1,
+        "sold": 1,
+        "sell": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "Which joker copies the ability of the leftmost joker?": {
+   "kind": "no_name",
+   "page": "Brainstorm",
+   "needle": "Copies the ability of leftmost Joker",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 1,
+     "time_ms": 1234.3,
+     "terms": [
+      "joker",
+      "copies",
+      "ability",
+      "leftmost"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker",
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 114,
+       "title": "Brainstorm",
+       "score": 15.77,
+       "matched": {
+        "joker": 7,
+        "copies": 3,
+        "ability": 1,
+        "leftmost": 4
+       }
+      },
+      {
+       "id": 122,
+       "title": "Brainstorm",
+       "score": 12.375,
+       "matched": {
+        "joker": 3,
+        "copies": 1,
+        "leftmost": 4
+       }
+      },
+      {
+       "id": 121,
+       "title": "Brainstorm",
+       "score": 11.232,
+       "matched": {
+        "joker": 5,
+        "copies": 1,
+        "leftmost": 3
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 1,
+     "time_ms": 1348.02,
+     "terms": [
+      "joker",
+      "copies",
+      "ability",
+      "leftmost"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker",
+      "joker"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 114,
+       "title": "Brainstorm",
+       "score": 17.299,
+       "matched": {
+        "joker": 7,
+        "copies": 3,
+        "ability": 1,
+        "leftmost": 4,
+        "effect": 4
+       }
+      },
+      {
+       "id": 122,
+       "title": "Brainstorm",
+       "score": 13.393,
+       "matched": {
+        "joker": 3,
+        "copies": 1,
+        "leftmost": 4,
+        "effect": 1
+       }
+      },
+      {
+       "id": 121,
+       "title": "Brainstorm",
+       "score": 11.232,
+       "matched": {
+        "joker": 5,
+        "copies": 1,
+        "leftmost": 3
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 1,
+     "time_ms": 4.69,
+     "terms": [
+      "joker",
+      "copies",
+      "ability",
+      "leftmost"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker",
+      "joker"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 114,
+       "title": "Brainstorm",
+       "score": 17.299,
+       "matched": {
+        "joker": 1,
+        "copies": 1,
+        "ability": 1,
+        "leftmost": 1,
+        "effect": 1
+       }
+      },
+      {
+       "id": 122,
+       "title": "Brainstorm",
+       "score": 13.393,
+       "matched": {
+        "joker": 1,
+        "copies": 1,
+        "leftmost": 1,
+        "effect": 1
+       }
+      },
+      {
+       "id": 121,
+       "title": "Brainstorm",
+       "score": 11.232,
+       "matched": {
+        "joker": 1,
+        "copies": 1,
+        "leftmost": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 1,
+     "time_ms": 34.01,
+     "terms": [
+      "joker",
+      "copies",
+      "ability",
+      "leftmost"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker",
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {
+      "joker": [
+       [
+        "jokers",
+        0.833,
+        "levenshtein"
+       ],
+       [
+        "joke",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 114,
+       "title": "Brainstorm",
+       "score": 15.344,
+       "matched": {
+        "joker": 1,
+        "copies": 1,
+        "ability": 1,
+        "leftmost": 1
+       }
+      },
+      {
+       "id": 122,
+       "title": "Brainstorm",
+       "score": 11.993,
+       "matched": {
+        "joker": 1,
+        "copies": 1,
+        "leftmost": 1
+       }
+      },
+      {
+       "id": 121,
+       "title": "Brainstorm",
+       "score": 10.819,
+       "matched": {
+        "joker": 1,
+        "copies": 1,
+        "leftmost": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 40.04,
+     "terms": [
+      "joker",
+      "copies",
+      "ability",
+      "leftmost"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker",
+      "joker"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {
+      "joker": [
+       [
+        "jokers",
+        0.833,
+        "levenshtein"
+       ],
+       [
+        "joke",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 114,
+       "title": "Brainstorm",
+       "score": 16.873,
+       "matched": {
+        "joker": 1,
+        "copies": 1,
+        "ability": 1,
+        "leftmost": 1,
+        "effect": 1
+       }
+      },
+      {
+       "id": 122,
+       "title": "Brainstorm",
+       "score": 13.011,
+       "matched": {
+        "joker": 1,
+        "copies": 1,
+        "leftmost": 1,
+        "effect": 1
+       }
+      },
+      {
+       "id": 121,
+       "title": "Brainstorm",
+       "score": 10.819,
+       "matched": {
+        "joker": 1,
+        "copies": 1,
+        "leftmost": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "Which joker retriggers cards held in hand?": {
+   "kind": "no_name",
+   "page": "Mime",
+   "needle": "Effect: Retrigger all card held in hand",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 18,
+     "time_ms": 1439.96,
+     "terms": [
+      "joker",
+      "retriggers",
+      "cards",
+      "held",
+      "hand"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1724,
+       "title": "Red Seal",
+       "score": 10.597,
+       "matched": {
+        "retriggers": 2,
+        "cards": 1,
+        "held": 1,
+        "hand": 1
+       }
+      },
+      {
+       "id": 1686,
+       "title": "Steel cards",
+       "score": 10.062,
+       "matched": {
+        "joker": 2,
+        "retriggers": 1,
+        "cards": 7,
+        "held": 2,
+        "hand": 2
+       }
+      },
+      {
+       "id": 859,
+       "title": "Reserved Parking",
+       "score": 9.671,
+       "matched": {
+        "retriggers": 1,
+        "cards": 8,
+        "held": 3,
+        "hand": 4
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 18,
+     "time_ms": 1389.72,
+     "terms": [
+      "joker",
+      "retriggers",
+      "cards",
+      "held",
+      "hand"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1724,
+       "title": "Red Seal",
+       "score": 10.597,
+       "matched": {
+        "retriggers": 2,
+        "cards": 1,
+        "held": 1,
+        "hand": 1
+       }
+      },
+      {
+       "id": 1686,
+       "title": "Steel cards",
+       "score": 10.062,
+       "matched": {
+        "joker": 2,
+        "retriggers": 1,
+        "cards": 7,
+        "held": 2,
+        "hand": 2
+       }
+      },
+      {
+       "id": 859,
+       "title": "Reserved Parking",
+       "score": 9.671,
+       "matched": {
+        "retriggers": 1,
+        "cards": 8,
+        "held": 3,
+        "hand": 4
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 18,
+     "time_ms": 8.29,
+     "terms": [
+      "joker",
+      "retriggers",
+      "cards",
+      "held",
+      "hand"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1724,
+       "title": "Red Seal",
+       "score": 10.597,
+       "matched": {
+        "retriggers": 1,
+        "cards": 1,
+        "held": 1,
+        "hand": 1
+       }
+      },
+      {
+       "id": 1686,
+       "title": "Steel cards",
+       "score": 10.062,
+       "matched": {
+        "joker": 1,
+        "retriggers": 1,
+        "cards": 1,
+        "held": 1,
+        "hand": 1
+       }
+      },
+      {
+       "id": 859,
+       "title": "Reserved Parking",
+       "score": 9.671,
+       "matched": {
+        "retriggers": 1,
+        "cards": 1,
+        "held": 1,
+        "hand": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 1,
+     "time_ms": 27.16,
+     "terms": [
+      "joker",
+      "retriggers",
+      "cards",
+      "held",
+      "hand"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {
+      "joker": [
+       [
+        "jokers",
+        0.833,
+        "levenshtein"
+       ],
+       [
+        "joke",
+        0.8,
+        "levenshtein"
+       ]
+      ],
+      "retriggers": [
+       [
+        "retrigger",
+        0.9,
+        "levenshtein"
+       ]
+      ],
+      "cards": [
+       [
+        "card",
+        0.8,
+        "levenshtein"
+       ]
+      ],
+      "hand": [
+       [
+        "hands",
+        0.8,
+        "levenshtein"
+       ],
+       [
+        "handy",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 699,
+       "title": "Mime",
+       "score": 10.923,
+       "matched": {
+        "joker": 1,
+        "retriggers~retrigger": 1,
+        "cards": 1,
+        "held": 1,
+        "hand": 1
+       }
+      },
+      {
+       "id": 1724,
+       "title": "Red Seal",
+       "score": 8.838,
+       "matched": {
+        "joker~jokers": 1,
+        "retriggers": 1,
+        "cards~card": 1,
+        "held": 1,
+        "hand": 1
+       }
+      },
+      {
+       "id": 605,
+       "title": "Juggler",
+       "score": 8.618,
+       "matched": {
+        "retriggers~retrigger": 1,
+        "cards": 1,
+        "held": 1,
+        "hand": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 29.39,
+     "terms": [
+      "joker",
+      "retriggers",
+      "cards",
+      "held",
+      "hand"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {
+      "joker": [
+       [
+        "jokers",
+        0.833,
+        "levenshtein"
+       ],
+       [
+        "joke",
+        0.8,
+        "levenshtein"
+       ]
+      ],
+      "retriggers": [
+       [
+        "retrigger",
+        0.9,
+        "levenshtein"
+       ]
+      ],
+      "cards": [
+       [
+        "card",
+        0.8,
+        "levenshtein"
+       ]
+      ],
+      "hand": [
+       [
+        "hands",
+        0.8,
+        "levenshtein"
+       ],
+       [
+        "handy",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 699,
+       "title": "Mime",
+       "score": 10.923,
+       "matched": {
+        "joker": 1,
+        "retriggers~retrigger": 1,
+        "cards": 1,
+        "held": 1,
+        "hand": 1
+       }
+      },
+      {
+       "id": 1724,
+       "title": "Red Seal",
+       "score": 8.838,
+       "matched": {
+        "joker~jokers": 1,
+        "retriggers": 1,
+        "cards~card": 1,
+        "held": 1,
+        "hand": 1
+       }
+      },
+      {
+       "id": 605,
+       "title": "Juggler",
+       "score": 8.618,
+       "matched": {
+        "retriggers~retrigger": 1,
+        "cards": 1,
+        "held": 1,
+        "hand": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "Which joker gives +15 Mult but can be destroyed at end of round?": {
+   "kind": "symbol",
+   "page": "Gros Michel",
+   "needle": "Effect: +15 Mult, 1 in 6 chance",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 1,
+     "time_ms": 2063.97,
+     "terms": [
+      "joker",
+      "gives",
+      "+15",
+      "mult",
+      "destroyed",
+      "end",
+      "round"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 476,
+       "title": "Gros Michel",
+       "score": 19.373,
+       "matched": {
+        "joker": 2,
+        "gives": 1,
+        "+15": 2,
+        "mult": 4,
+        "destroyed": 1,
+        "end": 1,
+        "round": 1
+       }
+      },
+      {
+       "id": 726,
+       "title": "Mystic Summit",
+       "score": 12.938,
+       "matched": {
+        "joker": 2,
+        "gives": 1,
+        "+15": 2,
+        "mult": 4
+       }
+      },
+      {
+       "id": 23,
+       "title": "Ancient Joker",
+       "score": 11.288,
+       "matched": {
+        "joker": 6,
+        "gives": 1,
+        "mult": 4,
+        "end": 2,
+        "round": 2
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 1,
+     "time_ms": 2024.21,
+     "terms": [
+      "joker",
+      "gives",
+      "+15",
+      "mult",
+      "destroyed",
+      "end",
+      "round"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 476,
+       "title": "Gros Michel",
+       "score": 19.373,
+       "matched": {
+        "joker": 2,
+        "gives": 1,
+        "+15": 2,
+        "mult": 4,
+        "destroyed": 1,
+        "end": 1,
+        "round": 1
+       }
+      },
+      {
+       "id": 726,
+       "title": "Mystic Summit",
+       "score": 12.938,
+       "matched": {
+        "joker": 2,
+        "gives": 1,
+        "+15": 2,
+        "mult": 4
+       }
+      },
+      {
+       "id": 23,
+       "title": "Ancient Joker",
+       "score": 11.288,
+       "matched": {
+        "joker": 6,
+        "gives": 1,
+        "mult": 4,
+        "end": 2,
+        "round": 2
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 1,
+     "time_ms": 5.65,
+     "terms": [
+      "joker",
+      "gives",
+      "+15",
+      "mult",
+      "destroyed",
+      "end",
+      "round"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 476,
+       "title": "Gros Michel",
+       "score": 19.373,
+       "matched": {
+        "joker": 1,
+        "gives": 1,
+        "+15": 1,
+        "mult": 1,
+        "destroyed": 1,
+        "end": 1,
+        "round": 1
+       }
+      },
+      {
+       "id": 726,
+       "title": "Mystic Summit",
+       "score": 12.938,
+       "matched": {
+        "joker": 1,
+        "gives": 1,
+        "+15": 1,
+        "mult": 1
+       }
+      },
+      {
+       "id": 23,
+       "title": "Ancient Joker",
+       "score": 11.288,
+       "matched": {
+        "joker": 1,
+        "gives": 1,
+        "mult": 1,
+        "end": 1,
+        "round": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 1,
+     "time_ms": 26.54,
+     "terms": [
+      "joker",
+      "gives",
+      "+15",
+      "mult",
+      "destroyed",
+      "end",
+      "round"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {
+      "joker": [
+       [
+        "jokers",
+        0.833,
+        "levenshtein"
+       ],
+       [
+        "joke",
+        0.8,
+        "levenshtein"
+       ]
+      ],
+      "gives": [
+       [
+        "give",
+        0.8,
+        "levenshtein"
+       ]
+      ],
+      "round": [
+       [
+        "rounds",
+        0.833,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 476,
+       "title": "Gros Michel",
+       "score": 18.402,
+       "matched": {
+        "joker": 1,
+        "gives": 1,
+        "+15": 1,
+        "mult": 1,
+        "destroyed": 1,
+        "end": 1,
+        "round": 1
+       }
+      },
+      {
+       "id": 726,
+       "title": "Mystic Summit",
+       "score": 11.935,
+       "matched": {
+        "joker": 1,
+        "gives": 1,
+        "+15": 1,
+        "mult": 1
+       }
+      },
+      {
+       "id": 1128,
+       "title": "Trading Card",
+       "score": 10.69,
+       "matched": {
+        "gives~give": 1,
+        "+15": 1,
+        "mult": 1,
+        "destroyed": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 30.37,
+     "terms": [
+      "joker",
+      "gives",
+      "+15",
+      "mult",
+      "destroyed",
+      "end",
+      "round"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {
+      "joker": [
+       [
+        "jokers",
+        0.833,
+        "levenshtein"
+       ],
+       [
+        "joke",
+        0.8,
+        "levenshtein"
+       ]
+      ],
+      "gives": [
+       [
+        "give",
+        0.8,
+        "levenshtein"
+       ]
+      ],
+      "round": [
+       [
+        "rounds",
+        0.833,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 476,
+       "title": "Gros Michel",
+       "score": 18.402,
+       "matched": {
+        "joker": 1,
+        "gives": 1,
+        "+15": 1,
+        "mult": 1,
+        "destroyed": 1,
+        "end": 1,
+        "round": 1
+       }
+      },
+      {
+       "id": 726,
+       "title": "Mystic Summit",
+       "score": 11.935,
+       "matched": {
+        "joker": 1,
+        "gives": 1,
+        "+15": 1,
+        "mult": 1
+       }
+      },
+      {
+       "id": 1128,
+       "title": "Trading Card",
+       "score": 10.69,
+       "matched": {
+        "gives~give": 1,
+        "+15": 1,
+        "mult": 1,
+        "destroyed": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "Which joker gives X3 Mult and has a 1 in 1000 chance of being destroyed?": {
+   "kind": "symbol",
+   "page": "Cavendish",
+   "needle": "Effect: X3 Mult, 1 in 1000 chance",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 1,
+     "time_ms": 2363.09,
+     "terms": [
+      "joker",
+      "gives",
+      "x3",
+      "mult",
+      "1",
+      "1000",
+      "chance",
+      "destroyed"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 208,
+       "title": "Cavendish",
+       "score": 19.439,
+       "matched": {
+        "joker": 3,
+        "x3": 2,
+        "mult": 5,
+        "1": 1,
+        "1000": 1,
+        "chance": 1,
+        "destroyed": 1
+       }
+      },
+      {
+       "id": 209,
+       "title": "Cavendish",
+       "score": 17.468,
+       "matched": {
+        "joker": 2,
+        "gives": 1,
+        "x3": 1,
+        "mult": 1,
+        "1": 2,
+        "1000": 1,
+        "chance": 2
+       }
+      },
+      {
+       "id": 170,
+       "title": "Canio",
+       "score": 14.034,
+       "matched": {
+        "joker": 3,
+        "mult": 3,
+        "1000": 1,
+        "chance": 1,
+        "destroyed": 1
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 1,
+     "time_ms": 2082.59,
+     "terms": [
+      "joker",
+      "gives",
+      "x3",
+      "mult",
+      "1",
+      "1000",
+      "chance",
+      "destroyed"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 208,
+       "title": "Cavendish",
+       "score": 19.439,
+       "matched": {
+        "joker": 3,
+        "x3": 2,
+        "mult": 5,
+        "1": 1,
+        "1000": 1,
+        "chance": 1,
+        "destroyed": 1
+       }
+      },
+      {
+       "id": 209,
+       "title": "Cavendish",
+       "score": 17.468,
+       "matched": {
+        "joker": 2,
+        "gives": 1,
+        "x3": 1,
+        "mult": 1,
+        "1": 2,
+        "1000": 1,
+        "chance": 2
+       }
+      },
+      {
+       "id": 170,
+       "title": "Canio",
+       "score": 14.034,
+       "matched": {
+        "joker": 3,
+        "mult": 3,
+        "1000": 1,
+        "chance": 1,
+        "destroyed": 1
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 1,
+     "time_ms": 6.43,
+     "terms": [
+      "joker",
+      "gives",
+      "x3",
+      "mult",
+      "1",
+      "1000",
+      "chance",
+      "destroyed"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 208,
+       "title": "Cavendish",
+       "score": 19.439,
+       "matched": {
+        "joker": 1,
+        "x3": 1,
+        "mult": 1,
+        "1": 1,
+        "1000": 1,
+        "chance": 1,
+        "destroyed": 1
+       }
+      },
+      {
+       "id": 209,
+       "title": "Cavendish",
+       "score": 17.468,
+       "matched": {
+        "joker": 1,
+        "gives": 1,
+        "x3": 1,
+        "mult": 1,
+        "1": 1,
+        "1000": 1,
+        "chance": 1
+       }
+      },
+      {
+       "id": 170,
+       "title": "Canio",
+       "score": 14.034,
+       "matched": {
+        "joker": 1,
+        "mult": 1,
+        "1000": 1,
+        "chance": 1,
+        "destroyed": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 1,
+     "time_ms": 25.39,
+     "terms": [
+      "joker",
+      "gives",
+      "x3",
+      "mult",
+      "1",
+      "1000",
+      "chance",
+      "destroyed"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {
+      "joker": [
+       [
+        "jokers",
+        0.833,
+        "levenshtein"
+       ],
+       [
+        "joke",
+        0.8,
+        "levenshtein"
+       ]
+      ],
+      "gives": [
+       [
+        "give",
+        0.8,
+        "levenshtein"
+       ]
+      ],
+      "chance": [
+       [
+        "chances",
+        0.857,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 208,
+       "title": "Cavendish",
+       "score": 18.853,
+       "matched": {
+        "joker": 1,
+        "x3": 1,
+        "mult": 1,
+        "1": 1,
+        "1000": 1,
+        "chance": 1,
+        "destroyed": 1
+       }
+      },
+      {
+       "id": 209,
+       "title": "Cavendish",
+       "score": 16.311,
+       "matched": {
+        "joker": 1,
+        "gives": 1,
+        "x3": 1,
+        "mult": 1,
+        "1": 1,
+        "1000": 1,
+        "chance": 1
+       }
+      },
+      {
+       "id": 170,
+       "title": "Canio",
+       "score": 13.404,
+       "matched": {
+        "joker": 1,
+        "mult": 1,
+        "1000": 1,
+        "chance": 1,
+        "destroyed": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 17.87,
+     "terms": [
+      "joker",
+      "gives",
+      "x3",
+      "mult",
+      "1",
+      "1000",
+      "chance",
+      "destroyed"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {
+      "joker": [
+       [
+        "jokers",
+        0.833,
+        "levenshtein"
+       ],
+       [
+        "joke",
+        0.8,
+        "levenshtein"
+       ]
+      ],
+      "gives": [
+       [
+        "give",
+        0.8,
+        "levenshtein"
+       ]
+      ],
+      "chance": [
+       [
+        "chances",
+        0.857,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 208,
+       "title": "Cavendish",
+       "score": 18.853,
+       "matched": {
+        "joker": 1,
+        "x3": 1,
+        "mult": 1,
+        "1": 1,
+        "1000": 1,
+        "chance": 1,
+        "destroyed": 1
+       }
+      },
+      {
+       "id": 209,
+       "title": "Cavendish",
+       "score": 16.311,
+       "matched": {
+        "joker": 1,
+        "gives": 1,
+        "x3": 1,
+        "mult": 1,
+        "1": 1,
+        "1000": 1,
+        "chance": 1
+       }
+      },
+      {
+       "id": 170,
+       "title": "Canio",
+       "score": 13.404,
+       "matched": {
+        "joker": 1,
+        "mult": 1,
+        "1000": 1,
+        "chance": 1,
+        "destroyed": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "What does Blueprnt do?": {
+   "kind": "typo",
+   "page": "Blueprint",
+   "needle": "Effect: Copies ability of Joker to the right",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": null,
+     "time_ms": 13.74,
+     "terms": [
+      "blueprnt"
+     ],
+     "unmatched_terms": [
+      "blueprnt"
+     ],
+     "names": [],
+     "expanded": [],
+     "variants": {},
+     "top3": []
+    },
+    "exact_kmp_lex": {
+     "answer_rank": null,
+     "time_ms": 242.95,
+     "terms": [
+      "blueprnt"
+     ],
+     "unmatched_terms": [
+      "blueprnt"
+     ],
+     "names": [],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": []
+    },
+    "exact_index": {
+     "answer_rank": null,
+     "time_ms": 1.0,
+     "terms": [
+      "blueprnt"
+     ],
+     "unmatched_terms": [
+      "blueprnt"
+     ],
+     "names": [],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": []
+    },
+    "approx_nolex": {
+     "answer_rank": 2,
+     "time_ms": 6.7,
+     "terms": [
+      "blueprnt"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "blueprint (sim 0.889)"
+     ],
+     "expanded": [],
+     "variants": {
+      "blueprnt": [
+       [
+        "blueprint",
+        0.889,
+        "levenshtein"
+       ],
+       [
+        "blueprints",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 99,
+       "title": "Blueprint",
+       "score": 13.774,
+       "matched": {
+        "blueprnt~blueprint": 1,
+        "blueprint": 1
+       }
+      },
+      {
+       "id": 95,
+       "title": "Blueprint",
+       "score": 13.711,
+       "matched": {
+        "blueprnt~blueprint": 1,
+        "blueprint": 1
+       }
+      },
+      {
+       "id": 101,
+       "title": "Blueprint",
+       "score": 13.274,
+       "matched": {
+        "blueprnt~blueprint": 1,
+        "blueprint": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 6.59,
+     "terms": [
+      "blueprnt"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "blueprint (sim 0.889)"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {
+      "blueprnt": [
+       [
+        "blueprint",
+        0.889,
+        "levenshtein"
+       ],
+       [
+        "blueprints",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 95,
+       "title": "Blueprint",
+       "score": 15.408,
+       "matched": {
+        "blueprnt~blueprint": 1,
+        "effect": 1,
+        "blueprint": 1
+       }
+      },
+      {
+       "id": 99,
+       "title": "Blueprint",
+       "score": 15.094,
+       "matched": {
+        "blueprnt~blueprint": 1,
+        "effect": 1,
+        "blueprint": 1
+       }
+      },
+      {
+       "id": 101,
+       "title": "Blueprint",
+       "score": 15.002,
+       "matched": {
+        "blueprnt~blueprint": 1,
+        "effect": 1,
+        "blueprint": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "How do I unlock Hologrm?": {
+   "kind": "typo",
+   "page": "Hologram",
+   "needle": "Unlock Requirement: Available from start",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": null,
+     "time_ms": 258.64,
+     "terms": [
+      "unlock",
+      "hologrm"
+     ],
+     "unmatched_terms": [
+      "hologrm"
+     ],
+     "names": [],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 971,
+       "title": "Smeared Joker",
+       "score": 3.522,
+       "matched": {
+        "unlock": 7
+       }
+      },
+      {
+       "id": 939,
+       "title": "Shoot the Moon",
+       "score": 3.267,
+       "matched": {
+        "unlock": 4
+       }
+      },
+      {
+       "id": 1666,
+       "title": "Gold cards",
+       "score": 3.237,
+       "matched": {
+        "unlock": 4
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": null,
+     "time_ms": 563.68,
+     "terms": [
+      "unlock",
+      "hologrm"
+     ],
+     "unmatched_terms": [
+      "hologrm"
+     ],
+     "names": [],
+     "expanded": [
+      "requirement"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1759,
+       "title": "Anaglyph Deck",
+       "score": 4.725,
+       "matched": {
+        "unlock": 2,
+        "requirement": 2
+       }
+      },
+      {
+       "id": 1964,
+       "title": "Zodiac Deck",
+       "score": 4.725,
+       "matched": {
+        "unlock": 2,
+        "requirement": 2
+       }
+      },
+      {
+       "id": 939,
+       "title": "Shoot the Moon",
+       "score": 4.643,
+       "matched": {
+        "unlock": 4,
+        "requirement": 1
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": null,
+     "time_ms": 1.26,
+     "terms": [
+      "unlock",
+      "hologrm"
+     ],
+     "unmatched_terms": [
+      "hologrm"
+     ],
+     "names": [],
+     "expanded": [
+      "requirement"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1759,
+       "title": "Anaglyph Deck",
+       "score": 4.725,
+       "matched": {
+        "unlock": 1,
+        "requirement": 1
+       }
+      },
+      {
+       "id": 1964,
+       "title": "Zodiac Deck",
+       "score": 4.725,
+       "matched": {
+        "unlock": 1,
+        "requirement": 1
+       }
+      },
+      {
+       "id": 939,
+       "title": "Shoot the Moon",
+       "score": 4.643,
+       "matched": {
+        "unlock": 1,
+        "requirement": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 1,
+     "time_ms": 5.51,
+     "terms": [
+      "unlock",
+      "hologrm"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "hologram (sim 0.875)"
+     ],
+     "expanded": [],
+     "variants": {
+      "unlock": [
+       [
+        "unlocks",
+        0.857,
+        "levenshtein"
+       ]
+      ],
+      "hologrm": [
+       [
+        "hologram",
+        0.875,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 549,
+       "title": "Hologram",
+       "score": 15.582,
+       "matched": {
+        "unlock": 1,
+        "hologrm~hologram": 1,
+        "hologram": 1
+       }
+      },
+      {
+       "id": 550,
+       "title": "Hologram",
+       "score": 15.387,
+       "matched": {
+        "hologrm~hologram": 1,
+        "hologram": 1
+       }
+      },
+      {
+       "id": 554,
+       "title": "Hologram",
+       "score": 15.222,
+       "matched": {
+        "hologrm~hologram": 1,
+        "hologram": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 6.18,
+     "terms": [
+      "unlock",
+      "hologrm"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "hologram (sim 0.875)"
+     ],
+     "expanded": [
+      "requirement"
+     ],
+     "variants": {
+      "unlock": [
+       [
+        "unlocks",
+        0.857,
+        "levenshtein"
+       ]
+      ],
+      "hologrm": [
+       [
+        "hologram",
+        0.875,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 549,
+       "title": "Hologram",
+       "score": 16.858,
+       "matched": {
+        "unlock": 1,
+        "hologrm~hologram": 1,
+        "requirement": 1,
+        "hologram": 1
+       }
+      },
+      {
+       "id": 550,
+       "title": "Hologram",
+       "score": 15.387,
+       "matched": {
+        "hologrm~hologram": 1,
+        "hologram": 1
+       }
+      },
+      {
+       "id": 554,
+       "title": "Hologram",
+       "score": 15.222,
+       "matched": {
+        "hologrm~hologram": 1,
+        "hologram": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "What rarity is Brainstrom?": {
+   "kind": "typo",
+   "page": "Brainstorm",
+   "needle": "Rarity: Rare",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": null,
+     "time_ms": 320.2,
+     "terms": [
+      "rarity",
+      "brainstrom"
+     ],
+     "unmatched_terms": [
+      "brainstrom"
+     ],
+     "names": [],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1362,
+       "title": "Ankh",
+       "score": 3.623,
+       "matched": {
+        "rarity": 2
+       }
+      },
+      {
+       "id": 583,
+       "title": "Joker",
+       "score": 3.468,
+       "matched": {
+        "rarity": 2
+       }
+      },
+      {
+       "id": 575,
+       "title": "Joker",
+       "score": 3.359,
+       "matched": {
+        "rarity": 1
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": null,
+     "time_ms": 251.7,
+     "terms": [
+      "rarity",
+      "brainstrom"
+     ],
+     "unmatched_terms": [
+      "brainstrom"
+     ],
+     "names": [],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1362,
+       "title": "Ankh",
+       "score": 3.623,
+       "matched": {
+        "rarity": 2
+       }
+      },
+      {
+       "id": 583,
+       "title": "Joker",
+       "score": 3.468,
+       "matched": {
+        "rarity": 2
+       }
+      },
+      {
+       "id": 575,
+       "title": "Joker",
+       "score": 3.359,
+       "matched": {
+        "rarity": 1
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": null,
+     "time_ms": 0.34,
+     "terms": [
+      "rarity",
+      "brainstrom"
+     ],
+     "unmatched_terms": [
+      "brainstrom"
+     ],
+     "names": [],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1362,
+       "title": "Ankh",
+       "score": 3.623,
+       "matched": {
+        "rarity": 1
+       }
+      },
+      {
+       "id": 583,
+       "title": "Joker",
+       "score": 3.468,
+       "matched": {
+        "rarity": 1
+       }
+      },
+      {
+       "id": 575,
+       "title": "Joker",
+       "score": 3.359,
+       "matched": {
+        "rarity": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 1,
+     "time_ms": 9.11,
+     "terms": [
+      "rarity",
+      "brainstrom"
+     ],
+     "unmatched_terms": [],
+     "names": [],
+     "expanded": [],
+     "variants": {
+      "brainstrom": [
+       [
+        "brainstorm",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 114,
+       "title": "Brainstorm",
+       "score": 7.067,
+       "matched": {
+        "rarity": 1,
+        "brainstrom~brainstorm": 1
+       }
+      },
+      {
+       "id": 118,
+       "title": "Brainstorm",
+       "score": 4.762,
+       "matched": {
+        "brainstrom~brainstorm": 1
+       }
+      },
+      {
+       "id": 120,
+       "title": "Brainstorm",
+       "score": 4.633,
+       "matched": {
+        "brainstrom~brainstorm": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 9.86,
+     "terms": [
+      "rarity",
+      "brainstrom"
+     ],
+     "unmatched_terms": [],
+     "names": [],
+     "expanded": [],
+     "variants": {
+      "brainstrom": [
+       [
+        "brainstorm",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 114,
+       "title": "Brainstorm",
+       "score": 7.067,
+       "matched": {
+        "rarity": 1,
+        "brainstrom~brainstorm": 1
+       }
+      },
+      {
+       "id": 118,
+       "title": "Brainstorm",
+       "score": 4.762,
+       "matched": {
+        "brainstrom~brainstorm": 1
+       }
+      },
+      {
+       "id": 120,
+       "title": "Brainstorm",
+       "score": 4.633,
+       "matched": {
+        "brainstrom~brainstorm": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "What does Fibonaci do?": {
+   "kind": "typo",
+   "page": "Fibonacci",
+   "needle": "Effect: Each played Ace",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": null,
+     "time_ms": 10.54,
+     "terms": [
+      "fibonaci"
+     ],
+     "unmatched_terms": [
+      "fibonaci"
+     ],
+     "names": [],
+     "expanded": [],
+     "variants": {},
+     "top3": []
+    },
+    "exact_kmp_lex": {
+     "answer_rank": null,
+     "time_ms": 236.58,
+     "terms": [
+      "fibonaci"
+     ],
+     "unmatched_terms": [
+      "fibonaci"
+     ],
+     "names": [],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": []
+    },
+    "exact_index": {
+     "answer_rank": null,
+     "time_ms": 0.83,
+     "terms": [
+      "fibonaci"
+     ],
+     "unmatched_terms": [
+      "fibonaci"
+     ],
+     "names": [],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": []
+    },
+    "approx_nolex": {
+     "answer_rank": 2,
+     "time_ms": 5.91,
+     "terms": [
+      "fibonaci"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "fibonacci (sim 0.889)"
+     ],
+     "expanded": [],
+     "variants": {
+      "fibonaci": [
+       [
+        "fibonacci",
+        0.889,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 376,
+       "title": "Fibonacci",
+       "score": 15.836,
+       "matched": {
+        "fibonaci~fibonacci": 1,
+        "fibonacci": 1
+       }
+      },
+      {
+       "id": 375,
+       "title": "Fibonacci",
+       "score": 15.118,
+       "matched": {
+        "fibonaci~fibonacci": 1,
+        "fibonacci": 1
+       }
+      },
+      {
+       "id": 381,
+       "title": "Fibonacci",
+       "score": 15.107,
+       "matched": {
+        "fibonaci~fibonacci": 1,
+        "fibonacci": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 7.95,
+     "terms": [
+      "fibonaci"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "fibonacci (sim 0.889)"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {
+      "fibonaci": [
+       [
+        "fibonacci",
+        0.889,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 375,
+       "title": "Fibonacci",
+       "score": 16.238,
+       "matched": {
+        "fibonaci~fibonacci": 1,
+        "effect": 1,
+        "fibonacci": 1
+       }
+      },
+      {
+       "id": 376,
+       "title": "Fibonacci",
+       "score": 15.836,
+       "matched": {
+        "fibonaci~fibonacci": 1,
+        "fibonacci": 1
+       }
+      },
+      {
+       "id": 381,
+       "title": "Fibonacci",
+       "score": 15.107,
+       "matched": {
+        "fibonaci~fibonacci": 1,
+        "fibonacci": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "Which jokers retrigger played cards?": {
+   "kind": "inflection",
+   "page": null,
+   "needle": "Effect: Retrigger",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 1,
+     "time_ms": 1128.81,
+     "terms": [
+      "jokers",
+      "retrigger",
+      "played",
+      "cards"
+     ],
+     "unmatched_terms": [],
+     "names": [],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 485,
+       "title": "Hack",
+       "score": 8.332,
+       "matched": {
+        "retrigger": 4,
+        "played": 2,
+        "cards": 2
+       }
+      },
+      {
+       "id": 924,
+       "title": "Seltzer",
+       "score": 8.066,
+       "matched": {
+        "retrigger": 3,
+        "played": 3,
+        "cards": 1
+       }
+      },
+      {
+       "id": 520,
+       "title": "Hanging Chad",
+       "score": 8.034,
+       "matched": {
+        "retrigger": 4,
+        "played": 2,
+        "cards": 1
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 1,
+     "time_ms": 1218.71,
+     "terms": [
+      "jokers",
+      "retrigger",
+      "played",
+      "cards"
+     ],
+     "unmatched_terms": [],
+     "names": [],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 485,
+       "title": "Hack",
+       "score": 8.332,
+       "matched": {
+        "retrigger": 4,
+        "played": 2,
+        "cards": 2
+       }
+      },
+      {
+       "id": 924,
+       "title": "Seltzer",
+       "score": 8.066,
+       "matched": {
+        "retrigger": 3,
+        "played": 3,
+        "cards": 1
+       }
+      },
+      {
+       "id": 520,
+       "title": "Hanging Chad",
+       "score": 8.034,
+       "matched": {
+        "retrigger": 4,
+        "played": 2,
+        "cards": 1
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 1,
+     "time_ms": 5.27,
+     "terms": [
+      "jokers",
+      "retrigger",
+      "played",
+      "cards"
+     ],
+     "unmatched_terms": [],
+     "names": [],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 485,
+       "title": "Hack",
+       "score": 8.332,
+       "matched": {
+        "retrigger": 1,
+        "played": 1,
+        "cards": 1
+       }
+      },
+      {
+       "id": 924,
+       "title": "Seltzer",
+       "score": 8.066,
+       "matched": {
+        "retrigger": 1,
+        "played": 1,
+        "cards": 1
+       }
+      },
+      {
+       "id": 520,
+       "title": "Hanging Chad",
+       "score": 8.034,
+       "matched": {
+        "retrigger": 1,
+        "played": 1,
+        "cards": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 1,
+     "time_ms": 25.4,
+     "terms": [
+      "jokers",
+      "retrigger",
+      "played",
+      "cards"
+     ],
+     "unmatched_terms": [],
+     "names": [],
+     "expanded": [],
+     "variants": {
+      "jokers": [
+       [
+        "joker",
+        0.833,
+        "levenshtein"
+       ]
+      ],
+      "retrigger": [
+       [
+        "retriggers",
+        0.9,
+        "levenshtein"
+       ],
+       [
+        "retriggered",
+        0.818,
+        "levenshtein"
+       ]
+      ],
+      "cards": [
+       [
+        "card",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 485,
+       "title": "Hack",
+       "score": 7.637,
+       "matched": {
+        "jokers~joker": 1,
+        "retrigger": 1,
+        "played": 1,
+        "cards": 1
+       }
+      },
+      {
+       "id": 520,
+       "title": "Hanging Chad",
+       "score": 7.536,
+       "matched": {
+        "jokers~joker": 1,
+        "retrigger": 1,
+        "played": 1,
+        "cards~card": 1
+       }
+      },
+      {
+       "id": 924,
+       "title": "Seltzer",
+       "score": 7.519,
+       "matched": {
+        "jokers~joker": 1,
+        "retrigger": 1,
+        "played": 1,
+        "cards": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 33.4,
+     "terms": [
+      "jokers",
+      "retrigger",
+      "played",
+      "cards"
+     ],
+     "unmatched_terms": [],
+     "names": [],
+     "expanded": [],
+     "variants": {
+      "jokers": [
+       [
+        "joker",
+        0.833,
+        "levenshtein"
+       ]
+      ],
+      "retrigger": [
+       [
+        "retriggers",
+        0.9,
+        "levenshtein"
+       ],
+       [
+        "retriggered",
+        0.818,
+        "levenshtein"
+       ]
+      ],
+      "cards": [
+       [
+        "card",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 485,
+       "title": "Hack",
+       "score": 7.637,
+       "matched": {
+        "jokers~joker": 1,
+        "retrigger": 1,
+        "played": 1,
+        "cards": 1
+       }
+      },
+      {
+       "id": 520,
+       "title": "Hanging Chad",
+       "score": 7.536,
+       "matched": {
+        "jokers~joker": 1,
+        "retrigger": 1,
+        "played": 1,
+        "cards~card": 1
+       }
+      },
+      {
+       "id": 924,
+       "title": "Seltzer",
+       "score": 7.519,
+       "matched": {
+        "jokers~joker": 1,
+        "retrigger": 1,
+        "played": 1,
+        "cards": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "What does the Egg joker do?": {
+   "kind": "direct",
+   "page": "Egg",
+   "needle": "Gains $3 of sell value",
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": 4,
+     "time_ms": 548.3,
+     "terms": [
+      "egg",
+      "joker"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "egg",
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 348,
+       "title": "Egg",
+       "score": 12.2,
+       "matched": {
+        "egg": 7,
+        "joker": 1
+       }
+      },
+      {
+       "id": 350,
+       "title": "Egg",
+       "score": 12.132,
+       "matched": {
+        "egg": 5,
+        "joker": 4
+       }
+      },
+      {
+       "id": 351,
+       "title": "Egg",
+       "score": 12.003,
+       "matched": {
+        "egg": 6,
+        "joker": 3
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": 1,
+     "time_ms": 868.49,
+     "terms": [
+      "egg",
+      "joker"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "egg",
+      "joker"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 347,
+       "title": "Egg",
+       "score": 12.955,
+       "matched": {
+        "egg": 3,
+        "joker": 3,
+        "effect": 2
+       }
+      },
+      {
+       "id": 348,
+       "title": "Egg",
+       "score": 12.2,
+       "matched": {
+        "egg": 7,
+        "joker": 1
+       }
+      },
+      {
+       "id": 350,
+       "title": "Egg",
+       "score": 12.132,
+       "matched": {
+        "egg": 5,
+        "joker": 4
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": 1,
+     "time_ms": 3.44,
+     "terms": [
+      "egg",
+      "joker"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "egg",
+      "joker"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 347,
+       "title": "Egg",
+       "score": 12.955,
+       "matched": {
+        "egg": 1,
+        "joker": 1,
+        "effect": 1
+       }
+      },
+      {
+       "id": 348,
+       "title": "Egg",
+       "score": 12.2,
+       "matched": {
+        "egg": 1,
+        "joker": 1
+       }
+      },
+      {
+       "id": 350,
+       "title": "Egg",
+       "score": 12.132,
+       "matched": {
+        "egg": 1,
+        "joker": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": 5,
+     "time_ms": 13.83,
+     "terms": [
+      "egg",
+      "joker"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "egg",
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {
+      "joker": [
+       [
+        "jokers",
+        0.833,
+        "levenshtein"
+       ],
+       [
+        "joke",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 348,
+       "title": "Egg",
+       "score": 11.958,
+       "matched": {
+        "egg": 1,
+        "joker": 1
+       }
+      },
+      {
+       "id": 350,
+       "title": "Egg",
+       "score": 11.731,
+       "matched": {
+        "egg": 1,
+        "joker": 1
+       }
+      },
+      {
+       "id": 351,
+       "title": "Egg",
+       "score": 11.652,
+       "matched": {
+        "egg": 1,
+        "joker": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": 1,
+     "time_ms": 15.64,
+     "terms": [
+      "egg",
+      "joker"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "egg",
+      "joker"
+     ],
+     "expanded": [
+      "effect"
+     ],
+     "variants": {
+      "joker": [
+       [
+        "jokers",
+        0.833,
+        "levenshtein"
+       ],
+       [
+        "joke",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 347,
+       "title": "Egg",
+       "score": 12.567,
+       "matched": {
+        "egg": 1,
+        "joker": 1,
+        "effect": 1
+       }
+      },
+      {
+       "id": 348,
+       "title": "Egg",
+       "score": 11.958,
+       "matched": {
+        "egg": 1,
+        "joker": 1
+       }
+      },
+      {
+       "id": 350,
+       "title": "Egg",
+       "score": 11.731,
+       "matched": {
+        "egg": 1,
+        "joker": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "Does the game have a joker called Pikachu?": {
+   "kind": "no_answer",
+   "page": null,
+   "needle": null,
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": null,
+     "time_ms": 758.06,
+     "terms": [
+      "game",
+      "joker",
+      "called",
+      "pikachu"
+     ],
+     "unmatched_terms": [
+      "pikachu"
+     ],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1646,
+       "title": "Negative",
+       "score": 8.016,
+       "matched": {
+        "game": 2,
+        "called": 1
+       }
+      },
+      {
+       "id": 1002,
+       "title": "Spare Trousers",
+       "score": 7.927,
+       "matched": {
+        "game": 1,
+        "joker": 2,
+        "called": 1
+       }
+      },
+      {
+       "id": 1326,
+       "title": "Earth",
+       "score": 7.639,
+       "matched": {
+        "game": 1,
+        "joker": 1,
+        "called": 1
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": null,
+     "time_ms": 987.77,
+     "terms": [
+      "game",
+      "joker",
+      "called",
+      "pikachu"
+     ],
+     "unmatched_terms": [
+      "pikachu"
+     ],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1646,
+       "title": "Negative",
+       "score": 8.016,
+       "matched": {
+        "game": 2,
+        "called": 1
+       }
+      },
+      {
+       "id": 1002,
+       "title": "Spare Trousers",
+       "score": 7.927,
+       "matched": {
+        "game": 1,
+        "joker": 2,
+        "called": 1
+       }
+      },
+      {
+       "id": 1326,
+       "title": "Earth",
+       "score": 7.639,
+       "matched": {
+        "game": 1,
+        "joker": 1,
+        "called": 1
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": null,
+     "time_ms": 3.24,
+     "terms": [
+      "game",
+      "joker",
+      "called",
+      "pikachu"
+     ],
+     "unmatched_terms": [
+      "pikachu"
+     ],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1646,
+       "title": "Negative",
+       "score": 8.016,
+       "matched": {
+        "game": 1,
+        "called": 1
+       }
+      },
+      {
+       "id": 1002,
+       "title": "Spare Trousers",
+       "score": 7.927,
+       "matched": {
+        "game": 1,
+        "joker": 1,
+        "called": 1
+       }
+      },
+      {
+       "id": 1326,
+       "title": "Earth",
+       "score": 7.639,
+       "matched": {
+        "game": 1,
+        "joker": 1,
+        "called": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": null,
+     "time_ms": 21.34,
+     "terms": [
+      "game",
+      "joker",
+      "called",
+      "pikachu"
+     ],
+     "unmatched_terms": [
+      "pikachu"
+     ],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {
+      "game": [
+       [
+        "games",
+        0.8,
+        "levenshtein"
+       ]
+      ],
+      "joker": [
+       [
+        "jokers",
+        0.833,
+        "levenshtein"
+       ],
+       [
+        "joke",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 1646,
+       "title": "Negative",
+       "score": 7.938,
+       "matched": {
+        "game": 1,
+        "called": 1
+       }
+      },
+      {
+       "id": 183,
+       "title": "Canio",
+       "score": 7.608,
+       "matched": {
+        "game": 1,
+        "joker~jokers": 1,
+        "called": 1
+       }
+      },
+      {
+       "id": 1002,
+       "title": "Spare Trousers",
+       "score": 7.531,
+       "matched": {
+        "game": 1,
+        "joker": 1,
+        "called": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": null,
+     "time_ms": 24.59,
+     "terms": [
+      "game",
+      "joker",
+      "called",
+      "pikachu"
+     ],
+     "unmatched_terms": [
+      "pikachu"
+     ],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {
+      "game": [
+       [
+        "games",
+        0.8,
+        "levenshtein"
+       ]
+      ],
+      "joker": [
+       [
+        "jokers",
+        0.833,
+        "levenshtein"
+       ],
+       [
+        "joke",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 1646,
+       "title": "Negative",
+       "score": 7.938,
+       "matched": {
+        "game": 1,
+        "called": 1
+       }
+      },
+      {
+       "id": 183,
+       "title": "Canio",
+       "score": 7.608,
+       "matched": {
+        "game": 1,
+        "joker~jokers": 1,
+        "called": 1
+       }
+      },
+      {
+       "id": 1002,
+       "title": "Spare Trousers",
+       "score": 7.531,
+       "matched": {
+        "game": 1,
+        "joker": 1,
+        "called": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "What is the capital of France?": {
+   "kind": "no_answer",
+   "page": null,
+   "needle": null,
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": null,
+     "time_ms": 602.02,
+     "terms": [
+      "capital",
+      "france"
+     ],
+     "unmatched_terms": [],
+     "names": [],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1603,
+       "title": "Seed Money",
+       "score": 7.622,
+       "matched": {
+        "capital": 1
+       }
+      },
+      {
+       "id": 1138,
+       "title": "Triboulet",
+       "score": 6.753,
+       "matched": {
+        "france": 1
+       }
+      },
+      {
+       "id": 250,
+       "title": "Chicot",
+       "score": 6.145,
+       "matched": {
+        "france": 1
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": null,
+     "time_ms": 485.04,
+     "terms": [
+      "capital",
+      "france"
+     ],
+     "unmatched_terms": [],
+     "names": [],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1603,
+       "title": "Seed Money",
+       "score": 7.622,
+       "matched": {
+        "capital": 1
+       }
+      },
+      {
+       "id": 1138,
+       "title": "Triboulet",
+       "score": 6.753,
+       "matched": {
+        "france": 1
+       }
+      },
+      {
+       "id": 250,
+       "title": "Chicot",
+       "score": 6.145,
+       "matched": {
+        "france": 1
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": null,
+     "time_ms": 0.18,
+     "terms": [
+      "capital",
+      "france"
+     ],
+     "unmatched_terms": [],
+     "names": [],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1603,
+       "title": "Seed Money",
+       "score": 7.622,
+       "matched": {
+        "capital": 1
+       }
+      },
+      {
+       "id": 1138,
+       "title": "Triboulet",
+       "score": 6.753,
+       "matched": {
+        "france": 1
+       }
+      },
+      {
+       "id": 250,
+       "title": "Chicot",
+       "score": 6.145,
+       "matched": {
+        "france": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": null,
+     "time_ms": 11.01,
+     "terms": [
+      "capital",
+      "france"
+     ],
+     "unmatched_terms": [],
+     "names": [],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1603,
+       "title": "Seed Money",
+       "score": 7.622,
+       "matched": {
+        "capital": 1
+       }
+      },
+      {
+       "id": 1138,
+       "title": "Triboulet",
+       "score": 6.753,
+       "matched": {
+        "france": 1
+       }
+      },
+      {
+       "id": 250,
+       "title": "Chicot",
+       "score": 6.145,
+       "matched": {
+        "france": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": null,
+     "time_ms": 13.32,
+     "terms": [
+      "capital",
+      "france"
+     ],
+     "unmatched_terms": [],
+     "names": [],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 1603,
+       "title": "Seed Money",
+       "score": 7.622,
+       "matched": {
+        "capital": 1
+       }
+      },
+      {
+       "id": 1138,
+       "title": "Triboulet",
+       "score": 6.753,
+       "matched": {
+        "france": 1
+       }
+      },
+      {
+       "id": 250,
+       "title": "Chicot",
+       "score": 6.145,
+       "matched": {
+        "france": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  "What is the price of the Superman joker?": {
+   "kind": "no_answer",
+   "page": null,
+   "needle": null,
+   "configs": {
+    "exact_kmp": {
+     "answer_rank": null,
+     "time_ms": 789.79,
+     "terms": [
+      "price",
+      "superman",
+      "joker"
+     ],
+     "unmatched_terms": [
+      "superman"
+     ],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {},
+     "top3": [
+      {
+       "id": 575,
+       "title": "Joker",
+       "score": 5.08,
+       "matched": {
+        "price": 2,
+        "joker": 5
+       }
+      },
+      {
+       "id": 1242,
+       "title": "Judgement",
+       "score": 4.387,
+       "matched": {
+        "price": 2,
+        "joker": 2
+       }
+      },
+      {
+       "id": 9,
+       "title": "Abstract Joker",
+       "score": 4.357,
+       "matched": {
+        "price": 2,
+        "joker": 7
+       }
+      }
+     ]
+    },
+    "exact_kmp_lex": {
+     "answer_rank": null,
+     "time_ms": 851.89,
+     "terms": [
+      "price",
+      "superman",
+      "joker"
+     ],
+     "unmatched_terms": [
+      "superman"
+     ],
+     "names": [
+      "joker"
+     ],
+     "expanded": [
+      "buy"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 575,
+       "title": "Joker",
+       "score": 6.885,
+       "matched": {
+        "price": 2,
+        "joker": 5,
+        "buy": 1
+       }
+      },
+      {
+       "id": 1242,
+       "title": "Judgement",
+       "score": 6.243,
+       "matched": {
+        "price": 2,
+        "joker": 2,
+        "buy": 1
+       }
+      },
+      {
+       "id": 1469,
+       "title": "Wraith",
+       "score": 6.066,
+       "matched": {
+        "price": 2,
+        "joker": 2,
+        "buy": 1
+       }
+      }
+     ]
+    },
+    "exact_index": {
+     "answer_rank": null,
+     "time_ms": 3.38,
+     "terms": [
+      "price",
+      "superman",
+      "joker"
+     ],
+     "unmatched_terms": [
+      "superman"
+     ],
+     "names": [
+      "joker"
+     ],
+     "expanded": [
+      "buy"
+     ],
+     "variants": {},
+     "top3": [
+      {
+       "id": 575,
+       "title": "Joker",
+       "score": 6.885,
+       "matched": {
+        "price": 1,
+        "joker": 1,
+        "buy": 1
+       }
+      },
+      {
+       "id": 1242,
+       "title": "Judgement",
+       "score": 6.243,
+       "matched": {
+        "price": 1,
+        "joker": 1,
+        "buy": 1
+       }
+      },
+      {
+       "id": 1469,
+       "title": "Wraith",
+       "score": 6.066,
+       "matched": {
+        "price": 1,
+        "joker": 1,
+        "buy": 1
+       }
+      }
+     ]
+    },
+    "approx_nolex": {
+     "answer_rank": null,
+     "time_ms": 27.38,
+     "terms": [
+      "price",
+      "superman",
+      "joker"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker"
+     ],
+     "expanded": [],
+     "variants": {
+      "price": [
+       [
+        "prices",
+        0.833,
+        "levenshtein"
+       ]
+      ],
+      "superman": [
+       [
+        "super",
+        0.444,
+        "trigram"
+       ]
+      ],
+      "joker": [
+       [
+        "jokers",
+        0.833,
+        "levenshtein"
+       ],
+       [
+        "joke",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 575,
+       "title": "Joker",
+       "score": 4.343,
+       "matched": {
+        "price": 1,
+        "joker": 1
+       }
+      },
+      {
+       "id": 1242,
+       "title": "Judgement",
+       "score": 3.952,
+       "matched": {
+        "price": 1,
+        "joker": 1
+       }
+      },
+      {
+       "id": 1469,
+       "title": "Wraith",
+       "score": 3.856,
+       "matched": {
+        "price": 1,
+        "joker": 1
+       }
+      }
+     ]
+    },
+    "approx": {
+     "answer_rank": null,
+     "time_ms": 33.45,
+     "terms": [
+      "price",
+      "superman",
+      "joker"
+     ],
+     "unmatched_terms": [],
+     "names": [
+      "joker"
+     ],
+     "expanded": [
+      "buy"
+     ],
+     "variants": {
+      "price": [
+       [
+        "prices",
+        0.833,
+        "levenshtein"
+       ]
+      ],
+      "superman": [
+       [
+        "super",
+        0.444,
+        "trigram"
+       ]
+      ],
+      "joker": [
+       [
+        "jokers",
+        0.833,
+        "levenshtein"
+       ],
+       [
+        "joke",
+        0.8,
+        "levenshtein"
+       ]
+      ]
+     },
+     "top3": [
+      {
+       "id": 575,
+       "title": "Joker",
+       "score": 6.147,
+       "matched": {
+        "price": 1,
+        "joker": 1,
+        "buy": 1
+       }
+      },
+      {
+       "id": 1242,
+       "title": "Judgement",
+       "score": 5.808,
+       "matched": {
+        "price": 1,
+        "joker": 1,
+        "buy": 1
+       }
+      },
+      {
+       "id": 1469,
+       "title": "Wraith",
+       "score": 5.641,
+       "matched": {
+        "price": 1,
+        "joker": 1,
+        "buy": 1
+       }
+      }
+     ]
+    }
+   }
+  }
+ },
+ "trie_fuzzy_micro": [
+  {
+   "term": "blueprnt",
+   "max_dist": 2,
+   "trie_ms": 3.11,
+   "brute_force_ms": 12.09,
+   "speedup": 3.9,
+   "same_result": true,
+   "found": [
+    [
+     "blueprint",
+     1
+    ],
+    [
+     "blueprints",
+     2
+    ]
+   ]
+  },
+  {
+   "term": "hologrm",
+   "max_dist": 1,
+   "trie_ms": 0.66,
+   "brute_force_ms": 5.37,
+   "speedup": 8.1,
+   "same_result": true,
+   "found": [
+    [
+     "hologram",
+     1
+    ]
+   ]
+  },
+  {
+   "term": "jokers",
+   "max_dist": 1,
+   "trie_ms": 0.2,
+   "brute_force_ms": 1.96,
+   "speedup": 9.7,
+   "same_result": true,
+   "found": [
+    [
+     "jokers",
+     0
+    ],
+    [
+     "joker",
+     1
+    ],
+    [
+     "jokes",
+     1
+    ]
+   ]
+  },
+  {
+   "term": "retrigger",
+   "max_dist": 2,
+   "trie_ms": 2.19,
+   "brute_force_ms": 22.66,
+   "speedup": 10.3,
+   "same_result": true,
+   "found": [
+    [
+     "retrigger",
+     0
+    ],
+    [
+     "retriggers",
+     1
+    ],
+    [
+     "retriggered",
+     2
+    ]
+   ]
+  },
+  {
+   "term": "multiplyer",
+   "max_dist": 2,
+   "trie_ms": 2.59,
+   "brute_force_ms": 23.24,
+   "speedup": 9.0,
+   "same_result": true,
+   "found": [
+    [
+     "multiplier",
+     1
+    ],
+    [
+     "multiple",
+     2
+    ],
+    [
+     "multiply",
+     2
+    ],
+    [
+     "multiplied",
+     2
+    ],
+    [
+     "multiplies",
+     2
+    ]
+   ]
+  },
+  {
+   "term": "fibonaci",
+   "max_dist": 2,
+   "trie_ms": 2.29,
+   "brute_force_ms": 9.52,
+   "speedup": 4.2,
+   "same_result": true,
+   "found": [
+    [
+     "fibonacci",
+     1
+    ]
+   ]
+  },
+  {
+   "term": "brainstrom",
+   "max_dist": 2,
+   "trie_ms": 2.97,
+   "brute_force_ms": 18.91,
+   "speedup": 6.4,
+   "same_result": true,
+   "found": [
+    [
+     "brainstorm",
+     2
+    ]
+   ]
+  },
+  {
+   "term": "cost",
+   "max_dist": 1,
+   "trie_ms": 0.88,
+   "brute_force_ms": 25.94,
+   "speedup": 29.3,
+   "same_result": true,
+   "found": [
+    [
+     "cost",
+     0
+    ],
+    [
+     "costs",
+     1
+    ]
+   ]
+  }
+ ],
+ "k": 50
+}
