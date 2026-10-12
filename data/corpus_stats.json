@@ -1,0 +1,31 @@
+{
+ "documents": 364,
+ "documents_by_category": {
+  "Jokers": 152,
+  "Tarot Cards": 22,
+  "Planet Cards": 12,
+  "Spectral Cards": 18,
+  "Vouchers": 32,
+  "Editions": 5,
+  "Enhancements": 8,
+  "Seals": 4,
+  "Stickers": 4,
+  "Decks": 36,
+  "Stakes": 8,
+  "Blinds": 30,
+  "Tags": 24,
+  "Rules": 9
+ },
+ "prose_words": 188447,
+ "chunk_text_words": 209994,
+ "chunk_text_chars": 1224571,
+ "chunks": 2249,
+ "chunk_words_avg": 93.4,
+ "chunk_words_min": 12,
+ "chunk_words_max": 165,
+ "params": {
+  "target": 120,
+  "overlap": 20
+ },
+ "source": "https://balatrowiki.org (CC BY-NC-SA 3.0)"
+}

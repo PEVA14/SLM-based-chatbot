@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+lxml
+# Versiones probadas. transformers 5.x elimino la tarea "question-answering" que usa src/qa_model.py.
+torch==2.8.0
+transformers==4.57.6
