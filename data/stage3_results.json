@@ -1,0 +1,646 @@
+{
+ "questions": [
+  {
+   "question": "What rarity is Blueprint?",
+   "why": "palabras de la pregunta == palabras de la wiki",
+   "gold_page": "Blueprint",
+   "terms": [
+    "rarity",
+    "blueprint"
+   ],
+   "unmatched_terms": [],
+   "names": [
+    "blueprint"
+   ],
+   "patterns_scanned": 2,
+   "chars_scanned": 2382682,
+   "time_ms_kmp": 611.95,
+   "time_ms_z": 2534.54,
+   "same_ranking_kmp_z": true,
+   "answer_chunk_rank": 1,
+   "hits": [
+    {
+     "rank": 1,
+     "id": 95,
+     "title": "Blueprint",
+     "score": 11.913,
+     "matched": {
+      "rarity": 1,
+      "blueprint": 7
+     },
+     "text": "Blueprint: Blueprint (Joker). Effect: Copies ability of Joker to the right. Rarity: Rare. Unlock Requirement: Win a run. Buy Price: $10. Sell Price: $5. Type: Effect. Copyable: Yes. Perishable: Yes. Eternal: Yes. Blueprint is a Rare Effect "
+    },
+    {
+     "rank": 2,
+     "id": 99,
+     "title": "Blueprint",
+     "score": 9.393,
+     "matched": {
+      "blueprint": 7
+     },
+     "text": "Blueprint: Poker Hands: Any hand can benefit from Blueprint in the usual ways. The only hand-specific Jokers that are incompatible with Blueprint are independent effects such as Shortcut. Jokers: Blueprint is an essential Joker and combines"
+    },
+    {
+     "rank": 3,
+     "id": 101,
+     "title": "Blueprint",
+     "score": 9.111,
+     "matched": {
+      "blueprint": 5
+     },
+     "text": "Blueprint: A few Jokers have both \"trigger\" effects that Blueprint can copy and \"passive\" ones that it cannot. Stuntman, for example, gives +250 Chips, a \"trigger\" effect, and -2 Hand Size, a \"passive\" effect. Therefore, Blueprint copies th"
+    },
+    {
+     "rank": 4,
+     "id": 97,
+     "title": "Blueprint",
+     "score": 9.061,
+     "matched": {
+      "blueprint": 6
+     },
+     "text": "Blueprint: Passive effects (like Chicot or Pareidolia) See Incompatible Jokers for a full list. Usage Notes: If the player presses \"Play Hand\", then quickly attempts to move Blueprint to a different position in the joker panel while the han"
+    },
+    {
+     "rank": 5,
+     "id": 98,
+     "title": "Blueprint",
+     "score": 8.64,
+     "matched": {
+      "blueprint": 4
+     },
+     "text": "Blueprint: However, the copy order changes once the round is complete. For example, if the player moves your Blueprint to copy Mime while your winning hand is scoring, then the player will receive the benefits of multiple copies of Mime dur"
+    }
+   ]
+  },
+  {
+   "question": "How do I unlock Hologram?",
+   "why": "nombre de carta + palabra de la ficha",
+   "gold_page": "Hologram",
+   "terms": [
+    "unlock",
+    "hologram"
+   ],
+   "unmatched_terms": [],
+   "names": [
+    "hologram"
+   ],
+   "patterns_scanned": 2,
+   "chars_scanned": 2382682,
+   "time_ms_kmp": 612.57,
+   "time_ms_z": 2334.67,
+   "same_ranking_kmp_z": true,
+   "answer_chunk_rank": 1,
+   "hits": [
+    {
+     "rank": 1,
+     "id": 549,
+     "title": "Hologram",
+     "score": 11.618,
+     "matched": {
+      "unlock": 1,
+      "hologram": 3
+     },
+     "text": "Hologram: Hologram (Joker). Effect: This Joker gains X0.25 Mult every time a playing card is added to your deck, (Currently X1 Mult). Rarity: Uncommon. Unlock Requirement: Available from start. Buy Price: $7. Sell Price: $3. Type: Multiplic"
+    },
+    {
+     "rank": 2,
+     "id": 550,
+     "title": "Hologram",
+     "score": 10.711,
+     "matched": {
+      "hologram": 6
+     },
+     "text": "Hologram: Decks: Ghost Deck offers upside to Hologram thanks to its easier access to Spectral cards, especially those mentioned in the Synergetic Consumables section. Abandoned Deck and Mad World work well with Hologram thanks to their low "
+    },
+    {
+     "rank": 3,
+     "id": 554,
+     "title": "Hologram",
+     "score": 10.617,
+     "matched": {
+      "hologram": 5
+     },
+     "text": "Hologram: Decks: Fragile doesn't work well with Hologram due to all sources of adding playing cards besides Cryptid and DNA being banned in this deck. Poker hands: Hologram is probably weakest when paired with strategies that prioritize Str"
+    },
+    {
+     "rank": 4,
+     "id": 552,
+     "title": "Hologram",
+     "score": 10.06,
+     "matched": {
+      "hologram": 4
+     },
+     "text": "Hologram: Vagabond and Cartomancer create Tarots, some of which are useful for handling added cards that aren't meant to be kept. Sixth Sense and Séance can create useful spectral cards (see the Consumables section), which can give this Jok"
+    },
+    {
+     "rank": 5,
+     "id": 553,
+     "title": "Hologram",
+     "score": 10.039,
+     "matched": {
+      "hologram": 4
+     },
+     "text": "Hologram: Glass cards from Justice have a chance to shatter, so they won't clog the deck forever, and they'll be useful for XMult in the meantime. The Hanged Man allows destroying any miscellaneous junk cards that were only added to pump Ho"
+    }
+   ]
+  },
+  {
+   "question": "What does The Fool tarot card do?",
+   "why": "nombre con stopword ('the fool')",
+   "gold_page": "The Fool",
+   "terms": [
+    "fool",
+    "tarot",
+    "card"
+   ],
+   "unmatched_terms": [],
+   "names": [
+    "the fool"
+   ],
+   "patterns_scanned": 4,
+   "chars_scanned": 4765364,
+   "time_ms_kmp": 2023.28,
+   "time_ms_z": 4990.31,
+   "same_ranking_kmp_z": true,
+   "answer_chunk_rank": 1,
+   "hits": [
+    {
+     "rank": 1,
+     "id": 1276,
+     "title": "The Fool",
+     "score": 29.817,
+     "matched": {
+      "fool": 5,
+      "tarot": 5,
+      "card": 4,
+      "the fool": 5
+     },
+     "text": "The Fool: The Fool (Tarot card). Type: Tarot. Effect: Creates the last Tarot or Planet card used during this run, The Fool excluded. Unlock Requirement: Available from start. Buy Price: $3. Sell Price: $1. The Fool is a Tarot card that allo"
+    },
+    {
+     "rank": 2,
+     "id": 1277,
+     "title": "The Fool",
+     "score": 28.496,
+     "matched": {
+      "fool": 8,
+      "tarot": 2,
+      "card": 3,
+      "the fool": 8
+     },
+     "text": "The Fool: Usage notes: The Fool cannot be used if your consumable area is full. If The Fool was your last used Tarot or Planet card, you cannot use The Fool again until you use a different card. Spectral cards do not affect The Fool at all,"
+    },
+    {
+     "rank": 3,
+     "id": 1278,
+     "title": "The Fool",
+     "score": 27.265,
+     "matched": {
+      "fool": 4,
+      "tarot": 2,
+      "the fool": 4
+     },
+     "text": "The Fool: The Magic Deck starts the player with two copies of The Fool. Trivia: The icon of the final achievement of Balatro, Completionist++, is a golden version of The Fool's drawing. The Fool is one of the four Tarot cards that appears o"
+    },
+    {
+     "rank": 4,
+     "id": 1270,
+     "title": "The Emperor",
+     "score": 21.774,
+     "matched": {
+      "fool": 3,
+      "tarot": 7,
+      "card": 5,
+      "the fool": 3
+     },
+     "text": "The Emperor: Campfire will gain X0.25 Mult for every Tarot card sold. The Fool, especially if obtained from The Emperor. If The Fool was one of the two cards created by The Emperor, The Fool can be immediately used to create The Emperor aga"
+    },
+    {
+     "rank": 5,
+     "id": 790,
+     "title": "Perkeo",
+     "score": 18.892,
+     "matched": {
+      "fool": 2,
+      "tarot": 3,
+      "card": 2,
+      "the fool": 2
+     },
+     "text": "Perkeo: Consumables: Tarot cards: The Fool has a respectable synergy with Perkeo. By having multiple copies of The Fool, one can generate multiple copies of the desired Tarot card or Planet all at once, whether it be a suit-changing Tarot c"
+    }
+   ]
+  },
+  {
+   "question": "Which joker copies the ability of the joker to its right?",
+   "why": "sin nombre: depende de palabras compartidas",
+   "gold_page": "Blueprint",
+   "terms": [
+    "joker",
+    "copies",
+    "ability",
+    "right"
+   ],
+   "unmatched_terms": [],
+   "names": [
+    "joker",
+    "joker"
+   ],
+   "patterns_scanned": 4,
+   "chars_scanned": 4765364,
+   "time_ms_kmp": 1179.75,
+   "time_ms_z": 3991.4,
+   "same_ranking_kmp_z": true,
+   "answer_chunk_rank": 1,
+   "hits": [
+    {
+     "rank": 1,
+     "id": 95,
+     "title": "Blueprint",
+     "score": 12.974,
+     "matched": {
+      "joker": 6,
+      "copies": 2,
+      "ability": 1,
+      "right": 2
+     },
+     "text": "Blueprint: Blueprint (Joker). Effect: Copies ability of Joker to the right. Rarity: Rare. Unlock Requirement: Win a run. Buy Price: $10. Sell Price: $5. Type: Effect. Copyable: Yes. Perishable: Yes. Eternal: Yes. Blueprint is a Rare Effect "
+    },
+    {
+     "rank": 2,
+     "id": 2242,
+     "title": "Card Suits",
+     "score": 8.344,
+     "matched": {
+      "copies": 2,
+      "right": 1
+     },
+     "text": "Card Suits: The Lovers (converts 1 selected card into a Wild card) The Star (converts 3 selected cards to the Diamond suit) The Moon (converts 3 selected cards to the Club suit) The Sun (converts 3 selected cards to the Heart suit) The Worl"
+    },
+    {
+     "rank": 3,
+     "id": 114,
+     "title": "Brainstorm",
+     "score": 8.003,
+     "matched": {
+      "joker": 7,
+      "copies": 3,
+      "ability": 1
+     },
+     "text": "Brainstorm: Brainstorm (Joker). Effect: Copies the ability of leftmost Joker. Rarity: Rare. Unlock Requirement: Discard a Royal Flush. Buy Price: $10. Sell Price: $5. Type: Effect. Copyable: Yes. Perishable: Yes. Eternal: Yes. Brainstorm is"
+    },
+    {
+     "rank": 4,
+     "id": 1380,
+     "title": "Cryptid",
+     "score": 7.733,
+     "matched": {
+      "copies": 3,
+      "right": 1
+     },
+     "text": "Cryptid: Synergies: Cryptid synergizes very well with deck fixing cards when used correctly, such as The Hanged Man, because it is very effective and efficient in focusing the player's entire deck around multiple copies of a single card. Cr"
+    },
+    {
+     "rank": 5,
+     "id": 795,
+     "title": "Perkeo",
+     "score": 7.67,
+     "matched": {
+      "copies": 1,
+      "ability": 1
+     },
+     "text": "Perkeo: Planets: All poker hands benefit from Perkeo's ability evenly as its effect treats all Planets equally. The player can use the copies to level up the poker hand, keep them for extra score with Observatory, or form synergies with Gif"
+    }
+   ]
+  },
+  {
+   "question": "How much does Mr. Bones cost?",
+   "why": "sinonimo: 'cost' vs 'Buy Price'",
+   "gold_page": "Mr. Bones",
+   "terms": [
+    "much",
+    "mr",
+    "bones",
+    "cost"
+   ],
+   "unmatched_terms": [],
+   "names": [
+    "mr bones"
+   ],
+   "patterns_scanned": 5,
+   "chars_scanned": 5956705,
+   "time_ms_kmp": 569.53,
+   "time_ms_z": 1406.52,
+   "same_ranking_kmp_z": true,
+   "answer_chunk_rank": 4,
+   "hits": [
+    {
+     "rank": 1,
+     "id": 722,
+     "title": "Mr. Bones",
+     "score": 35.136,
+     "matched": {
+      "mr": 6,
+      "bones": 6,
+      "mr bones": 6
+     },
+     "text": "Mr. Bones: When dealing with Crimson Heart, a possible strategy is to sell all Jokers except for the one being debuffed and Mr. Bones when there are two hands left. As Crimson Heart will not select a Joker consecutively, this ensures that M"
+    },
+    {
+     "rank": 2,
+     "id": 717,
+     "title": "Mr. Bones",
+     "score": 34.543,
+     "matched": {
+      "mr": 6,
+      "bones": 6,
+      "mr bones": 6
+     },
+     "text": "Mr. Bones: Mr. Bones will not save the player when they run out of cards, even if the player has reached 25% of the chips requirement for the blind. Usage Notes: Anaglyph Deck still grants a Double Tag when the player is saved by Mr. Bones."
+    },
+    {
+     "rank": 3,
+     "id": 725,
+     "title": "Mr. Bones",
+     "score": 34.17,
+     "matched": {
+      "mr": 4,
+      "bones": 4,
+      "mr bones": 4
+     },
+     "text": "Mr. Bones: Mr. Bones is one of three \"spooky\" Jokers that came as a part of a pin set alongside Madness and Scary Face as a merch collab between LocalThunk and Makeship. As a part of the Ghost Deck Playing Cards set by Fangamer, Mr. Bones i"
+    },
+    {
+     "rank": 4,
+     "id": 716,
+     "title": "Mr. Bones",
+     "score": 33.113,
+     "matched": {
+      "mr": 5,
+      "bones": 5,
+      "mr bones": 5
+     },
+     "text": "Mr. Bones: Mr. Bones (Joker). Effect: Prevents Death if chips scored are at least 25% of required chips, self destructs. Rarity: Uncommon. Unlock Requirement: Lose 5 runs. Buy Price: $5. Sell Price: $2. Type: Effect. Activation: N/A (Passiv"
+    },
+    {
+     "rank": 5,
+     "id": 724,
+     "title": "Mr. Bones",
+     "score": 32.508,
+     "matched": {
+      "mr": 4,
+      "bones": 4,
+      "mr bones": 4
+     },
+     "text": "Mr. Bones: Normally, Mr. Bones cannot save the player if they run out of cards in their deck. However, if the player has two Mr. Bones, running out of cards puts the game in a glitched state where it ends the round every frame, with very st"
+    }
+   ]
+  },
+  {
+   "question": "What does Blueprnt do?",
+   "why": "typo en el nombre",
+   "gold_page": "Blueprint",
+   "terms": [
+    "blueprnt"
+   ],
+   "unmatched_terms": [
+    "blueprnt"
+   ],
+   "names": [],
+   "patterns_scanned": 0,
+   "chars_scanned": 0,
+   "time_ms_kmp": 2.89,
+   "time_ms_z": 2.76,
+   "same_ranking_kmp_z": true,
+   "answer_chunk_rank": null,
+   "hits": []
+  },
+  {
+   "question": "Which jokers give X1.5 Mult?",
+   "why": "simbolo de juego como termino",
+   "gold_page": null,
+   "terms": [
+    "jokers",
+    "give",
+    "x1.5",
+    "mult"
+   ],
+   "unmatched_terms": [],
+   "names": [],
+   "patterns_scanned": 4,
+   "chars_scanned": 4765364,
+   "time_ms_kmp": 632.09,
+   "time_ms_z": 5490.38,
+   "same_ranking_kmp_z": true,
+   "answer_chunk_rank": null,
+   "hits": [
+    {
+     "rank": 1,
+     "id": 1647,
+     "title": "Polychrome",
+     "score": 13.718,
+     "matched": {
+      "jokers": 2,
+      "give": 2,
+      "x1.5": 4,
+      "mult": 4
+     },
+     "text": "Polychrome: Polychrome (Edition). Type: Edition. Effect: X1.5 Mult. Polychrome is an edition card modifier that gives X1.5 Mult when on a playing card or Joker. Polychrome playing cards give X1.5 Mult when played or retriggered, and Polychr"
+    },
+    {
+     "rank": 2,
+     "id": 1650,
+     "title": "Polychrome",
+     "score": 11.233,
+     "matched": {
+      "jokers": 2,
+      "give": 3,
+      "x1.5": 2,
+      "mult": 7
+     },
+     "text": "Polychrome: Death, Cryptid, and DNA can duplicate Polychrome playing cards. Ankh and Invisible Joker are able to duplicate Polychrome Jokers. Usage notes: If Polychrome is on a card that gives additive Mult, the additive Mult will be added "
+    },
+    {
+     "rank": 3,
+     "id": 64,
+     "title": "Baseball Card",
+     "score": 11.063,
+     "matched": {
+      "jokers": 3,
+      "give": 1,
+      "x1.5": 2,
+      "mult": 4
+     },
+     "text": "Baseball Card: Baseball Card (Joker). Effect: Uncommon Jokers each give X1.5 Mult. Rarity: Rare. Unlock Requirement: Available from start. Buy Price: $8. Sell Price: $4. Type: Multiplicative Mult. Activation: On Other Jokers. Copyable: Yes."
+    },
+    {
+     "rank": 4,
+     "id": 1541,
+     "title": "Observatory",
+     "score": 11.032,
+     "matched": {
+      "jokers": 1,
+      "give": 2,
+      "x1.5": 2,
+      "mult": 2
+     },
+     "text": "Observatory: Observatory (Voucher). Type: Upgraded. Effect: Planet cards in your consumable area give X1.5 Mult for their specified poker hand. Unlock Requirement: Use a total of 25 Planet cards from any Celestial Pack. Buy Price: $10. Upgr"
+    },
+    {
+     "rank": 5,
+     "id": 1683,
+     "title": "Steel cards",
+     "score": 10.597,
+     "matched": {
+      "give": 1,
+      "x1.5": 2,
+      "mult": 2
+     },
+     "text": "Steel cards: Steel cards (Enhancement). Type: Enhancement. Effect: X1.5 Mult while this card stays in hand. Steel cards are Enhanced playing cards that give X1.5 Mult to a played hand while held in hand. This enhancement can be obtained or "
+    }
+   ]
+  },
+  {
+   "question": "Does the game have a joker called Pikachu?",
+   "why": "sin respuesta en el corpus",
+   "gold_page": null,
+   "terms": [
+    "game",
+    "joker",
+    "called",
+    "pikachu"
+   ],
+   "unmatched_terms": [
+    "pikachu"
+   ],
+   "names": [
+    "joker"
+   ],
+   "patterns_scanned": 3,
+   "chars_scanned": 3574023,
+   "time_ms_kmp": 891.61,
+   "time_ms_z": 3820.26,
+   "same_ranking_kmp_z": true,
+   "answer_chunk_rank": null,
+   "hits": [
+    {
+     "rank": 1,
+     "id": 1646,
+     "title": "Negative",
+     "score": 8.016,
+     "matched": {
+      "game": 2,
+      "called": 1
+     },
+     "text": "Negative: Near the end of the Balatro launch trailer, Mr. Bones appears to have an altered negative. In other media: In the same update where the Ante Chamber DLC was introduced in Vampire Survivors, a game mechanic that mainly gives the pl"
+    },
+    {
+     "rank": 2,
+     "id": 1002,
+     "title": "Spare Trousers",
+     "score": 7.927,
+     "matched": {
+      "game": 1,
+      "joker": 2,
+      "called": 1
+     },
+     "text": "Spare Trousers: Using Planet cards to level up Spare Trousers' applicable hands can partially compensate for the joker's late-game strength falloff. Trivia: The background of the card art consists of a pattern of little trousers (also calle"
+    },
+    {
+     "rank": 3,
+     "id": 1326,
+     "title": "Earth",
+     "score": 7.639,
+     "matched": {
+      "game": 1,
+      "joker": 1,
+      "called": 1
+     },
+     "text": "Earth: In versions before 0.9.0l-DEMO the background of Planet cards were grey instead of the cyan used since. In other media: This planet card (along with the planet icon), all of the other non-secret Planet cards, and the Rocket joker, ar"
+    },
+    {
+     "rank": 4,
+     "id": 1346,
+     "title": "Pluto",
+     "score": 7.639,
+     "matched": {
+      "game": 1,
+      "joker": 1,
+      "called": 1
+     },
+     "text": "Pluto: In versions before 0.9.0l-DEMO the background of Planet cards were grey instead of the cyan used since. In other media: This planet card (along with the planet icon), all of the other non-secret Planet cards, and the Rocket joker, ar"
+    },
+    {
+     "rank": 5,
+     "id": 183,
+     "title": "Canio",
+     "score": 7.396,
+     "matched": {
+      "game": 2,
+      "called": 1
+     },
+     "text": "Canio: The other legendary Jokers are Chicot, Perkeo, Triboulet, and Yorick. In some early versions of the game, the card was misspelled as \"Caino\". This is still true in internal references to the card within the game's code. Canio is a ce"
+    }
+   ]
+  }
+ ],
+ "micro_benchmark": [
+  {
+   "pattern": "mult",
+   "matches": 1438,
+   "kmp_ms": 306.9,
+   "z_ms": 1504.7,
+   "naive_ms": 326.5
+  },
+  {
+   "pattern": "blueprint",
+   "matches": 133,
+   "kmp_ms": 280.8,
+   "z_ms": 1141.0,
+   "naive_ms": 360.6
+  },
+  {
+   "pattern": "mr bones",
+   "matches": 61,
+   "kmp_ms": 269.1,
+   "z_ms": 835.3,
+   "naive_ms": 355.1
+  },
+  {
+   "pattern": "x1.5",
+   "matches": 65,
+   "kmp_ms": 291.0,
+   "z_ms": 1165.4,
+   "naive_ms": 360.1
+  }
+ ],
+ "scaling": [
+  {
+   "chunks": 562,
+   "corpus_chars": 313340,
+   "kmp_ms_per_term": 76.5,
+   "z_ms_per_term": 296.9
+  },
+  {
+   "chunks": 1124,
+   "corpus_chars": 625175,
+   "kmp_ms_per_term": 157.8,
+   "z_ms_per_term": 690.5
+  },
+  {
+   "chunks": 1686,
+   "corpus_chars": 911178,
+   "kmp_ms_per_term": 208.6,
+   "z_ms_per_term": 936.7
+  },
+  {
+   "chunks": 2249,
+   "corpus_chars": 1191341,
+   "kmp_ms_per_term": 363.0,
+   "z_ms_per_term": 1342.6
+  }
+ ],
+ "corpus": {
+  "chunks": 2249,
+  "chars": 1191341
+ }
+}
