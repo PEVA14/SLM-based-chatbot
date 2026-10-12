@@ -1,0 +1,192 @@
+{
+ "scaling": [
+  {
+   "factor": 0.25,
+   "chunks": 562,
+   "corpus_chars": 313340,
+   "index_build_ms": 525,
+   "exact_kmp_ms": 275.39,
+   "exact_index_ms": 1.54,
+   "approx_ms": 7.73
+  },
+  {
+   "factor": 0.5,
+   "chunks": 1124,
+   "corpus_chars": 625175,
+   "index_build_ms": 1562,
+   "exact_kmp_ms": 596.28,
+   "exact_index_ms": 2.14,
+   "approx_ms": 9.97
+  },
+  {
+   "factor": 1,
+   "chunks": 2249,
+   "corpus_chars": 1191341,
+   "index_build_ms": 2366,
+   "exact_kmp_ms": 1070.54,
+   "exact_index_ms": 7.07,
+   "approx_ms": 13.78
+  },
+  {
+   "factor": 2,
+   "chunks": 4498,
+   "corpus_chars": 2382683,
+   "index_build_ms": 4274,
+   "exact_kmp_ms": 2083.06,
+   "exact_index_ms": 7.78,
+   "approx_ms": 20.8
+  },
+  {
+   "factor": 4,
+   "chunks": 8996,
+   "corpus_chars": 4765367,
+   "index_build_ms": 8088,
+   "exact_kmp_ms": 4154.11,
+   "exact_index_ms": 19.09,
+   "approx_ms": 33.59
+  }
+ ],
+ "context_selection": [
+  {
+   "config": "top-1 fragmento",
+   "correct": 22,
+   "answerable": 23,
+   "wrong": 1,
+   "abstained": 0,
+   "context_has_answer": 23,
+   "correct_abstention": 3,
+   "unanswerable": 3,
+   "hallucinated": 0,
+   "mean_context_words": 91.7,
+   "mean_model_ms": 443
+  },
+  {
+   "config": "top-2 fragmentos",
+   "correct": 22,
+   "answerable": 23,
+   "wrong": 0,
+   "abstained": 1,
+   "context_has_answer": 23,
+   "correct_abstention": 3,
+   "unanswerable": 3,
+   "hallucinated": 0,
+   "mean_context_words": 184.1,
+   "mean_model_ms": 870
+  },
+  {
+   "config": "top-3 fragmentos",
+   "correct": 21,
+   "answerable": 23,
+   "wrong": 1,
+   "abstained": 1,
+   "context_has_answer": 23,
+   "correct_abstention": 3,
+   "unanswerable": 3,
+   "hallucinated": 0,
+   "mean_context_words": 270.5,
+   "mean_model_ms": 1376
+  },
+  {
+   "config": "top-4 (configuracion por defecto)",
+   "correct": 22,
+   "answerable": 23,
+   "wrong": 0,
+   "abstained": 1,
+   "context_has_answer": 23,
+   "correct_abstention": 3,
+   "unanswerable": 3,
+   "hallucinated": 0,
+   "mean_context_words": 286.2,
+   "mean_model_ms": 1412
+  },
+  {
+   "config": "top-6, hasta 600 palabras",
+   "correct": 21,
+   "answerable": 23,
+   "wrong": 1,
+   "abstained": 1,
+   "context_has_answer": 23,
+   "correct_abstention": 3,
+   "unanswerable": 3,
+   "hallucinated": 0,
+   "mean_context_words": 535.1,
+   "mean_model_ms": 2659
+  },
+  {
+   "config": "top-4 sin filtro de redundancia",
+   "correct": 22,
+   "answerable": 23,
+   "wrong": 0,
+   "abstained": 1,
+   "context_has_answer": 23,
+   "correct_abstention": 3,
+   "unanswerable": 3,
+   "hallucinated": 0,
+   "mean_context_words": 286.2,
+   "mean_model_ms": 1377
+  },
+  {
+   "config": "presupuesto 100 palabras",
+   "correct": 10,
+   "answerable": 23,
+   "wrong": 3,
+   "abstained": 10,
+   "context_has_answer": 10,
+   "correct_abstention": 3,
+   "unanswerable": 3,
+   "hallucinated": 0,
+   "mean_context_words": 80.9,
+   "mean_model_ms": 426
+  },
+  {
+   "config": "presupuesto 200 palabras",
+   "correct": 22,
+   "answerable": 23,
+   "wrong": 0,
+   "abstained": 1,
+   "context_has_answer": 23,
+   "correct_abstention": 3,
+   "unanswerable": 3,
+   "hallucinated": 0,
+   "mean_context_words": 168.4,
+   "mean_model_ms": 654
+  },
+  {
+   "config": "defecto + 2 fragmentos al azar",
+   "correct": 20,
+   "answerable": 23,
+   "wrong": 1,
+   "abstained": 2,
+   "context_has_answer": 23,
+   "correct_abstention": 3,
+   "unanswerable": 3,
+   "hallucinated": 0,
+   "mean_context_words": 478.5,
+   "mean_model_ms": 2642
+  },
+  {
+   "config": "defecto + 4 fragmentos al azar",
+   "correct": 19,
+   "answerable": 23,
+   "wrong": 1,
+   "abstained": 3,
+   "context_has_answer": 23,
+   "correct_abstention": 3,
+   "unanswerable": 3,
+   "hallucinated": 0,
+   "mean_context_words": 661.2,
+   "mean_model_ms": 3332
+  }
+ ],
+ "scale_questions": [
+  "What rarity is Blueprint?",
+  "What does Mime do?",
+  "How much does Hologram cost?",
+  "Which joker copies the ability of the leftmost joker?",
+  "Which joker gives +15 Mult but can be destroyed at end of round?",
+  "What does Blueprnt do?",
+  "Which jokers retrigger played cards?",
+  "Does the game have a joker called Pikachu?"
+ ],
+ "seed": 20261002
+}
