@@ -1,0 +1,3398 @@
+{
+ "summary": {
+  "approx": {
+   "questions": 26,
+   "answerable": 23,
+   "unanswerable": 3,
+   "correct": 22,
+   "accuracy_answerable": 0.957,
+   "wrong_with_support": 0,
+   "wrong_no_support": 0,
+   "abstained_with_support": 1,
+   "abstained_no_support": 0,
+   "correct_abstention": 3,
+   "hallucinated": 0,
+   "context_contains_answer": 23,
+   "mean_retrieval_ms": 15.7,
+   "mean_context_ms": 1.49,
+   "mean_model_ms": 1452.7,
+   "mean_total_ms": 1478.8,
+   "mean_context_chunks": 3.23,
+   "by_kind": {
+    "direct": {
+     "n": 11,
+     "correct": 11
+    },
+    "inflection": {
+     "n": 1,
+     "correct": 0
+    },
+    "no_name": {
+     "n": 2,
+     "correct": 2
+    },
+    "symbol": {
+     "n": 2,
+     "correct": 2
+    },
+    "synonym": {
+     "n": 3,
+     "correct": 3
+    },
+    "typo": {
+     "n": 4,
+     "correct": 4
+    }
+   }
+  },
+  "exact": {
+   "questions": 26,
+   "answerable": 23,
+   "unanswerable": 3,
+   "correct": 15,
+   "accuracy_answerable": 0.652,
+   "wrong_with_support": 2,
+   "wrong_no_support": 0,
+   "abstained_with_support": 1,
+   "abstained_no_support": 5,
+   "correct_abstention": 3,
+   "hallucinated": 0,
+   "context_contains_answer": 18,
+   "mean_retrieval_ms": 1061.2,
+   "mean_context_ms": 1.09,
+   "mean_model_ms": 1373.7,
+   "mean_total_ms": 2452.2,
+   "mean_context_chunks": 3.04,
+   "by_kind": {
+    "direct": {
+     "n": 11,
+     "correct": 9
+    },
+    "inflection": {
+     "n": 1,
+     "correct": 0
+    },
+    "no_name": {
+     "n": 2,
+     "correct": 1
+    },
+    "symbol": {
+     "n": 2,
+     "correct": 2
+    },
+    "synonym": {
+     "n": 3,
+     "correct": 3
+    },
+    "typo": {
+     "n": 4,
+     "correct": 0
+    }
+   }
+  }
+ },
+ "per_question": {
+  "What rarity is Blueprint?": {
+   "kind": "direct",
+   "expected": [
+    "rare"
+   ],
+   "approx": {
+    "prompt_question": "What rarity is Blueprint?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 95,
+      "title": "Blueprint",
+      "score": 11.879,
+      "text": "Blueprint: Blueprint (Joker). Effect: Copies ability of Joker to the right. Rarity: Rare. Unlock Requirement: Win a run. Buy Price: $10. Sell Price: $5. Type: Effect. Copyable: Yes. Perishable: Yes. Eternal: Yes. Blueprint is a Rare Effect Joker that copies the effect of the Joker to its immediate right. Not all Jokers are compatible with Blueprint, as Blueprint cannot copy any \"passive modifier\" effects, but Blueprint itself is compatible. Blueprint's compatibility with other Jokers can be seen under its effect. This Joker is unlocked once the player wins their first run. This Joker shares an unlock requirement with the Heads Up achievement."
+     },
+     {
+      "id": 99,
+      "title": "Blueprint",
+      "score": 9.359,
+      "text": "Blueprint: Poker Hands: Any hand can benefit from Blueprint in the usual ways. The only hand-specific Jokers that are incompatible with Blueprint are independent effects such as Shortcut. Jokers: Blueprint is an essential Joker and combines well with virtually any other Joker to double its effect. When stacked with Brainstorm or another Blueprint, each will add one more copy of the copied effect. When combining Blueprint with Brainstorm, Blueprint can be placed to the left of Brainstorm or to the left of the leftmost Joker (to be copied), depending on the desired order of Joker activation."
+     },
+     {
+      "id": 101,
+      "title": "Blueprint",
+      "score": 9.079,
+      "text": "Blueprint: A few Jokers have both \"trigger\" effects that Blueprint can copy and \"passive\" ones that it cannot. Stuntman, for example, gives +250 Chips, a \"trigger\" effect, and -2 Hand Size, a \"passive\" effect. Therefore, Blueprint copies the +250 Chips, but not the -2 Hand Size. If jokers that take effect upon selling them (Luchador and Diet Cola, not including Invisible Joker) get copied, Blueprint can be sold to trigger the effect. However, on mobile devices, dragging Blueprint to sell it could change the order of Jokers, changing its effect."
+     }
+    ],
+    "skipped": [
+     [
+      97,
+      "excede el limite de palabras"
+     ],
+     [
+      98,
+      "excede el limite de palabras"
+     ],
+     [
+      104,
+      "excede el limite de palabras"
+     ],
+     [
+      103,
+      "excede el limite de palabras"
+     ],
+     [
+      102,
+      "excede el limite de palabras"
+     ],
+     [
+      105,
+      "excede el limite de palabras"
+     ],
+     [
+      96,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Rare",
+    "confidence": 0.915,
+    "abstained": false,
+    "supporting_chunk": 95,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 2.26,
+     "retrieval": 9.9,
+     "context": 0.9,
+     "model": 1247.89,
+     "retrieval_total": 11.09,
+     "total": 1261.25
+    }
+   },
+   "exact": {
+    "prompt_question": "What rarity is Blueprint?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 95,
+      "title": "Blueprint",
+      "score": 11.913,
+      "text": "Blueprint: Blueprint (Joker). Effect: Copies ability of Joker to the right. Rarity: Rare. Unlock Requirement: Win a run. Buy Price: $10. Sell Price: $5. Type: Effect. Copyable: Yes. Perishable: Yes. Eternal: Yes. Blueprint is a Rare Effect Joker that copies the effect of the Joker to its immediate right. Not all Jokers are compatible with Blueprint, as Blueprint cannot copy any \"passive modifier\" effects, but Blueprint itself is compatible. Blueprint's compatibility with other Jokers can be seen under its effect. This Joker is unlocked once the player wins their first run. This Joker shares an unlock requirement with the Heads Up achievement."
+     },
+     {
+      "id": 99,
+      "title": "Blueprint",
+      "score": 9.393,
+      "text": "Blueprint: Poker Hands: Any hand can benefit from Blueprint in the usual ways. The only hand-specific Jokers that are incompatible with Blueprint are independent effects such as Shortcut. Jokers: Blueprint is an essential Joker and combines well with virtually any other Joker to double its effect. When stacked with Brainstorm or another Blueprint, each will add one more copy of the copied effect. When combining Blueprint with Brainstorm, Blueprint can be placed to the left of Brainstorm or to the left of the leftmost Joker (to be copied), depending on the desired order of Joker activation."
+     },
+     {
+      "id": 101,
+      "title": "Blueprint",
+      "score": 9.111,
+      "text": "Blueprint: A few Jokers have both \"trigger\" effects that Blueprint can copy and \"passive\" ones that it cannot. Stuntman, for example, gives +250 Chips, a \"trigger\" effect, and -2 Hand Size, a \"passive\" effect. Therefore, Blueprint copies the +250 Chips, but not the -2 Hand Size. If jokers that take effect upon selling them (Luchador and Diet Cola, not including Invisible Joker) get copied, Blueprint can be sold to trigger the effect. However, on mobile devices, dragging Blueprint to sell it could change the order of Jokers, changing its effect."
+     }
+    ],
+    "skipped": [
+     [
+      97,
+      "excede el limite de palabras"
+     ],
+     [
+      98,
+      "excede el limite de palabras"
+     ],
+     [
+      104,
+      "excede el limite de palabras"
+     ],
+     [
+      103,
+      "excede el limite de palabras"
+     ],
+     [
+      102,
+      "excede el limite de palabras"
+     ],
+     [
+      105,
+      "excede el limite de palabras"
+     ],
+     [
+      96,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Rare",
+    "confidence": 0.915,
+    "abstained": false,
+    "supporting_chunk": 95,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 2.07,
+     "retrieval": 642.68,
+     "context": 0.6,
+     "model": 1244.23,
+     "retrieval_total": 684.32,
+     "total": 1930.63
+    }
+   }
+  },
+  "How do I unlock Brainstorm?": {
+   "kind": "direct",
+   "expected": [
+    "royal flush"
+   ],
+   "approx": {
+    "prompt_question": "How do I unlock Brainstorm?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 114,
+      "title": "Brainstorm",
+      "score": 12.053,
+      "text": "Brainstorm: Brainstorm (Joker). Effect: Copies the ability of leftmost Joker. Rarity: Rare. Unlock Requirement: Discard a Royal Flush. Buy Price: $10. Sell Price: $5. Type: Effect. Copyable: Yes. Perishable: Yes. Eternal: Yes. Brainstorm is a Rare Effect Joker that copies the effect of the player's leftmost Joker. Unlike Blueprint, moving Brainstorm around will not change what it copies, only when it does so. To change the Joker that is being copied, a different Joker will need to be moved to the leftmost position. There are some Jokers that cannot be copied, and putting Brainstorm itself in the leftmost position will cause it to do nothing. If Blueprint is in the left-most position, Brainstorm will copy the same joker Blueprint is copying. Brainstorm's compatibility with other Jokers can be seen in its tooltip."
+     },
+     {
+      "id": 120,
+      "title": "Brainstorm",
+      "score": 10.863,
+      "text": "Brainstorm: When multiple copies are combined with Baron and Mime, usually while using Plasma Deck, players can achieve the elusive Naneinf score. When copying a Blueprint, Brainstorm will copy whichever effect Blueprint is copying, not the Blueprint itself. While it will not work with them, Jokers such as Smeared Joker and Four Fingers can be used to unlock Brainstorm more easily. See the Blueprint page for more general copying strategies. Decks: On a Knife's Edge starts with a copy of Ceremonial Dagger pinned to the leftmost position, which means Brainstorm can only copy that Joker, limiting its usage. Incompatible Jokers: There are 29 Jokers that are entirely incompatible with Brainstorm:"
+     },
+     {
+      "id": 124,
+      "title": "Brainstorm",
+      "score": 8.883,
+      "text": "Brainstorm: If the collection were a set of joker slots, Brainstorm would be copying Stuntman. The texture of this Joker has protruding areas on the right and down sides, slightly exceeding the boundaries of a standard Joker. This may represent the ragged edge of the napkin after being torn off. The other Joker with this similar property is Hallucination. Brainstorm appears on the artwork of the Mega Buffoon Pack."
+     }
+    ],
+    "skipped": [
+     [
+      118,
+      "excede el limite de palabras"
+     ],
+     [
+      119,
+      "excede el limite de palabras"
+     ],
+     [
+      116,
+      "excede el limite de palabras"
+     ],
+     [
+      121,
+      "excede el limite de palabras"
+     ],
+     [
+      122,
+      "excede el limite de palabras"
+     ],
+     [
+      117,
+      "excede el limite de palabras"
+     ],
+     [
+      115,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Discard a Royal Flush",
+    "confidence": 0.57,
+    "abstained": false,
+    "supporting_chunk": 114,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 2.96,
+     "retrieval": 13.16,
+     "context": 1.95,
+     "model": 1425.76,
+     "retrieval_total": 16.23,
+     "total": 1444.95
+    }
+   },
+   "exact": {
+    "prompt_question": "How do I unlock Brainstorm?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 114,
+      "title": "Brainstorm",
+      "score": 12.098,
+      "text": "Brainstorm: Brainstorm (Joker). Effect: Copies the ability of leftmost Joker. Rarity: Rare. Unlock Requirement: Discard a Royal Flush. Buy Price: $10. Sell Price: $5. Type: Effect. Copyable: Yes. Perishable: Yes. Eternal: Yes. Brainstorm is a Rare Effect Joker that copies the effect of the player's leftmost Joker. Unlike Blueprint, moving Brainstorm around will not change what it copies, only when it does so. To change the Joker that is being copied, a different Joker will need to be moved to the leftmost position. There are some Jokers that cannot be copied, and putting Brainstorm itself in the leftmost position will cause it to do nothing. If Blueprint is in the left-most position, Brainstorm will copy the same joker Blueprint is copying. Brainstorm's compatibility with other Jokers can be seen in its tooltip."
+     },
+     {
+      "id": 120,
+      "title": "Brainstorm",
+      "score": 10.908,
+      "text": "Brainstorm: When multiple copies are combined with Baron and Mime, usually while using Plasma Deck, players can achieve the elusive Naneinf score. When copying a Blueprint, Brainstorm will copy whichever effect Blueprint is copying, not the Blueprint itself. While it will not work with them, Jokers such as Smeared Joker and Four Fingers can be used to unlock Brainstorm more easily. See the Blueprint page for more general copying strategies. Decks: On a Knife's Edge starts with a copy of Ceremonial Dagger pinned to the leftmost position, which means Brainstorm can only copy that Joker, limiting its usage. Incompatible Jokers: There are 29 Jokers that are entirely incompatible with Brainstorm:"
+     },
+     {
+      "id": 124,
+      "title": "Brainstorm",
+      "score": 8.917,
+      "text": "Brainstorm: If the collection were a set of joker slots, Brainstorm would be copying Stuntman. The texture of this Joker has protruding areas on the right and down sides, slightly exceeding the boundaries of a standard Joker. This may represent the ragged edge of the napkin after being torn off. The other Joker with this similar property is Hallucination. Brainstorm appears on the artwork of the Mega Buffoon Pack."
+     }
+    ],
+    "skipped": [
+     [
+      118,
+      "excede el limite de palabras"
+     ],
+     [
+      119,
+      "excede el limite de palabras"
+     ],
+     [
+      116,
+      "excede el limite de palabras"
+     ],
+     [
+      121,
+      "excede el limite de palabras"
+     ],
+     [
+      122,
+      "excede el limite de palabras"
+     ],
+     [
+      117,
+      "excede el limite de palabras"
+     ],
+     [
+      115,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Discard a Royal Flush",
+    "confidence": 0.57,
+    "abstained": false,
+    "supporting_chunk": 114,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 6.27,
+     "retrieval": 835.42,
+     "context": 1.06,
+     "model": 1322.06,
+     "retrieval_total": 836.99,
+     "total": 2165.32
+    }
+   }
+  },
+  "What does Mime do?": {
+   "kind": "direct",
+   "expected": [
+    "retrigger"
+   ],
+   "approx": {
+    "prompt_question": "What is the effect of Mime?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 699,
+      "title": "Mime",
+      "score": 10.702,
+      "text": "Mime: Mime (Joker). Effect: Retrigger all card held in hand abilities. Rarity: Uncommon. Unlock Requirement: Available from start. Buy Price: $5. Sell Price: $2. Type: Retrigger. Activation: On Held. Copyable: Yes. Perishable: Yes. Eternal: Yes. Mime is an Uncommon Retrigger Joker that can retrigger all held in hand effects (cards that are not played but remain in hand)."
+     },
+     {
+      "id": 700,
+      "title": "Mime",
+      "score": 9.888,
+      "text": "Mime: Mime can retrigger Gold and Steel cards, as well as Blue Seals. Mime will also retrigger other Jokers that activate from held in hand cards, such as Baron. It is important to note that Mime will not reactivate a Red Seal a second time. For example, a Red Seal Gold card, will only activate three times with Mime, giving a total of $9 after the round ends. Decks: The Painted Deck gives an additional +2 to the player's hand size, allowing Mime to activate more cards. The Ghost Deck allows for Spectral cards to be readily available in the Shop, making Seals more attainable."
+     },
+     {
+      "id": 706,
+      "title": "Mime",
+      "score": 9.83,
+      "text": "Mime: Blinds: The Hook activates before Mime does, and can remove desirable cards from a player's hand during scoring. Trivia: The word \"Mime\" comes from the Greek word \"mimos\" (μῖμος) which means \"imitator\" or \"actor\", as well as the Greek adjective \"mimikos\" (μιμικός) which roughly translates to \"of or pertaining to imitation/mimicry\". This is well reflected in the Mime's ability to imitate the effects of some card modifiers. Although mimes originated in Ancient Greece and Rome, Mime's design is based on the modern French mime, likely because that depiction is more universally recognized. This is reflected in the card's artwork, which features stereotypical French elements such as a beret and a red scarf."
+     }
+    ],
+    "skipped": [
+     [
+      704,
+      "excede el limite de palabras"
+     ],
+     [
+      702,
+      "excede el limite de palabras"
+     ],
+     [
+      703,
+      "excede el limite de palabras"
+     ],
+     [
+      705,
+      "excede el limite de palabras"
+     ],
+     [
+      701,
+      "excede el limite de palabras"
+     ],
+     [
+      98,
+      "excede el limite de palabras"
+     ],
+     [
+      1686,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Retrigger all card held in hand abilities",
+    "confidence": 0.782,
+    "abstained": false,
+    "supporting_chunk": 699,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 2.73,
+     "retrieval": 4.8,
+     "context": 3.38,
+     "model": 1356.3,
+     "retrieval_total": 9.61,
+     "total": 1368.64
+    }
+   },
+   "exact": {
+    "prompt_question": "What is the effect of Mime?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 699,
+      "title": "Mime",
+      "score": 10.702,
+      "text": "Mime: Mime (Joker). Effect: Retrigger all card held in hand abilities. Rarity: Uncommon. Unlock Requirement: Available from start. Buy Price: $5. Sell Price: $2. Type: Retrigger. Activation: On Held. Copyable: Yes. Perishable: Yes. Eternal: Yes. Mime is an Uncommon Retrigger Joker that can retrigger all held in hand effects (cards that are not played but remain in hand)."
+     },
+     {
+      "id": 700,
+      "title": "Mime",
+      "score": 9.888,
+      "text": "Mime: Mime can retrigger Gold and Steel cards, as well as Blue Seals. Mime will also retrigger other Jokers that activate from held in hand cards, such as Baron. It is important to note that Mime will not reactivate a Red Seal a second time. For example, a Red Seal Gold card, will only activate three times with Mime, giving a total of $9 after the round ends. Decks: The Painted Deck gives an additional +2 to the player's hand size, allowing Mime to activate more cards. The Ghost Deck allows for Spectral cards to be readily available in the Shop, making Seals more attainable."
+     },
+     {
+      "id": 706,
+      "title": "Mime",
+      "score": 9.83,
+      "text": "Mime: Blinds: The Hook activates before Mime does, and can remove desirable cards from a player's hand during scoring. Trivia: The word \"Mime\" comes from the Greek word \"mimos\" (μῖμος) which means \"imitator\" or \"actor\", as well as the Greek adjective \"mimikos\" (μιμικός) which roughly translates to \"of or pertaining to imitation/mimicry\". This is well reflected in the Mime's ability to imitate the effects of some card modifiers. Although mimes originated in Ancient Greece and Rome, Mime's design is based on the modern French mime, likely because that depiction is more universally recognized. This is reflected in the card's artwork, which features stereotypical French elements such as a beret and a red scarf."
+     }
+    ],
+    "skipped": [
+     [
+      704,
+      "excede el limite de palabras"
+     ],
+     [
+      702,
+      "excede el limite de palabras"
+     ],
+     [
+      703,
+      "excede el limite de palabras"
+     ],
+     [
+      705,
+      "excede el limite de palabras"
+     ],
+     [
+      701,
+      "excede el limite de palabras"
+     ],
+     [
+      98,
+      "excede el limite de palabras"
+     ],
+     [
+      1686,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Retrigger all card held in hand abilities",
+    "confidence": 0.782,
+    "abstained": false,
+    "supporting_chunk": 699,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 4.94,
+     "retrieval": 563.85,
+     "context": 1.23,
+     "model": 1321.07,
+     "retrieval_total": 566.18,
+     "total": 1892.2
+    }
+   }
+  },
+  "What does The Fool tarot card do?": {
+   "kind": "direct",
+   "expected": [
+    "planet"
+   ],
+   "approx": {
+    "prompt_question": "What is the effect of The Fool tarot card?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 1276,
+      "title": "The Fool",
+      "score": 15.674,
+      "text": "The Fool: The Fool (Tarot card). Type: Tarot. Effect: Creates the last Tarot or Planet card used during this run, The Fool excluded. Unlock Requirement: Available from start. Buy Price: $3. Sell Price: $1. The Fool is a Tarot card that allows the player to create another copy of the last Tarot or Planet card used during the current run, excluding The Fool itself."
+     },
+     {
+      "id": 1278,
+      "title": "The Fool",
+      "score": 13.5,
+      "text": "The Fool: The Magic Deck starts the player with two copies of The Fool. Trivia: The icon of the final achievement of Balatro, Completionist++, is a golden version of The Fool's drawing. The Fool is one of the four Tarot cards that appears on the artwork for one of the normal Arcana Packs. The other Tarot cards are Temperance, The Hierophant and The World."
+     },
+     {
+      "id": 1277,
+      "title": "The Fool",
+      "score": 13.381,
+      "text": "The Fool: Usage notes: The Fool cannot be used if your consumable area is full. If The Fool was your last used Tarot or Planet card, you cannot use The Fool again until you use a different card. Spectral cards do not affect The Fool at all, thus the player cannot create a copy of the last Spectral card they used before The Fool. This also applies to Spectral cards from Arcana and Celestial Packs (The Soul and Black Hole) and Spectral cards from Omen Globe since they are still Spectral cards. Editions on Tarot/Planet cards, such as the Negative edition from Perkeo, are not copied by The Fool. The Magic Deck starts the player with two copies of The Fool."
+     }
+    ],
+    "skipped": [
+     [
+      1270,
+      "excede el limite de palabras"
+     ],
+     [
+      790,
+      "excede el limite de palabras"
+     ],
+     [
+      1320,
+      "excede el limite de palabras"
+     ],
+     [
+      1288,
+      "excede el limite de palabras"
+     ],
+     [
+      1271,
+      "excede el limite de palabras"
+     ],
+     [
+      1491,
+      "excede el limite de palabras"
+     ],
+     [
+      401,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Creates the last Tarot or Planet card used during this run",
+    "confidence": 0.092,
+    "abstained": false,
+    "supporting_chunk": 1276,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 12.39,
+     "retrieval": 17.35,
+     "context": 1.22,
+     "model": 791.12,
+     "retrieval_total": 20.26,
+     "total": 823.77
+    }
+   },
+   "exact": {
+    "prompt_question": "What is the effect of The Fool tarot card?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 1276,
+      "title": "The Fool",
+      "score": 30.931,
+      "text": "The Fool: The Fool (Tarot card). Type: Tarot. Effect: Creates the last Tarot or Planet card used during this run, The Fool excluded. Unlock Requirement: Available from start. Buy Price: $3. Sell Price: $1. The Fool is a Tarot card that allows the player to create another copy of the last Tarot or Planet card used during the current run, excluding The Fool itself."
+     },
+     {
+      "id": 1277,
+      "title": "The Fool",
+      "score": 28.496,
+      "text": "The Fool: Usage notes: The Fool cannot be used if your consumable area is full. If The Fool was your last used Tarot or Planet card, you cannot use The Fool again until you use a different card. Spectral cards do not affect The Fool at all, thus the player cannot create a copy of the last Spectral card they used before The Fool. This also applies to Spectral cards from Arcana and Celestial Packs (The Soul and Black Hole) and Spectral cards from Omen Globe since they are still Spectral cards. Editions on Tarot/Planet cards, such as the Negative edition from Perkeo, are not copied by The Fool. The Magic Deck starts the player with two copies of The Fool."
+     },
+     {
+      "id": 1278,
+      "title": "The Fool",
+      "score": 27.265,
+      "text": "The Fool: The Magic Deck starts the player with two copies of The Fool. Trivia: The icon of the final achievement of Balatro, Completionist++, is a golden version of The Fool's drawing. The Fool is one of the four Tarot cards that appears on the artwork for one of the normal Arcana Packs. The other Tarot cards are Temperance, The Hierophant and The World."
+     },
+     {
+      "id": 1886,
+      "title": "Magic Deck",
+      "score": 18.213,
+      "text": "Magic Deck: Magic Deck (Deck). Effect: Start run with the Crystal Ball voucher and 2 copies of The Fool. Unlock Requirement: Win a run with the Red Deck on any difficulty. The Magic Deck is an unlockable deck that starts the player off with Crystal Ball and 2 copies of The Fool. This deck is unlocked by winning a run with the Red Deck on any any difficulty."
+     }
+    ],
+    "skipped": [
+     [
+      1270,
+      "excede el limite de palabras"
+     ],
+     [
+      790,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Start run with the Crystal Ball voucher and 2 copies of The Fool",
+    "confidence": 0.346,
+    "abstained": false,
+    "supporting_chunk": 1886,
+    "outcome": "wrong_with_support",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 9.07,
+     "retrieval": 2386.76,
+     "context": 1.19,
+     "model": 1481.08,
+     "retrieval_total": 2389.89,
+     "total": 3880.03
+    }
+   }
+  },
+  "What does Cavendish do?": {
+   "kind": "direct",
+   "expected": [
+    "x3"
+   ],
+   "approx": {
+    "prompt_question": "What is the effect of Cavendish?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 208,
+      "title": "Cavendish",
+      "score": 11.193,
+      "text": "Cavendish: Cavendish (Joker). Effect: X3 Mult, 1 in 1000 chance this card is destroyed at the end of round. Rarity: Common. Unlock Requirement: Available from start. Spawn Condition: Only obtainable if Gros Michel has gone \"extinct\" during the current run. Buy Price: $4. Sell Price: $2. Type: Multiplicative Mult. Activation: Independent. Probability-Based: Yes. Copyable: Yes. Perishable: Yes. Eternal: ✗ No. Cavendish is a Common Multiplicative Mult Joker that provides an immediate and unconditional X3 Mult to all hands played. With many other similar cards having an activation requirement or warranting scaling, this Mult bonus makes Cavendish among the best in its class, arguably the best Common Joker, and potentially one of the best in the game."
+     },
+     {
+      "id": 213,
+      "title": "Cavendish",
+      "score": 10.877,
+      "text": "Cavendish: Cavendish is one of the few Jokers to be found in a recently released pin collection by Makeship, including Jimbo and a The Wheel of Fortune's \"Nope!\" Cavendish appears on an Ante Up! shirt in a merch collaboration with Fangamer. The two other jokers that appear on the same shirt include Joker and Popcorn. In other media: Cavendish appears as a weapon in the Ante Chamber DLC of Vampire Survivors. The card art of this joker specifically appears upon the activation of the \"Bananastrophe\" event. Cavendish appears as an artifact in Monster Train 2."
+     },
+     {
+      "id": 210,
+      "title": "Cavendish",
+      "score": 10.435,
+      "text": "Cavendish: Decks: This Joker works well with any of the Decks, as it gives X3 Mult to every hand played. Poker hands: Any hand can benefit from this Joker for the same reasons that any of the Decks can. Jokers: Cavendish, as any Multplicative Mult Joker, pairs incredibly well with Additive Mult Jokers and other Multiplicative Mult Jokers, especially scaling ones. This includes Jokers such as Green Joker, Fortune Teller and Flash Card. Copying Cavendish with Blueprint and Brainstorm does not increase the probability of self-destruction of Cavendish or cause the copying Joker to self-destruct, so they can be used without additional risks."
+     }
+    ],
+    "skipped": [
+     [
+      211,
+      "excede el limite de palabras"
+     ],
+     [
+      212,
+      "excede el limite de palabras"
+     ],
+     [
+      209,
+      "excede el limite de palabras"
+     ],
+     [
+      818,
+      "excede el limite de palabras"
+     ],
+     [
+      482,
+      "excede el limite de palabras"
+     ],
+     [
+      477,
+      "excede el limite de palabras"
+     ],
+     [
+      1316,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "X3 Mult",
+    "confidence": 0.387,
+    "abstained": false,
+    "supporting_chunk": 208,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 3.97,
+     "retrieval": 9.67,
+     "context": 0.68,
+     "model": 2324.35,
+     "retrieval_total": 11.19,
+     "total": 2339.51
+    }
+   },
+   "exact": {
+    "prompt_question": "What is the effect of Cavendish?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 208,
+      "title": "Cavendish",
+      "score": 11.193,
+      "text": "Cavendish: Cavendish (Joker). Effect: X3 Mult, 1 in 1000 chance this card is destroyed at the end of round. Rarity: Common. Unlock Requirement: Available from start. Spawn Condition: Only obtainable if Gros Michel has gone \"extinct\" during the current run. Buy Price: $4. Sell Price: $2. Type: Multiplicative Mult. Activation: Independent. Probability-Based: Yes. Copyable: Yes. Perishable: Yes. Eternal: ✗ No. Cavendish is a Common Multiplicative Mult Joker that provides an immediate and unconditional X3 Mult to all hands played. With many other similar cards having an activation requirement or warranting scaling, this Mult bonus makes Cavendish among the best in its class, arguably the best Common Joker, and potentially one of the best in the game."
+     },
+     {
+      "id": 213,
+      "title": "Cavendish",
+      "score": 10.877,
+      "text": "Cavendish: Cavendish is one of the few Jokers to be found in a recently released pin collection by Makeship, including Jimbo and a The Wheel of Fortune's \"Nope!\" Cavendish appears on an Ante Up! shirt in a merch collaboration with Fangamer. The two other jokers that appear on the same shirt include Joker and Popcorn. In other media: Cavendish appears as a weapon in the Ante Chamber DLC of Vampire Survivors. The card art of this joker specifically appears upon the activation of the \"Bananastrophe\" event. Cavendish appears as an artifact in Monster Train 2."
+     },
+     {
+      "id": 210,
+      "title": "Cavendish",
+      "score": 10.435,
+      "text": "Cavendish: Decks: This Joker works well with any of the Decks, as it gives X3 Mult to every hand played. Poker hands: Any hand can benefit from this Joker for the same reasons that any of the Decks can. Jokers: Cavendish, as any Multplicative Mult Joker, pairs incredibly well with Additive Mult Jokers and other Multiplicative Mult Jokers, especially scaling ones. This includes Jokers such as Green Joker, Fortune Teller and Flash Card. Copying Cavendish with Blueprint and Brainstorm does not increase the probability of self-destruction of Cavendish or cause the copying Joker to self-destruct, so they can be used without additional risks."
+     }
+    ],
+    "skipped": [
+     [
+      211,
+      "excede el limite de palabras"
+     ],
+     [
+      212,
+      "excede el limite de palabras"
+     ],
+     [
+      209,
+      "excede el limite de palabras"
+     ],
+     [
+      818,
+      "excede el limite de palabras"
+     ],
+     [
+      482,
+      "excede el limite de palabras"
+     ],
+     [
+      477,
+      "excede el limite de palabras"
+     ],
+     [
+      1316,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "X3 Mult",
+    "confidence": 0.387,
+    "abstained": false,
+    "supporting_chunk": 208,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 3.69,
+     "retrieval": 533.61,
+     "context": 0.78,
+     "model": 1253.94,
+     "retrieval_total": 534.84,
+     "total": 1792.48
+    }
+   }
+  },
+  "What is the effect of Fibonacci?": {
+   "kind": "direct",
+   "expected": [
+    "+8"
+   ],
+   "approx": {
+    "prompt_question": "What is the effect of Fibonacci?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 375,
+      "title": "Fibonacci",
+      "score": 11.864,
+      "text": "Fibonacci: Fibonacci (Joker). Effect: Each played Ace, 2, 3, 5, or 8 gives +8 Mult when scored. Rarity: Uncommon. Unlock Requirement: Available from start. Buy Price: $8. Sell Price: $4. Type: Additive Mult. Activation: On Scored. Copyable: Yes. Perishable: Yes. Eternal: Yes. Fibonacci is an Uncommon Additive Mult Joker that gives +8 Mult every time an Ace, 2, 3, 5, or 8 scores."
+     },
+     {
+      "id": 380,
+      "title": "Fibonacci",
+      "score": 10.899,
+      "text": "Fibonacci: Decks: 15 Minute City doesn't work well with Fibonacci due to lack of Aces, 2s, and 3s by default. Trivia: The Fibonacci sequence is a mathematical pattern where the next number in the pattern is found by adding the two previous numbers together. It can be found in nature, such as in how certain plants flower or fruits grow. If the pattern is started with zero/one, it goes: 0, 1, 1, 2, 3, 5, 8, 13, and so on. This is represented by the ranks Ace (1), 2, 3, 5 and 8 triggering it, its effect of +8 Mult for those cards, and its price of $8."
+     },
+     {
+      "id": 376,
+      "title": "Fibonacci",
+      "score": 10.846,
+      "text": "Fibonacci: Decks: Thanks to the absence of face cards, Abandoned Deck has a greater concentration of cards favorable by Fibonacci, and thus works really well with it. Mad World will also work as well, although this deck doesn't start with any Aces. Poker hands: As Three of a Kind, Full House and Four of a Kind all utilize a number of the same rank, they often work really well with Fibonacci. Low-ended Straight also makes great use of Fibonacci. Flush is difficult early on, but can earn +40 Mult from Fibonacci in an unmodified deck, and diligent suit conversion can make triggering Fibonacci a simple matter of picking ranks."
+     }
+    ],
+    "skipped": [
+     [
+      381,
+      "excede el limite de palabras"
+     ],
+     [
+      377,
+      "excede el limite de palabras"
+     ],
+     [
+      379,
+      "excede el limite de palabras"
+     ],
+     [
+      378,
+      "excede el limite de palabras"
+     ],
+     [
+      97,
+      "excede el limite de palabras"
+     ],
+     [
+      27,
+      "excede el limite de palabras"
+     ],
+     [
+      1008,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "+8 Mult",
+    "confidence": 0.965,
+    "abstained": false,
+    "supporting_chunk": 375,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 12.02,
+     "retrieval": 17.84,
+     "context": 1.25,
+     "model": 1295.17,
+     "retrieval_total": 19.96,
+     "total": 1327.15
+    }
+   },
+   "exact": {
+    "prompt_question": "What is the effect of Fibonacci?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 375,
+      "title": "Fibonacci",
+      "score": 12.042,
+      "text": "Fibonacci: Fibonacci (Joker). Effect: Each played Ace, 2, 3, 5, or 8 gives +8 Mult when scored. Rarity: Uncommon. Unlock Requirement: Available from start. Buy Price: $8. Sell Price: $4. Type: Additive Mult. Activation: On Scored. Copyable: Yes. Perishable: Yes. Eternal: Yes. Fibonacci is an Uncommon Additive Mult Joker that gives +8 Mult every time an Ace, 2, 3, 5, or 8 scores."
+     },
+     {
+      "id": 380,
+      "title": "Fibonacci",
+      "score": 11.042,
+      "text": "Fibonacci: Decks: 15 Minute City doesn't work well with Fibonacci due to lack of Aces, 2s, and 3s by default. Trivia: The Fibonacci sequence is a mathematical pattern where the next number in the pattern is found by adding the two previous numbers together. It can be found in nature, such as in how certain plants flower or fruits grow. If the pattern is started with zero/one, it goes: 0, 1, 1, 2, 3, 5, 8, 13, and so on. This is represented by the ranks Ace (1), 2, 3, 5 and 8 triggering it, its effect of +8 Mult for those cards, and its price of $8."
+     },
+     {
+      "id": 376,
+      "title": "Fibonacci",
+      "score": 10.846,
+      "text": "Fibonacci: Decks: Thanks to the absence of face cards, Abandoned Deck has a greater concentration of cards favorable by Fibonacci, and thus works really well with it. Mad World will also work as well, although this deck doesn't start with any Aces. Poker hands: As Three of a Kind, Full House and Four of a Kind all utilize a number of the same rank, they often work really well with Fibonacci. Low-ended Straight also makes great use of Fibonacci. Flush is difficult early on, but can earn +40 Mult from Fibonacci in an unmodified deck, and diligent suit conversion can make triggering Fibonacci a simple matter of picking ranks."
+     }
+    ],
+    "skipped": [
+     [
+      381,
+      "excede el limite de palabras"
+     ],
+     [
+      377,
+      "excede el limite de palabras"
+     ],
+     [
+      379,
+      "excede el limite de palabras"
+     ],
+     [
+      378,
+      "excede el limite de palabras"
+     ],
+     [
+      97,
+      "excede el limite de palabras"
+     ],
+     [
+      1008,
+      "excede el limite de palabras"
+     ],
+     [
+      926,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "+8 Mult",
+    "confidence": 0.965,
+    "abstained": false,
+    "supporting_chunk": 375,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 10.88,
+     "retrieval": 541.78,
+     "context": 0.86,
+     "model": 1363.26,
+     "retrieval_total": 543.27,
+     "total": 1917.42
+    }
+   }
+  },
+  "What rarity is Chicot?": {
+   "kind": "direct",
+   "expected": [
+    "legendary"
+   ],
+   "approx": {
+    "prompt_question": "What rarity is Chicot?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 244,
+      "title": "Chicot",
+      "score": 13.033,
+      "text": "Chicot: Chicot (Joker). Effect: Disables effect of every Boss Blind. Rarity: Legendary. Unlock Requirement: Find this Joker from the Soul card. Buy Price: 20 (cannot be found in shop). Sell Price: $10. Type: Effect. Activation: On Blind Select. Copyable: ✗ No. Perishable: Yes. Eternal: Yes. Chicot is one of the five Legendary Jokers that can be generated from using The Soul Spectral card, which in itself has a 3 in 1000 (0.3%) chance to replace any given card in a Spectral Pack or an Arcana Pack."
+     },
+     {
+      "id": 247,
+      "title": "Chicot",
+      "score": 11.203,
+      "text": "Chicot: The Wall: Score requirement is reduced by a factor of 2 for each copy of Chicot. The Water: Gains the number of discards originally as extra discards for each copy of Chicot. The Manacle: +1 extra Hand size for each copy of Chicot (permanently). This can be useful for using Ectoplasm more times in the same run than usually possible. The Needle: Gains (the number of hands originally - 1) extra hands for each copy of Chicot. Violet Vessel: Score is reduced by a factor of 3 for each copy of Chicot."
+     },
+     {
+      "id": 251,
+      "title": "Chicot",
+      "score": 11.145,
+      "text": "Chicot: This is the only Legendary joker that is not Blueprint or Brainstorm compatible. It is possible Chicot's appearance is based on the 1862 painting Stańczyk, which depicts the real life Polish jester of the same name. Similarities between the paintings depiction of Stańczyk and Chicot (the Joker) include red hats with bells lined in the middle and stern expressions. The painting in question is often confused as a depiction of Chicot. In other media: Chicot appears as a playable character in the Ante Chamber DLC of Vampire Survivors. Chicot appears as an artifact in Monster Train 2."
+     }
+    ],
+    "skipped": [
+     [
+      249,
+      "excede el limite de palabras"
+     ],
+     [
+      250,
+      "excede el limite de palabras"
+     ],
+     [
+      248,
+      "excede el limite de palabras"
+     ],
+     [
+      245,
+      "excede el limite de palabras"
+     ],
+     [
+      246,
+      "excede el limite de palabras"
+     ],
+     [
+      2077,
+      "excede el limite de palabras"
+     ],
+     [
+      2039,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Legendary",
+    "confidence": 0.962,
+    "abstained": false,
+    "supporting_chunk": 244,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 2.49,
+     "retrieval": 3.6,
+     "context": 0.82,
+     "model": 1194.53,
+     "retrieval_total": 4.93,
+     "total": 1201.96
+    }
+   },
+   "exact": {
+    "prompt_question": "What rarity is Chicot?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 244,
+      "title": "Chicot",
+      "score": 13.033,
+      "text": "Chicot: Chicot (Joker). Effect: Disables effect of every Boss Blind. Rarity: Legendary. Unlock Requirement: Find this Joker from the Soul card. Buy Price: 20 (cannot be found in shop). Sell Price: $10. Type: Effect. Activation: On Blind Select. Copyable: ✗ No. Perishable: Yes. Eternal: Yes. Chicot is one of the five Legendary Jokers that can be generated from using The Soul Spectral card, which in itself has a 3 in 1000 (0.3%) chance to replace any given card in a Spectral Pack or an Arcana Pack."
+     },
+     {
+      "id": 247,
+      "title": "Chicot",
+      "score": 11.203,
+      "text": "Chicot: The Wall: Score requirement is reduced by a factor of 2 for each copy of Chicot. The Water: Gains the number of discards originally as extra discards for each copy of Chicot. The Manacle: +1 extra Hand size for each copy of Chicot (permanently). This can be useful for using Ectoplasm more times in the same run than usually possible. The Needle: Gains (the number of hands originally - 1) extra hands for each copy of Chicot. Violet Vessel: Score is reduced by a factor of 3 for each copy of Chicot."
+     },
+     {
+      "id": 251,
+      "title": "Chicot",
+      "score": 11.145,
+      "text": "Chicot: This is the only Legendary joker that is not Blueprint or Brainstorm compatible. It is possible Chicot's appearance is based on the 1862 painting Stańczyk, which depicts the real life Polish jester of the same name. Similarities between the paintings depiction of Stańczyk and Chicot (the Joker) include red hats with bells lined in the middle and stern expressions. The painting in question is often confused as a depiction of Chicot. In other media: Chicot appears as a playable character in the Ante Chamber DLC of Vampire Survivors. Chicot appears as an artifact in Monster Train 2."
+     }
+    ],
+    "skipped": [
+     [
+      249,
+      "excede el limite de palabras"
+     ],
+     [
+      250,
+      "excede el limite de palabras"
+     ],
+     [
+      248,
+      "excede el limite de palabras"
+     ],
+     [
+      245,
+      "excede el limite de palabras"
+     ],
+     [
+      246,
+      "excede el limite de palabras"
+     ],
+     [
+      2077,
+      "excede el limite de palabras"
+     ],
+     [
+      2039,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Legendary",
+    "confidence": 0.962,
+    "abstained": false,
+    "supporting_chunk": 244,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 1.77,
+     "retrieval": 689.46,
+     "context": 3.36,
+     "model": 1272.56,
+     "retrieval_total": 693.14,
+     "total": 1967.47
+    }
+   }
+  },
+  "What does Mercury do?": {
+   "kind": "direct",
+   "expected": [
+    "pair"
+   ],
+   "approx": {
+    "prompt_question": "What is the effect of Mercury?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 1335,
+      "title": "Mercury",
+      "score": 15.665,
+      "text": "Mercury: Mercury (Planet card). Type: Planet. Effect: Increases Pair hand value by +1 Mult and +15 Chips. Unlock Requirement: Available from start. Buy Price: $3. Sell Price: $1. Mercury is a Planet card that increases the value of Pair by +1 Mult and +15 Chips (default 2 Mult x 10 Chips)."
+     },
+     {
+      "id": 1337,
+      "title": "Mercury",
+      "score": 14.388,
+      "text": "Mercury: The Negative depiction of Mercury is referenced in another weapon from the game, the Negative Space, which is the evolved version of the Celestial Booster."
+     },
+     {
+      "id": 1336,
+      "title": "Mercury",
+      "score": 13.162,
+      "text": "Mercury: Trivia: There is a 1-pixel gap in the upper left corner of the art of Mercury that does not appear on other planet cards. This is presumably a graphical bug. Mercury is one of the four Planet cards that appears in the artwork for one of the normal Celestial Packs. The other ones are Jupiter, Earth and Uranus. In versions before 0.9.0l-DEMO the background of Planet cards were grey instead of the cyan used since. In other media: This planet card (along with the planet icon), all of the other non-secret Planet cards, and the Rocket joker, are all referenced in Vampire Survivors, specifically in a weapon called the \"Celestial Booster.\""
+     },
+     {
+      "id": 599,
+      "title": "Jolly Joker",
+      "score": 5.238,
+      "text": "Jolly Joker: Decks: Virtually all of the Decks work comparably well with Jolly Joker, as Pair is the easiest hand to assemble - barring High Card (which always is assembled), and it is all but guaranteed to find one after a discard or two outside of the most extreme circumstances. Abandoned Deck and Mad World: These Deck are favored by this Joker, as they contain less overall ranks, and total cards, which makes it that much easier to find a Pair. Nebula Deck: Scaling Mercury using this Deck's integral Telescope Voucher can make it a worthwhile choice."
+     }
+    ],
+    "skipped": [],
+    "answer": "Increases Pair hand value by +1 Mult and +15 Chips",
+    "confidence": 0.628,
+    "abstained": false,
+    "supporting_chunk": 1335,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 1.93,
+     "retrieval": 3.87,
+     "context": 10.12,
+     "model": 1282.09,
+     "retrieval_total": 16.91,
+     "total": 1300.93
+    }
+   },
+   "exact": {
+    "prompt_question": "What is the effect of Mercury?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 1335,
+      "title": "Mercury",
+      "score": 15.665,
+      "text": "Mercury: Mercury (Planet card). Type: Planet. Effect: Increases Pair hand value by +1 Mult and +15 Chips. Unlock Requirement: Available from start. Buy Price: $3. Sell Price: $1. Mercury is a Planet card that increases the value of Pair by +1 Mult and +15 Chips (default 2 Mult x 10 Chips)."
+     },
+     {
+      "id": 1337,
+      "title": "Mercury",
+      "score": 14.388,
+      "text": "Mercury: The Negative depiction of Mercury is referenced in another weapon from the game, the Negative Space, which is the evolved version of the Celestial Booster."
+     },
+     {
+      "id": 1336,
+      "title": "Mercury",
+      "score": 13.162,
+      "text": "Mercury: Trivia: There is a 1-pixel gap in the upper left corner of the art of Mercury that does not appear on other planet cards. This is presumably a graphical bug. Mercury is one of the four Planet cards that appears in the artwork for one of the normal Celestial Packs. The other ones are Jupiter, Earth and Uranus. In versions before 0.9.0l-DEMO the background of Planet cards were grey instead of the cyan used since. In other media: This planet card (along with the planet icon), all of the other non-secret Planet cards, and the Rocket joker, are all referenced in Vampire Survivors, specifically in a weapon called the \"Celestial Booster.\""
+     },
+     {
+      "id": 599,
+      "title": "Jolly Joker",
+      "score": 5.238,
+      "text": "Jolly Joker: Decks: Virtually all of the Decks work comparably well with Jolly Joker, as Pair is the easiest hand to assemble - barring High Card (which always is assembled), and it is all but guaranteed to find one after a discard or two outside of the most extreme circumstances. Abandoned Deck and Mad World: These Deck are favored by this Joker, as they contain less overall ranks, and total cards, which makes it that much easier to find a Pair. Nebula Deck: Scaling Mercury using this Deck's integral Telescope Voucher can make it a worthwhile choice."
+     }
+    ],
+    "skipped": [],
+    "answer": "Increases Pair hand value by +1 Mult and +15 Chips",
+    "confidence": 0.628,
+    "abstained": false,
+    "supporting_chunk": 1335,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 2.93,
+     "retrieval": 530.27,
+     "context": 1.41,
+     "model": 1219.55,
+     "retrieval_total": 532.39,
+     "total": 1754.88
+    }
+   }
+  },
+  "What does the Overstock voucher do?": {
+   "kind": "direct",
+   "expected": [
+    "+1 card slot"
+   ],
+   "approx": {
+    "prompt_question": "What is the effect of the Overstock voucher?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 1554,
+      "title": "Overstock",
+      "score": 15.261,
+      "text": "Overstock: Overstock (Voucher). Type: Base. Effect: +1 card slot available in shop. Unlock Requirement: Unlocked from the start. Buy Price: $10. Upgrades to: Overstock Plus. Overstock is a voucher that increases the number of card slots available in the Shop from 2 to 3. It also immediately restocks any empty card slots in the Shop when purchased."
+     },
+     {
+      "id": 1557,
+      "title": "Overstock",
+      "score": 12.89,
+      "text": "Overstock: Having more shop slots allows Jokers such as Campfire, Constellation, and Fortune Teller to scale faster. Trivia: \"Overstock\" refers to the suppliance of items in a store that goes beyond its original inventory limit. This could also be done to prevent going out of stock until the product is shelved again. The Overstock Voucher appears on an Ante Up! shirt due to an official merchandise collaboration with Fangamer. Overstock is so far the first and only voucher to appear on or as a part of any physical merchandise. There are 2 miscolored pixels in the inner field of the sprite, causing the white dotted line to be slightly thicker on the upper left corner."
+     },
+     {
+      "id": 1555,
+      "title": "Overstock",
+      "score": 12.337,
+      "text": "Overstock: Reroll Efficiency: The discount for rerolling can be calculating using the following formula, where x is the number of rerolls: Discount={(x+1)(5x+19)8,if x is odd5x2+24x+208,if x is even A calculator for the discounts can be found here. Usage notes: The Zodiac Deck starts with a copy of Overstock, along with Tarot Merchant and Planet Merchant. Coupon Tag does not work with this Voucher restocking cards after purchasing it. For example, the first time you enter the store, the items in the shop will be free. If you then purchase the Overstock Voucher after, the new items in the shop will cost the regular amount."
+     },
+     {
+      "id": 2200,
+      "title": "Shop",
+      "score": 9.087,
+      "text": "Shop: The number of available random cards can be increased by the Overstock and Overstock Plus Vouchers, which increases the number of sold cards to 3 and 4 respectively."
+     }
+    ],
+    "skipped": [
+     [
+      1558,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "+1 card slot available in shop",
+    "confidence": 0.205,
+    "abstained": false,
+    "supporting_chunk": 1554,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 14.99,
+     "retrieval": 20.86,
+     "context": 0.99,
+     "model": 3472.65,
+     "retrieval_total": 24.47,
+     "total": 3512.11
+    }
+   },
+   "exact": {
+    "prompt_question": "What is the effect of the Overstock voucher?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 1554,
+      "title": "Overstock",
+      "score": 16.813,
+      "text": "Overstock: Overstock (Voucher). Type: Base. Effect: +1 card slot available in shop. Unlock Requirement: Unlocked from the start. Buy Price: $10. Upgrades to: Overstock Plus. Overstock is a voucher that increases the number of card slots available in the Shop from 2 to 3. It also immediately restocks any empty card slots in the Shop when purchased."
+     },
+     {
+      "id": 1557,
+      "title": "Overstock",
+      "score": 14.19,
+      "text": "Overstock: Having more shop slots allows Jokers such as Campfire, Constellation, and Fortune Teller to scale faster. Trivia: \"Overstock\" refers to the suppliance of items in a store that goes beyond its original inventory limit. This could also be done to prevent going out of stock until the product is shelved again. The Overstock Voucher appears on an Ante Up! shirt due to an official merchandise collaboration with Fangamer. Overstock is so far the first and only voucher to appear on or as a part of any physical merchandise. There are 2 miscolored pixels in the inner field of the sprite, causing the white dotted line to be slightly thicker on the upper left corner."
+     },
+     {
+      "id": 1555,
+      "title": "Overstock",
+      "score": 13.629,
+      "text": "Overstock: Reroll Efficiency: The discount for rerolling can be calculating using the following formula, where x is the number of rerolls: Discount={(x+1)(5x+19)8,if x is odd5x2+24x+208,if x is even A calculator for the discounts can be found here. Usage notes: The Zodiac Deck starts with a copy of Overstock, along with Tarot Merchant and Planet Merchant. Coupon Tag does not work with this Voucher restocking cards after purchasing it. For example, the first time you enter the store, the items in the shop will be free. If you then purchase the Overstock Voucher after, the new items in the shop will cost the regular amount."
+     }
+    ],
+    "skipped": [
+     [
+      1558,
+      "excede el limite de palabras"
+     ],
+     [
+      785,
+      "excede el limite de palabras"
+     ],
+     [
+      1556,
+      "excede el limite de palabras"
+     ],
+     [
+      797,
+      "excede el limite de palabras"
+     ],
+     [
+      1585,
+      "excede el limite de palabras"
+     ],
+     [
+      161,
+      "excede el limite de palabras"
+     ],
+     [
+      1964,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "the new items in the shop will cost the regular amount",
+    "confidence": 0.243,
+    "abstained": false,
+    "supporting_chunk": 1555,
+    "outcome": "wrong_with_support",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 22.36,
+     "retrieval": 860.38,
+     "context": 1.03,
+     "model": 3161.21,
+     "retrieval_total": 862.05,
+     "total": 4045.62
+    }
+   }
+  },
+  "How do I unlock Mr. Bones?": {
+   "kind": "direct",
+   "expected": [
+    "5 runs"
+   ],
+   "approx": {
+    "prompt_question": "How do I unlock Mr. Bones?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 716,
+      "title": "Mr. Bones",
+      "score": 35.912,
+      "text": "Mr. Bones: Mr. Bones (Joker). Effect: Prevents Death if chips scored are at least 25% of required chips, self destructs. Rarity: Uncommon. Unlock Requirement: Lose 5 runs. Buy Price: $5. Sell Price: $2. Type: Effect. Activation: N/A (Passive). Copyable: ✗ No. Perishable: Yes. Eternal: ✗ No. Mr. Bones is a unique Uncommon Effect Joker. While this Joker is equipped, the player can survive a blind without scoring the required amount of chips, provided they manage to score at least 25% of the target amount. Upon playing all of their hands, Mr. Bones will perish and consider the blind as won, with the result screen saying \"Saved by Mr. Bones\". However, the player will not receive any reward money for clearing the blind, but they will still gain interest."
+     },
+     {
+      "id": 717,
+      "title": "Mr. Bones",
+      "score": 35.725,
+      "text": "Mr. Bones: Mr. Bones will not save the player when they run out of cards, even if the player has reached 25% of the chips requirement for the blind. Usage Notes: Anaglyph Deck still grants a Double Tag when the player is saved by Mr. Bones. The Investment Tag still rewards $25 when the player is saved by Mr. Bones. The Non-Perishable challenge bans Mr. Bones. Decks: Black Deck gives 1 extra Joker slot in exchange for 1 fewer hand, which can be used by Mr. Bones, as 1 less hand makes it harder to get to the required score. Poker hands: This Joker does not affect any poker hand but may be slightly more useful for certain builds."
+     },
+     {
+      "id": 723,
+      "title": "Mr. Bones",
+      "score": 33.572,
+      "text": "Mr. Bones: Mr. Bones can bail the player out of any round before Ante 39. This is because at ante 39 the required score is \"NaN\" (Not a Number) and the game will not recognize any number as at least 25% of the requirement."
+     }
+    ],
+    "skipped": [
+     [
+      722,
+      "excede el limite de palabras"
+     ],
+     [
+      725,
+      "excede el limite de palabras"
+     ],
+     [
+      724,
+      "excede el limite de palabras"
+     ],
+     [
+      719,
+      "excede el limite de palabras"
+     ],
+     [
+      718,
+      "excede el limite de palabras"
+     ],
+     [
+      2001,
+      "excede el limite de palabras"
+     ],
+     [
+      721,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Lose 5 runs",
+    "confidence": 0.709,
+    "abstained": false,
+    "supporting_chunk": 716,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 3.69,
+     "retrieval": 12.66,
+     "context": 0.73,
+     "model": 2034.98,
+     "retrieval_total": 14.2,
+     "total": 2052.88
+    }
+   },
+   "exact": {
+    "prompt_question": "How do I unlock Mr. Bones?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 716,
+      "title": "Mr. Bones",
+      "score": 35.922,
+      "text": "Mr. Bones: Mr. Bones (Joker). Effect: Prevents Death if chips scored are at least 25% of required chips, self destructs. Rarity: Uncommon. Unlock Requirement: Lose 5 runs. Buy Price: $5. Sell Price: $2. Type: Effect. Activation: N/A (Passive). Copyable: ✗ No. Perishable: Yes. Eternal: ✗ No. Mr. Bones is a unique Uncommon Effect Joker. While this Joker is equipped, the player can survive a blind without scoring the required amount of chips, provided they manage to score at least 25% of the target amount. Upon playing all of their hands, Mr. Bones will perish and consider the blind as won, with the result screen saying \"Saved by Mr. Bones\". However, the player will not receive any reward money for clearing the blind, but they will still gain interest."
+     },
+     {
+      "id": 717,
+      "title": "Mr. Bones",
+      "score": 35.725,
+      "text": "Mr. Bones: Mr. Bones will not save the player when they run out of cards, even if the player has reached 25% of the chips requirement for the blind. Usage Notes: Anaglyph Deck still grants a Double Tag when the player is saved by Mr. Bones. The Investment Tag still rewards $25 when the player is saved by Mr. Bones. The Non-Perishable challenge bans Mr. Bones. Decks: Black Deck gives 1 extra Joker slot in exchange for 1 fewer hand, which can be used by Mr. Bones, as 1 less hand makes it harder to get to the required score. Poker hands: This Joker does not affect any poker hand but may be slightly more useful for certain builds."
+     },
+     {
+      "id": 723,
+      "title": "Mr. Bones",
+      "score": 33.572,
+      "text": "Mr. Bones: Mr. Bones can bail the player out of any round before Ante 39. This is because at ante 39 the required score is \"NaN\" (Not a Number) and the game will not recognize any number as at least 25% of the requirement."
+     }
+    ],
+    "skipped": [
+     [
+      722,
+      "excede el limite de palabras"
+     ],
+     [
+      725,
+      "excede el limite de palabras"
+     ],
+     [
+      724,
+      "excede el limite de palabras"
+     ],
+     [
+      719,
+      "excede el limite de palabras"
+     ],
+     [
+      718,
+      "excede el limite de palabras"
+     ],
+     [
+      2001,
+      "excede el limite de palabras"
+     ],
+     [
+      721,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Lose 5 runs",
+    "confidence": 0.709,
+    "abstained": false,
+    "supporting_chunk": 716,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 1.69,
+     "retrieval": 1984.51,
+     "context": 1.15,
+     "model": 1198.66,
+     "retrieval_total": 1986.2,
+     "total": 3186.55
+    }
+   }
+  },
+  "How much does Hologram cost?": {
+   "kind": "synonym",
+   "expected": [
+    "$7"
+   ],
+   "approx": {
+    "prompt_question": "What is the buy price of Hologram?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 549,
+      "title": "Hologram",
+      "score": 13.124,
+      "text": "Hologram: Hologram (Joker). Effect: This Joker gains X0.25 Mult every time a playing card is added to your deck, (Currently X1 Mult). Rarity: Uncommon. Unlock Requirement: Available from start. Buy Price: $7. Sell Price: $3. Type: Multiplicative Mult. Activation: Independent. Copyable: Yes. Perishable: ✗ No. Eternal: Yes. Hologram is an Uncommon scaling Multiplicative Mult Joker that gains X0.25 Mult when new playing cards are added to the deck. It starts at X1 Mult and gains an additional X0.25 Mult for each playing card added after its acquisition. The effect is based solely on gaining cards; keeping the cards afterwards is not required."
+     },
+     {
+      "id": 552,
+      "title": "Hologram",
+      "score": 12.935,
+      "text": "Hologram: Vagabond and Cartomancer create Tarots, some of which are useful for handling added cards that aren't meant to be kept. Sixth Sense and Séance can create useful spectral cards (see the Consumables section), which can give this Joker a sizable boost. Additionally, Sixth Sense can slightly alleviate deck bloating by destroying 6s. Perkeo can then create copies of said spectral cards, scaling your Hologram by up to X1 Mult per round (or more with Blueprint and Brainstorm). Consumables: Familiar, Grim, Incantation, and Cryptid add cards to the deck and buff Hologram at the same time. Immolate removes 5 cards and gains $20, which is a good way to trim the deck at no cost to Hologram."
+     },
+     {
+      "id": 554,
+      "title": "Hologram",
+      "score": 10.617,
+      "text": "Hologram: Decks: Fragile doesn't work well with Hologram due to all sources of adding playing cards besides Cryptid and DNA being banned in this deck. Poker hands: Hologram is probably weakest when paired with strategies that prioritize Straights and Straight Flushes, because it is harder to gain cards into runs than it is to gain cards into sets. Jokers: Erosion has anti-synergy as it gives mult for having a small deck. Since one of the primary ways to scale Hologram is with the use of Booster Packs, Red Card can be hard to use alongside Hologram."
+     }
+    ],
+    "skipped": [
+     [
+      550,
+      "excede el limite de palabras"
+     ],
+     [
+      553,
+      "excede el limite de palabras"
+     ],
+     [
+      551,
+      "excede el limite de palabras"
+     ],
+     [
+      2203,
+      "excede el limite de palabras"
+     ],
+     [
+      555,
+      "excede el limite de palabras"
+     ],
+     [
+      2202,
+      "excede el limite de palabras"
+     ],
+     [
+      1593,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "$7",
+    "confidence": 0.919,
+    "abstained": false,
+    "supporting_chunk": 549,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 7.7,
+     "retrieval": 9.61,
+     "context": 1.27,
+     "model": 1470.95,
+     "retrieval_total": 11.54,
+     "total": 1490.2
+    }
+   },
+   "exact": {
+    "prompt_question": "What is the buy price of Hologram?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 549,
+      "title": "Hologram",
+      "score": 13.124,
+      "text": "Hologram: Hologram (Joker). Effect: This Joker gains X0.25 Mult every time a playing card is added to your deck, (Currently X1 Mult). Rarity: Uncommon. Unlock Requirement: Available from start. Buy Price: $7. Sell Price: $3. Type: Multiplicative Mult. Activation: Independent. Copyable: Yes. Perishable: ✗ No. Eternal: Yes. Hologram is an Uncommon scaling Multiplicative Mult Joker that gains X0.25 Mult when new playing cards are added to the deck. It starts at X1 Mult and gains an additional X0.25 Mult for each playing card added after its acquisition. The effect is based solely on gaining cards; keeping the cards afterwards is not required."
+     },
+     {
+      "id": 552,
+      "title": "Hologram",
+      "score": 13.005,
+      "text": "Hologram: Vagabond and Cartomancer create Tarots, some of which are useful for handling added cards that aren't meant to be kept. Sixth Sense and Séance can create useful spectral cards (see the Consumables section), which can give this Joker a sizable boost. Additionally, Sixth Sense can slightly alleviate deck bloating by destroying 6s. Perkeo can then create copies of said spectral cards, scaling your Hologram by up to X1 Mult per round (or more with Blueprint and Brainstorm). Consumables: Familiar, Grim, Incantation, and Cryptid add cards to the deck and buff Hologram at the same time. Immolate removes 5 cards and gains $20, which is a good way to trim the deck at no cost to Hologram."
+     },
+     {
+      "id": 554,
+      "title": "Hologram",
+      "score": 10.617,
+      "text": "Hologram: Decks: Fragile doesn't work well with Hologram due to all sources of adding playing cards besides Cryptid and DNA being banned in this deck. Poker hands: Hologram is probably weakest when paired with strategies that prioritize Straights and Straight Flushes, because it is harder to gain cards into runs than it is to gain cards into sets. Jokers: Erosion has anti-synergy as it gives mult for having a small deck. Since one of the primary ways to scale Hologram is with the use of Booster Packs, Red Card can be hard to use alongside Hologram."
+     }
+    ],
+    "skipped": [
+     [
+      550,
+      "excede el limite de palabras"
+     ],
+     [
+      553,
+      "excede el limite de palabras"
+     ],
+     [
+      2203,
+      "excede el limite de palabras"
+     ],
+     [
+      551,
+      "excede el limite de palabras"
+     ],
+     [
+      2202,
+      "excede el limite de palabras"
+     ],
+     [
+      1593,
+      "excede el limite de palabras"
+     ],
+     [
+      555,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "$7",
+    "confidence": 0.919,
+    "abstained": false,
+    "supporting_chunk": 549,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 3.96,
+     "retrieval": 1263.75,
+     "context": 0.68,
+     "model": 1502.45,
+     "retrieval_total": 1265.07,
+     "total": 2771.48
+    }
+   }
+  },
+  "How much does Mr. Bones cost?": {
+   "kind": "synonym",
+   "expected": [
+    "$5"
+   ],
+   "approx": {
+    "prompt_question": "What is the buy price of Mr. Bones?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 716,
+      "title": "Mr. Bones",
+      "score": 36.184,
+      "text": "Mr. Bones: Mr. Bones (Joker). Effect: Prevents Death if chips scored are at least 25% of required chips, self destructs. Rarity: Uncommon. Unlock Requirement: Lose 5 runs. Buy Price: $5. Sell Price: $2. Type: Effect. Activation: N/A (Passive). Copyable: ✗ No. Perishable: Yes. Eternal: ✗ No. Mr. Bones is a unique Uncommon Effect Joker. While this Joker is equipped, the player can survive a blind without scoring the required amount of chips, provided they manage to score at least 25% of the target amount. Upon playing all of their hands, Mr. Bones will perish and consider the blind as won, with the result screen saying \"Saved by Mr. Bones\". However, the player will not receive any reward money for clearing the blind, but they will still gain interest."
+     },
+     {
+      "id": 722,
+      "title": "Mr. Bones",
+      "score": 35.136,
+      "text": "Mr. Bones: When dealing with Crimson Heart, a possible strategy is to sell all Jokers except for the one being debuffed and Mr. Bones when there are two hands left. As Crimson Heart will not select a Joker consecutively, this ensures that Mr. Bones will not be debuffed during the last hand. Trivia: The name \"Mr. Bones\" is based on the meme \"Mr. Bones' Wild Ride\", which was a car ride made in RollerCoaster Tycoon 2 that was 30,696 feet long and took 4 in-game years to ride to completion, with the riders exclaiming \"I want to get off Mr. Bones' Wild Ride\"."
+     },
+     {
+      "id": 725,
+      "title": "Mr. Bones",
+      "score": 34.17,
+      "text": "Mr. Bones: Mr. Bones is one of three \"spooky\" Jokers that came as a part of a pin set alongside Madness and Scary Face as a merch collab between LocalThunk and Makeship. As a part of the Ghost Deck Playing Cards set by Fangamer, Mr. Bones is one of the four Jokers to be featured next to Séance, Sixth Sense, and Castle. In other media: Mr. Bones makes an appearance as an enemy in Vampire Survivors."
+     }
+    ],
+    "skipped": [
+     [
+      717,
+      "excede el limite de palabras"
+     ],
+     [
+      724,
+      "excede el limite de palabras"
+     ],
+     [
+      719,
+      "excede el limite de palabras"
+     ],
+     [
+      723,
+      "excede el limite de palabras"
+     ],
+     [
+      718,
+      "excede el limite de palabras"
+     ],
+     [
+      2001,
+      "excede el limite de palabras"
+     ],
+     [
+      721,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "$5",
+    "confidence": 0.931,
+    "abstained": false,
+    "supporting_chunk": 716,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 3.21,
+     "retrieval": 10.07,
+     "context": 0.81,
+     "model": 1391.57,
+     "retrieval_total": 11.37,
+     "total": 1406.15
+    }
+   },
+   "exact": {
+    "prompt_question": "What is the buy price of Mr. Bones?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 716,
+      "title": "Mr. Bones",
+      "score": 36.184,
+      "text": "Mr. Bones: Mr. Bones (Joker). Effect: Prevents Death if chips scored are at least 25% of required chips, self destructs. Rarity: Uncommon. Unlock Requirement: Lose 5 runs. Buy Price: $5. Sell Price: $2. Type: Effect. Activation: N/A (Passive). Copyable: ✗ No. Perishable: Yes. Eternal: ✗ No. Mr. Bones is a unique Uncommon Effect Joker. While this Joker is equipped, the player can survive a blind without scoring the required amount of chips, provided they manage to score at least 25% of the target amount. Upon playing all of their hands, Mr. Bones will perish and consider the blind as won, with the result screen saying \"Saved by Mr. Bones\". However, the player will not receive any reward money for clearing the blind, but they will still gain interest."
+     },
+     {
+      "id": 722,
+      "title": "Mr. Bones",
+      "score": 35.136,
+      "text": "Mr. Bones: When dealing with Crimson Heart, a possible strategy is to sell all Jokers except for the one being debuffed and Mr. Bones when there are two hands left. As Crimson Heart will not select a Joker consecutively, this ensures that Mr. Bones will not be debuffed during the last hand. Trivia: The name \"Mr. Bones\" is based on the meme \"Mr. Bones' Wild Ride\", which was a car ride made in RollerCoaster Tycoon 2 that was 30,696 feet long and took 4 in-game years to ride to completion, with the riders exclaiming \"I want to get off Mr. Bones' Wild Ride\"."
+     },
+     {
+      "id": 725,
+      "title": "Mr. Bones",
+      "score": 34.17,
+      "text": "Mr. Bones: Mr. Bones is one of three \"spooky\" Jokers that came as a part of a pin set alongside Madness and Scary Face as a merch collab between LocalThunk and Makeship. As a part of the Ghost Deck Playing Cards set by Fangamer, Mr. Bones is one of the four Jokers to be featured next to Séance, Sixth Sense, and Castle. In other media: Mr. Bones makes an appearance as an enemy in Vampire Survivors."
+     }
+    ],
+    "skipped": [
+     [
+      717,
+      "excede el limite de palabras"
+     ],
+     [
+      724,
+      "excede el limite de palabras"
+     ],
+     [
+      719,
+      "excede el limite de palabras"
+     ],
+     [
+      723,
+      "excede el limite de palabras"
+     ],
+     [
+      718,
+      "excede el limite de palabras"
+     ],
+     [
+      2001,
+      "excede el limite de palabras"
+     ],
+     [
+      721,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "$5",
+    "confidence": 0.931,
+    "abstained": false,
+    "supporting_chunk": 716,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 6.4,
+     "retrieval": 2687.55,
+     "context": 0.79,
+     "model": 1504.2,
+     "retrieval_total": 2688.87,
+     "total": 4199.47
+    }
+   }
+  },
+  "How much is Brainstorm worth when sold?": {
+   "kind": "synonym",
+   "expected": [
+    "$5"
+   ],
+   "approx": {
+    "prompt_question": "What is the sell price of Brainstorm?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 114,
+      "title": "Brainstorm",
+      "score": 12.299,
+      "text": "Brainstorm: Brainstorm (Joker). Effect: Copies the ability of leftmost Joker. Rarity: Rare. Unlock Requirement: Discard a Royal Flush. Buy Price: $10. Sell Price: $5. Type: Effect. Copyable: Yes. Perishable: Yes. Eternal: Yes. Brainstorm is a Rare Effect Joker that copies the effect of the player's leftmost Joker. Unlike Blueprint, moving Brainstorm around will not change what it copies, only when it does so. To change the Joker that is being copied, a different Joker will need to be moved to the leftmost position. There are some Jokers that cannot be copied, and putting Brainstorm itself in the leftmost position will cause it to do nothing. If Blueprint is in the left-most position, Brainstorm will copy the same joker Blueprint is copying. Brainstorm's compatibility with other Jokers can be seen in its tooltip."
+     },
+     {
+      "id": 789,
+      "title": "Perkeo",
+      "score": 9.649,
+      "text": "Perkeo: Perkeo has a natural synergy with Campfire, which gains X0.25 Mult every time a card is sold. Holding a consumable at the end of the shop creates a copy that can be sold for cash and a guaranteed X1.75 Mult on Campfire for the Boss Blind, provided neither the Small Blind or Big Blind are skipped. Gift Card works well with Perkeo by keeping consumables for multiple rounds, gaining lots of money than what was initially worth. The added sell value does not drop with Clearance Sale or Liquidation, allowing this combo to be used in full effect even with the mentioned Vouchers purchased. Consumables: Tarot cards:"
+     },
+     {
+      "id": 124,
+      "title": "Brainstorm",
+      "score": 8.883,
+      "text": "Brainstorm: If the collection were a set of joker slots, Brainstorm would be copying Stuntman. The texture of this Joker has protruding areas on the right and down sides, slightly exceeding the boundaries of a standard Joker. This may represent the ragged edge of the napkin after being torn off. The other Joker with this similar property is Hallucination. Brainstorm appears on the artwork of the Mega Buffoon Pack."
+     }
+    ],
+    "skipped": [
+     [
+      574,
+      "excede el limite de palabras"
+     ],
+     [
+      118,
+      "excede el limite de palabras"
+     ],
+     [
+      120,
+      "excede el limite de palabras"
+     ],
+     [
+      119,
+      "excede el limite de palabras"
+     ],
+     [
+      116,
+      "excede el limite de palabras"
+     ],
+     [
+      121,
+      "excede el limite de palabras"
+     ],
+     [
+      122,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "$5",
+    "confidence": 0.946,
+    "abstained": false,
+    "supporting_chunk": 114,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 11.24,
+     "retrieval": 18.72,
+     "context": 1.04,
+     "model": 1507.16,
+     "retrieval_total": 20.59,
+     "total": 1538.98
+    }
+   },
+   "exact": {
+    "prompt_question": "What is the sell price of Brainstorm?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 114,
+      "title": "Brainstorm",
+      "score": 12.334,
+      "text": "Brainstorm: Brainstorm (Joker). Effect: Copies the ability of leftmost Joker. Rarity: Rare. Unlock Requirement: Discard a Royal Flush. Buy Price: $10. Sell Price: $5. Type: Effect. Copyable: Yes. Perishable: Yes. Eternal: Yes. Brainstorm is a Rare Effect Joker that copies the effect of the player's leftmost Joker. Unlike Blueprint, moving Brainstorm around will not change what it copies, only when it does so. To change the Joker that is being copied, a different Joker will need to be moved to the leftmost position. There are some Jokers that cannot be copied, and putting Brainstorm itself in the leftmost position will cause it to do nothing. If Blueprint is in the left-most position, Brainstorm will copy the same joker Blueprint is copying. Brainstorm's compatibility with other Jokers can be seen in its tooltip."
+     },
+     {
+      "id": 789,
+      "title": "Perkeo",
+      "score": 9.672,
+      "text": "Perkeo: Perkeo has a natural synergy with Campfire, which gains X0.25 Mult every time a card is sold. Holding a consumable at the end of the shop creates a copy that can be sold for cash and a guaranteed X1.75 Mult on Campfire for the Boss Blind, provided neither the Small Blind or Big Blind are skipped. Gift Card works well with Perkeo by keeping consumables for multiple rounds, gaining lots of money than what was initially worth. The added sell value does not drop with Clearance Sale or Liquidation, allowing this combo to be used in full effect even with the mentioned Vouchers purchased. Consumables: Tarot cards:"
+     },
+     {
+      "id": 124,
+      "title": "Brainstorm",
+      "score": 8.917,
+      "text": "Brainstorm: If the collection were a set of joker slots, Brainstorm would be copying Stuntman. The texture of this Joker has protruding areas on the right and down sides, slightly exceeding the boundaries of a standard Joker. This may represent the ragged edge of the napkin after being torn off. The other Joker with this similar property is Hallucination. Brainstorm appears on the artwork of the Mega Buffoon Pack."
+     }
+    ],
+    "skipped": [
+     [
+      574,
+      "excede el limite de palabras"
+     ],
+     [
+      118,
+      "excede el limite de palabras"
+     ],
+     [
+      120,
+      "excede el limite de palabras"
+     ],
+     [
+      119,
+      "excede el limite de palabras"
+     ],
+     [
+      116,
+      "excede el limite de palabras"
+     ],
+     [
+      121,
+      "excede el limite de palabras"
+     ],
+     [
+      122,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "$5",
+    "confidence": 0.946,
+    "abstained": false,
+    "supporting_chunk": 114,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 9.01,
+     "retrieval": 1439.29,
+     "context": 1.01,
+     "model": 3008.73,
+     "retrieval_total": 1441.24,
+     "total": 4458.98
+    }
+   }
+  },
+  "Which joker copies the ability of the leftmost joker?": {
+   "kind": "no_name",
+   "expected": [
+    "brainstorm"
+   ],
+   "approx": {
+    "prompt_question": "Which joker copies the ability of the leftmost joker?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 114,
+      "title": "Brainstorm",
+      "score": 16.873,
+      "text": "Brainstorm: Brainstorm (Joker). Effect: Copies the ability of leftmost Joker. Rarity: Rare. Unlock Requirement: Discard a Royal Flush. Buy Price: $10. Sell Price: $5. Type: Effect. Copyable: Yes. Perishable: Yes. Eternal: Yes. Brainstorm is a Rare Effect Joker that copies the effect of the player's leftmost Joker. Unlike Blueprint, moving Brainstorm around will not change what it copies, only when it does so. To change the Joker that is being copied, a different Joker will need to be moved to the leftmost position. There are some Jokers that cannot be copied, and putting Brainstorm itself in the leftmost position will cause it to do nothing. If Blueprint is in the left-most position, Brainstorm will copy the same joker Blueprint is copying. Brainstorm's compatibility with other Jokers can be seen in its tooltip."
+     },
+     {
+      "id": 122,
+      "title": "Brainstorm",
+      "score": 13.011,
+      "text": "Brainstorm: Trivia: Certain visuals upon triggering a Joker effect, like the \"Level Up!\" from a copied Space Joker, have a red background instead of the standard orange one. At $10 each, Brainstorm and its sibling Blueprint are the most expensive Jokers able to be purchased since the Legendary Jokers are never purchasable. On the artwork, the leftmost bauble on the hat, the leftmost eye, and the leftmost bauble on the bottom are highlighted in some way, referencing how Brainstorm copies the leftmost Joker."
+     },
+     {
+      "id": 121,
+      "title": "Brainstorm",
+      "score": 10.819,
+      "text": "Brainstorm: Incompatible Jokers: There are 29 Jokers that are entirely incompatible with Brainstorm: Blinds: Amber Acorn: This Showdown Blind flips and shuffles Jokers around, potentially causing Brainstorm to copy the incorrect Joker, or copy nothing at all if it happens to be moved to the leftmost position or the leftmost Joker is incompatible for at least one hand. However, this can be easily mitigated, by holding the Joker which the player wants to copy in hand, before Amber Acorn starts shuffling. This allows for the player to put the designated Joker in the leftmost position regardless of shuffling, ensuring that Brainstorm copies the right Joker."
+     }
+    ],
+    "skipped": [
+     [
+      1358,
+      "excede el limite de palabras"
+     ],
+     [
+      573,
+      "excede el limite de palabras"
+     ],
+     [
+      1359,
+      "excede el limite de palabras"
+     ],
+     [
+      116,
+      "excede el limite de palabras"
+     ],
+     [
+      95,
+      "excede el limite de palabras"
+     ],
+     [
+      795,
+      "excede el limite de palabras"
+     ],
+     [
+      120,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Brainstorm",
+    "confidence": 1.436,
+    "abstained": false,
+    "supporting_chunk": 114,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 27.78,
+     "retrieval": 35.09,
+     "context": 0.66,
+     "model": 1448.7,
+     "retrieval_total": 36.87,
+     "total": 1513.35
+    }
+   },
+   "exact": {
+    "prompt_question": "Which joker copies the ability of the leftmost joker?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 114,
+      "title": "Brainstorm",
+      "score": 17.299,
+      "text": "Brainstorm: Brainstorm (Joker). Effect: Copies the ability of leftmost Joker. Rarity: Rare. Unlock Requirement: Discard a Royal Flush. Buy Price: $10. Sell Price: $5. Type: Effect. Copyable: Yes. Perishable: Yes. Eternal: Yes. Brainstorm is a Rare Effect Joker that copies the effect of the player's leftmost Joker. Unlike Blueprint, moving Brainstorm around will not change what it copies, only when it does so. To change the Joker that is being copied, a different Joker will need to be moved to the leftmost position. There are some Jokers that cannot be copied, and putting Brainstorm itself in the leftmost position will cause it to do nothing. If Blueprint is in the left-most position, Brainstorm will copy the same joker Blueprint is copying. Brainstorm's compatibility with other Jokers can be seen in its tooltip."
+     },
+     {
+      "id": 122,
+      "title": "Brainstorm",
+      "score": 13.393,
+      "text": "Brainstorm: Trivia: Certain visuals upon triggering a Joker effect, like the \"Level Up!\" from a copied Space Joker, have a red background instead of the standard orange one. At $10 each, Brainstorm and its sibling Blueprint are the most expensive Jokers able to be purchased since the Legendary Jokers are never purchasable. On the artwork, the leftmost bauble on the hat, the leftmost eye, and the leftmost bauble on the bottom are highlighted in some way, referencing how Brainstorm copies the leftmost Joker."
+     },
+     {
+      "id": 121,
+      "title": "Brainstorm",
+      "score": 11.232,
+      "text": "Brainstorm: Incompatible Jokers: There are 29 Jokers that are entirely incompatible with Brainstorm: Blinds: Amber Acorn: This Showdown Blind flips and shuffles Jokers around, potentially causing Brainstorm to copy the incorrect Joker, or copy nothing at all if it happens to be moved to the leftmost position or the leftmost Joker is incompatible for at least one hand. However, this can be easily mitigated, by holding the Joker which the player wants to copy in hand, before Amber Acorn starts shuffling. This allows for the player to put the designated Joker in the leftmost position regardless of shuffling, ensuring that Brainstorm copies the right Joker."
+     }
+    ],
+    "skipped": [
+     [
+      573,
+      "excede el limite de palabras"
+     ],
+     [
+      1359,
+      "excede el limite de palabras"
+     ],
+     [
+      1358,
+      "excede el limite de palabras"
+     ],
+     [
+      116,
+      "excede el limite de palabras"
+     ],
+     [
+      95,
+      "excede el limite de palabras"
+     ],
+     [
+      120,
+      "excede el limite de palabras"
+     ],
+     [
+      795,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Brainstorm",
+    "confidence": 1.436,
+    "abstained": false,
+    "supporting_chunk": 114,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 27.23,
+     "retrieval": 1473.26,
+     "context": 1.26,
+     "model": 1924.81,
+     "retrieval_total": 1476.75,
+     "total": 3428.79
+    }
+   }
+  },
+  "Which joker retriggers cards held in hand?": {
+   "kind": "no_name",
+   "expected": [
+    "mime"
+   ],
+   "approx": {
+    "prompt_question": "Which joker retriggers cards held in hand?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 699,
+      "title": "Mime",
+      "score": 10.923,
+      "text": "Mime: Mime (Joker). Effect: Retrigger all card held in hand abilities. Rarity: Uncommon. Unlock Requirement: Available from start. Buy Price: $5. Sell Price: $2. Type: Retrigger. Activation: On Held. Copyable: Yes. Perishable: Yes. Eternal: Yes. Mime is an Uncommon Retrigger Joker that can retrigger all held in hand effects (cards that are not played but remain in hand)."
+     },
+     {
+      "id": 1724,
+      "title": "Red Seal",
+      "score": 8.838,
+      "text": "Red Seal: Red Seal (Seal). Type: Seal. Effect: Retrigger this card 1 time. The Red Seal is a Seal card modifier that retriggers a playing card with this seal once. The Red Seal retriggers both played and held in hand effects. It is incredibly powerful for Jokers that trigger their effects on playing cards, especially XMult effects."
+     },
+     {
+      "id": 605,
+      "title": "Juggler",
+      "score": 8.618,
+      "text": "Juggler: Shoot the Moon: gives +13 Mult for each queen held in hand. Mime: more cards held in hand means more cards for Mime to retrigger. Reserved Parking: has a 1 in 2 chance to give $1 for every face card held in hand. Troubadour: +2 hand size, coupled with Juggler, will provide a whooping 11 cards in hand. Merry Andy: Juggler can offset its -1 hand size penalty. Stuntman: Juggler can partially offset its -2 hand size penalty."
+     },
+     {
+      "id": 1685,
+      "title": "Steel cards",
+      "score": 8.404,
+      "text": "Steel cards: Painted Deck starts with +2 hand size, making Steel cards more powerful. Vouchers: Paint Brush and Palette both increase hand size, allowing for more Steel cards to be held in hand. Seals: Red Seals retrigger the effect of Steel cards, doubling their effect. Blue Seals similarly activate when held in hand, allowing for Mult and poker hand scaling to be done simultaneously. Poker hands: High Card is the best hand to play when utilizing Steel cards as it allows for the most Steel cards to be held in hand."
+     }
+    ],
+    "skipped": [],
+    "answer": "Mime: Mime",
+    "confidence": 0.158,
+    "abstained": false,
+    "supporting_chunk": 699,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 10.66,
+     "retrieval": 36.36,
+     "context": 1.37,
+     "model": 1261.34,
+     "retrieval_total": 41.47,
+     "total": 1313.47
+    }
+   },
+   "exact": {
+    "prompt_question": "Which joker retriggers cards held in hand?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 1724,
+      "title": "Red Seal",
+      "score": 10.597,
+      "text": "Red Seal: Red Seal (Seal). Type: Seal. Effect: Retrigger this card 1 time. The Red Seal is a Seal card modifier that retriggers a playing card with this seal once. The Red Seal retriggers both played and held in hand effects. It is incredibly powerful for Jokers that trigger their effects on playing cards, especially XMult effects."
+     },
+     {
+      "id": 1686,
+      "title": "Steel cards",
+      "score": 10.062,
+      "text": "Steel cards: Jokers: Steel Joker directly benefits from Steel cards, increasing by X0.2 Mult per Steel card in your full deck. This can easily be your primary scoring Joker, or be used as a temporary source of scoring while you look for more powerful Jokers. Mime retriggers the effect of Steel cards, essentially doubling the number of Steel cards held in hand. Baron has a similar effect to Mime if your Steel cards are Kings, giving an additional X1.5 Mult per Steel card. Shoot the Moon can benefit from Steel cards if Queens are moved to the left of Steel cards held in hand."
+     },
+     {
+      "id": 859,
+      "title": "Reserved Parking",
+      "score": 9.671,
+      "text": "Reserved Parking: Blue Deck’s extra hand allows for more hands that can be used to yield money and dig for face cards. Mad World starts with an Eternal Pareidolia, which makes it so that all cards are considered face cards, causing Reserved Parking to potentially activate on all cards held in hand. Poker hands: Since it's best to keep as many face cards in hand as possible, smaller hands like High Card and Pair work well. Jokers: Oops! All 6s guarantees that Reserved Parking will trigger. Mime retriggers all card held in abilities, including Reserved Parking’s effect. Pareidolia makes it so that all cards are considered face cards, causing Reserved Parking to potentially activate on all cards held in hand."
+     }
+    ],
+    "skipped": [
+     [
+      701,
+      "excede el limite de palabras"
+     ],
+     [
+      1390,
+      "excede el limite de palabras"
+     ],
+     [
+      1729,
+      "excede el limite de palabras"
+     ],
+     [
+      822,
+      "excede el limite de palabras"
+     ],
+     [
+      703,
+      "excede el limite de palabras"
+     ],
+     [
+      1466,
+      "excede el limite de palabras"
+     ],
+     [
+      982,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "I don't know: the selected context does not answer this question.",
+    "confidence": 0.808,
+    "abstained": true,
+    "supporting_chunk": null,
+    "outcome": "abstained_no_support",
+    "context_has_answer": false,
+    "timings_ms": {
+     "clean": 9.25,
+     "retrieval": 1359.79,
+     "context": 0.75,
+     "model": 845.31,
+     "retrieval_total": 1362.58,
+     "total": 2217.13
+    }
+   }
+  },
+  "Which joker gives +15 Mult but can be destroyed at end of round?": {
+   "kind": "symbol",
+   "expected": [
+    "gros michel"
+   ],
+   "approx": {
+    "prompt_question": "Which joker gives +15 Mult but can be destroyed at end of round?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 476,
+      "title": "Gros Michel",
+      "score": 18.402,
+      "text": "Gros Michel: Gros Michel (Joker). Effect: +15 Mult, 1 in 6 chance this card is destroyed at end of round. Rarity: Common. Unlock Requirement: Available from start. Spawn Condition: Only obtainable while Gros Michel has not yet gone \"extinct\" during the current run. Buy Price: $5. Sell Price: $2. Type: Additive Mult. Activation: Independent. Probability-Based: Yes. Copyable: Yes. Perishable: Yes. Eternal: ✗ No. Gros Michel (French for \"big Mike\" or \"big Michael\"; pronounced in American English as grows mee-shel, and in British English as grow mih-chel) is a Common Additive Mult Joker that gives an unconditional +15 Mult to any poker hand played."
+     },
+     {
+      "id": 726,
+      "title": "Mystic Summit",
+      "score": 11.935,
+      "text": "Mystic Summit: Mystic Summit (Joker). Effect: +15 Mult when 0 discards remaining. Rarity: Common. Unlock Requirement: Available from start. Buy Price: $5. Sell Price: $2. Type: Additive Mult. Activation: Independent. Copyable: Yes. Perishable: Yes. Eternal: Yes. Mystic Summit is a Common additive Mult Joker that gives +15 Mult when the player has 0 discards remaining, either by using them all or through other means (such as Jokers like Burglar)."
+     },
+     {
+      "id": 1128,
+      "title": "Trading Card",
+      "score": 10.69,
+      "text": "Trading Card: Ride the Bus is easier to keep the effect of, as face cards can be destroyed. DNA pairs well with Trading Card for deck manipulation. Hologram scales on adding cards. By using Trading Card, cards can be added without bloating the deck. Mystic Summit gains +15 Mult after using up all discards, making the discard used for Trading Card less consequential. Other: Purple Seal activates before the destruction, resulting in both a Tarot card and $3. Vouchers: Wasteful and Recyclomancy both give +1 discard, allowing Trading Card to be used with fewer consequences."
+     },
+     {
+      "id": 1330,
+      "title": "Jupiter",
+      "score": 10.086,
+      "text": "Jupiter: Jupiter (Planet card). Type: Planet. Effect: Increases Flush hand value by +2 Mult and +15 Chips. Unlock Requirement: Available from start. Buy Price: $3. Sell Price: $1. Jupiter is a Planet card that increases the value of Flush by +2 Mult and +15 Chips (default 4 Mult x 35 Chips)."
+     }
+    ],
+    "skipped": [
+     [
+      23,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Gros Michel",
+    "confidence": 0.319,
+    "abstained": false,
+    "supporting_chunk": 476,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 6.28,
+     "retrieval": 17.09,
+     "context": 0.88,
+     "model": 1615.89,
+     "retrieval_total": 20.23,
+     "total": 1642.4
+    }
+   },
+   "exact": {
+    "prompt_question": "Which joker gives +15 Mult but can be destroyed at end of round?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 476,
+      "title": "Gros Michel",
+      "score": 19.373,
+      "text": "Gros Michel: Gros Michel (Joker). Effect: +15 Mult, 1 in 6 chance this card is destroyed at end of round. Rarity: Common. Unlock Requirement: Available from start. Spawn Condition: Only obtainable while Gros Michel has not yet gone \"extinct\" during the current run. Buy Price: $5. Sell Price: $2. Type: Additive Mult. Activation: Independent. Probability-Based: Yes. Copyable: Yes. Perishable: Yes. Eternal: ✗ No. Gros Michel (French for \"big Mike\" or \"big Michael\"; pronounced in American English as grows mee-shel, and in British English as grow mih-chel) is a Common Additive Mult Joker that gives an unconditional +15 Mult to any poker hand played."
+     },
+     {
+      "id": 726,
+      "title": "Mystic Summit",
+      "score": 12.938,
+      "text": "Mystic Summit: Mystic Summit (Joker). Effect: +15 Mult when 0 discards remaining. Rarity: Common. Unlock Requirement: Available from start. Buy Price: $5. Sell Price: $2. Type: Additive Mult. Activation: Independent. Copyable: Yes. Perishable: Yes. Eternal: Yes. Mystic Summit is a Common additive Mult Joker that gives +15 Mult when the player has 0 discards remaining, either by using them all or through other means (such as Jokers like Burglar)."
+     },
+     {
+      "id": 23,
+      "title": "Ancient Joker",
+      "score": 11.288,
+      "text": "Ancient Joker: Ancient Joker (Joker). Effect: Each played card with [suit] gives X1.5 Mult when scored,, suit changes at end of round. Rarity: Rare. Unlock Requirement: Available from start. Buy Price: $8. Sell Price: $4. Type: Multiplicative Mult. Activation: On Scored. Copyable: Yes. Perishable: Yes. Eternal: Yes. Ancient Joker is a Rare Multiplicative Mult Joker with highly variable power. At the end of each round, a new suit is chosen evenly amongst the 3 suits it is not currently using, regardless of the composition of the current deck. If multiple Ancient Jokers are held, they will all pick the same suit as each other. Each time a card of the current suit is scored, Ancient Joker applies X1.5 Mult."
+     }
+    ],
+    "skipped": [
+     [
+      1220,
+      "excede el limite de palabras"
+     ],
+     [
+      883,
+      "excede el limite de palabras"
+     ],
+     [
+      208,
+      "excede el limite de palabras"
+     ],
+     [
+      2228,
+      "excede el limite de palabras"
+     ],
+     [
+      1127,
+      "excede el limite de palabras"
+     ],
+     [
+      1086,
+      "excede el limite de palabras"
+     ],
+     [
+      1330,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Gros Michel",
+    "confidence": 0.373,
+    "abstained": false,
+    "supporting_chunk": 476,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 11.02,
+     "retrieval": 1956.24,
+     "context": 1.22,
+     "model": 1367.88,
+     "retrieval_total": 1959.61,
+     "total": 3338.51
+    }
+   }
+  },
+  "Which joker gives X3 Mult and has a 1 in 1000 chance of being destroyed?": {
+   "kind": "symbol",
+   "expected": [
+    "cavendish"
+   ],
+   "approx": {
+    "prompt_question": "Which joker gives X3 Mult and has a 1 in 1000 chance of being destroyed?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 208,
+      "title": "Cavendish",
+      "score": 18.853,
+      "text": "Cavendish: Cavendish (Joker). Effect: X3 Mult, 1 in 1000 chance this card is destroyed at the end of round. Rarity: Common. Unlock Requirement: Available from start. Spawn Condition: Only obtainable if Gros Michel has gone \"extinct\" during the current run. Buy Price: $4. Sell Price: $2. Type: Multiplicative Mult. Activation: Independent. Probability-Based: Yes. Copyable: Yes. Perishable: Yes. Eternal: ✗ No. Cavendish is a Common Multiplicative Mult Joker that provides an immediate and unconditional X3 Mult to all hands played. With many other similar cards having an activation requirement or warranting scaling, this Mult bonus makes Cavendish among the best in its class, arguably the best Common Joker, and potentially one of the best in the game."
+     },
+     {
+      "id": 209,
+      "title": "Cavendish",
+      "score": 16.311,
+      "text": "Cavendish: Obtaining this joker first requires Gros Michel to destroy itself via its own 1 in 6 chance during the same run. It also comes with a minuscule but potentially devastating risk in the form of a 1 in 1000 chance to destroy itself at the end of the round (denoted by the word \"Extinct!\" displaying as it vanishes), which can deprive the player of most of their scoring power. Usage Notes: The Non-Perishable challenge bans Cavendish. While Cavendish can also go \"Extinct!\", it is still able to show up in the shop again, unlike Gros Michel. Decks: This Joker works well with any of the Decks, as it gives X3 Mult to every hand played."
+     }
+    ],
+    "skipped": [
+     [
+      170,
+      "excede el limite de palabras"
+     ],
+     [
+      211,
+      "excede el limite de palabras"
+     ],
+     [
+      212,
+      "excede el limite de palabras"
+     ],
+     [
+      2228,
+      "excede el limite de palabras"
+     ],
+     [
+      1043,
+      "excede el limite de palabras"
+     ],
+     [
+      1657,
+      "excede el limite de palabras"
+     ],
+     [
+      1132,
+      "excede el limite de palabras"
+     ],
+     [
+      476,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Cavendish",
+    "confidence": 0.301,
+    "abstained": false,
+    "supporting_chunk": 208,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 8.13,
+     "retrieval": 26.76,
+     "context": 1.34,
+     "model": 768.45,
+     "retrieval_total": 30.43,
+     "total": 807.01
+    }
+   },
+   "exact": {
+    "prompt_question": "Which joker gives X3 Mult and has a 1 in 1000 chance of being destroyed?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 208,
+      "title": "Cavendish",
+      "score": 19.439,
+      "text": "Cavendish: Cavendish (Joker). Effect: X3 Mult, 1 in 1000 chance this card is destroyed at the end of round. Rarity: Common. Unlock Requirement: Available from start. Spawn Condition: Only obtainable if Gros Michel has gone \"extinct\" during the current run. Buy Price: $4. Sell Price: $2. Type: Multiplicative Mult. Activation: Independent. Probability-Based: Yes. Copyable: Yes. Perishable: Yes. Eternal: ✗ No. Cavendish is a Common Multiplicative Mult Joker that provides an immediate and unconditional X3 Mult to all hands played. With many other similar cards having an activation requirement or warranting scaling, this Mult bonus makes Cavendish among the best in its class, arguably the best Common Joker, and potentially one of the best in the game."
+     },
+     {
+      "id": 209,
+      "title": "Cavendish",
+      "score": 17.468,
+      "text": "Cavendish: Obtaining this joker first requires Gros Michel to destroy itself via its own 1 in 6 chance during the same run. It also comes with a minuscule but potentially devastating risk in the form of a 1 in 1000 chance to destroy itself at the end of the round (denoted by the word \"Extinct!\" displaying as it vanishes), which can deprive the player of most of their scoring power. Usage Notes: The Non-Perishable challenge bans Cavendish. While Cavendish can also go \"Extinct!\", it is still able to show up in the shop again, unlike Gros Michel. Decks: This Joker works well with any of the Decks, as it gives X3 Mult to every hand played."
+     }
+    ],
+    "skipped": [
+     [
+      170,
+      "excede el limite de palabras"
+     ],
+     [
+      212,
+      "excede el limite de palabras"
+     ],
+     [
+      211,
+      "excede el limite de palabras"
+     ],
+     [
+      1043,
+      "excede el limite de palabras"
+     ],
+     [
+      2228,
+      "excede el limite de palabras"
+     ],
+     [
+      476,
+      "excede el limite de palabras"
+     ],
+     [
+      762,
+      "excede el limite de palabras"
+     ],
+     [
+      1223,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Cavendish",
+    "confidence": 0.301,
+    "abstained": false,
+    "supporting_chunk": 208,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 8.61,
+     "retrieval": 2213.97,
+     "context": 2.41,
+     "model": 711.37,
+     "retrieval_total": 2219.65,
+     "total": 2939.62
+    }
+   }
+  },
+  "What does Blueprnt do?": {
+   "kind": "typo",
+   "expected": [
+    "cop"
+   ],
+   "approx": {
+    "prompt_question": "What is the effect of Blueprint?",
+    "corrections": [
+     [
+      "Blueprnt",
+      "Blueprint"
+     ]
+    ],
+    "context": [
+     {
+      "id": 95,
+      "title": "Blueprint",
+      "score": 15.408,
+      "text": "Blueprint: Blueprint (Joker). Effect: Copies ability of Joker to the right. Rarity: Rare. Unlock Requirement: Win a run. Buy Price: $10. Sell Price: $5. Type: Effect. Copyable: Yes. Perishable: Yes. Eternal: Yes. Blueprint is a Rare Effect Joker that copies the effect of the Joker to its immediate right. Not all Jokers are compatible with Blueprint, as Blueprint cannot copy any \"passive modifier\" effects, but Blueprint itself is compatible. Blueprint's compatibility with other Jokers can be seen under its effect. This Joker is unlocked once the player wins their first run. This Joker shares an unlock requirement with the Heads Up achievement."
+     },
+     {
+      "id": 99,
+      "title": "Blueprint",
+      "score": 15.094,
+      "text": "Blueprint: Poker Hands: Any hand can benefit from Blueprint in the usual ways. The only hand-specific Jokers that are incompatible with Blueprint are independent effects such as Shortcut. Jokers: Blueprint is an essential Joker and combines well with virtually any other Joker to double its effect. When stacked with Brainstorm or another Blueprint, each will add one more copy of the copied effect. When combining Blueprint with Brainstorm, Blueprint can be placed to the left of Brainstorm or to the left of the leftmost Joker (to be copied), depending on the desired order of Joker activation."
+     },
+     {
+      "id": 101,
+      "title": "Blueprint",
+      "score": 15.002,
+      "text": "Blueprint: A few Jokers have both \"trigger\" effects that Blueprint can copy and \"passive\" ones that it cannot. Stuntman, for example, gives +250 Chips, a \"trigger\" effect, and -2 Hand Size, a \"passive\" effect. Therefore, Blueprint copies the +250 Chips, but not the -2 Hand Size. If jokers that take effect upon selling them (Luchador and Diet Cola, not including Invisible Joker) get copied, Blueprint can be sold to trigger the effect. However, on mobile devices, dragging Blueprint to sell it could change the order of Jokers, changing its effect."
+     }
+    ],
+    "skipped": [
+     [
+      97,
+      "excede el limite de palabras"
+     ],
+     [
+      98,
+      "excede el limite de palabras"
+     ],
+     [
+      104,
+      "excede el limite de palabras"
+     ],
+     [
+      102,
+      "excede el limite de palabras"
+     ],
+     [
+      103,
+      "excede el limite de palabras"
+     ],
+     [
+      105,
+      "excede el limite de palabras"
+     ],
+     [
+      96,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Copies ability of Joker to the right",
+    "confidence": 0.592,
+    "abstained": false,
+    "supporting_chunk": 95,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 3.55,
+     "retrieval": 9.66,
+     "context": 1.94,
+     "model": 1243.13,
+     "retrieval_total": 12.8,
+     "total": 1259.47
+    }
+   },
+   "exact": {
+    "prompt_question": "What is the effect of Blueprint?",
+    "corrections": [
+     [
+      "Blueprnt",
+      "Blueprint"
+     ]
+    ],
+    "context": [],
+    "skipped": [],
+    "answer": "I don't know: the selected context does not answer this question.",
+    "confidence": 0.0,
+    "abstained": true,
+    "supporting_chunk": null,
+    "outcome": "abstained_no_support",
+    "context_has_answer": false,
+    "timings_ms": {
+     "clean": 1.83,
+     "retrieval": 247.19,
+     "context": 0.01,
+     "model": 0.01,
+     "retrieval_total": 247.27,
+     "total": 249.12
+    }
+   }
+  },
+  "How do I unlock Hologrm?": {
+   "kind": "typo",
+   "expected": [
+    "start"
+   ],
+   "approx": {
+    "prompt_question": "How do I unlock Hologram?",
+    "corrections": [
+     [
+      "Hologrm",
+      "Hologram"
+     ]
+    ],
+    "context": [
+     {
+      "id": 549,
+      "title": "Hologram",
+      "score": 16.858,
+      "text": "Hologram: Hologram (Joker). Effect: This Joker gains X0.25 Mult every time a playing card is added to your deck, (Currently X1 Mult). Rarity: Uncommon. Unlock Requirement: Available from start. Buy Price: $7. Sell Price: $3. Type: Multiplicative Mult. Activation: Independent. Copyable: Yes. Perishable: ✗ No. Eternal: Yes. Hologram is an Uncommon scaling Multiplicative Mult Joker that gains X0.25 Mult when new playing cards are added to the deck. It starts at X1 Mult and gains an additional X0.25 Mult for each playing card added after its acquisition. The effect is based solely on gaining cards; keeping the cards afterwards is not required."
+     },
+     {
+      "id": 550,
+      "title": "Hologram",
+      "score": 15.387,
+      "text": "Hologram: Decks: Ghost Deck offers upside to Hologram thanks to its easier access to Spectral cards, especially those mentioned in the Synergetic Consumables section. Abandoned Deck and Mad World work well with Hologram thanks to their low amount of starting cards. Medusa and Monolith both work well with Hologram, as these decks both start with a Marble Joker, which means Hologram gains X0.25 Mult for free each blind. Poker hands: Hologram can be used with any Poker Hand, but small hands such as High Card or Pair are affected the least when constantly adding new cards to the deck. Jokers: DNA duplicates the first card played if it is the only card."
+     },
+     {
+      "id": 554,
+      "title": "Hologram",
+      "score": 15.222,
+      "text": "Hologram: Decks: Fragile doesn't work well with Hologram due to all sources of adding playing cards besides Cryptid and DNA being banned in this deck. Poker hands: Hologram is probably weakest when paired with strategies that prioritize Straights and Straight Flushes, because it is harder to gain cards into runs than it is to gain cards into sets. Jokers: Erosion has anti-synergy as it gives mult for having a small deck. Since one of the primary ways to scale Hologram is with the use of Booster Packs, Red Card can be hard to use alongside Hologram."
+     }
+    ],
+    "skipped": [
+     [
+      552,
+      "excede el limite de palabras"
+     ],
+     [
+      553,
+      "excede el limite de palabras"
+     ],
+     [
+      551,
+      "excede el limite de palabras"
+     ],
+     [
+      555,
+      "excede el limite de palabras"
+     ],
+     [
+      309,
+      "excede el limite de palabras"
+     ],
+     [
+      465,
+      "excede el limite de palabras"
+     ],
+     [
+      261,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Available from start",
+    "confidence": 0.59,
+    "abstained": false,
+    "supporting_chunk": 549,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 2.26,
+     "retrieval": 7.04,
+     "context": 1.52,
+     "model": 1317.42,
+     "retrieval_total": 9.41,
+     "total": 1329.09
+    }
+   },
+   "exact": {
+    "prompt_question": "How do I unlock Hologram?",
+    "corrections": [
+     [
+      "Hologrm",
+      "Hologram"
+     ]
+    ],
+    "context": [
+     {
+      "id": 1759,
+      "title": "Anaglyph Deck",
+      "score": 4.725,
+      "text": "Anaglyph Deck: Anaglyph Deck (Deck). Effect: After defeating each Boss Blind, gain a Double Tag. Unlock Requirement: Win a run with any deck on the Black Stake difficulty or harder. The Anaglyph Deck is an unlockable deck that gives a Double Tag whenever a Boss Blind is defeated. This deck is unlocked by winning a run on the Black Stake difficulty. This Deck shares an unlock requirement with the Mid Stakes achievement."
+     },
+     {
+      "id": 1964,
+      "title": "Zodiac Deck",
+      "score": 4.725,
+      "text": "Zodiac Deck: Zodiac Deck (Deck). Effect: Start run with Tarot Merchant, Planet Merchant, and Overstock. Unlock Requirement: Win a run with any deck on the Red Stake difficulty or harder. The Zodiac Deck is an unlockable deck that starts the player off with Tarot Merchant, Planet Merchant and Overstock. It is unlocked by winning a run on the Red Stake difficulty. This Deck shares an unlock requirement with the Low Stakes achievement."
+     },
+     {
+      "id": 939,
+      "title": "Shoot the Moon",
+      "score": 4.643,
+      "text": "Shoot the Moon: The unlock requirement for Shoot the Moon does not necessarily mean to play one card of each rank with the Heart suit, so having just one Heart card in the deck and playing it will unlock Shoot the Moon. A suitable strategy to unlock it is with an Erratic Deck configuration with few Hearts, or Abandoned Deck, since it only has 10 Heart cards. Conversely, it is harder to unlock on Checkered Deck due to the big amount of Heart cards."
+     },
+     {
+      "id": 684,
+      "title": "Merry Andy",
+      "score": 4.376,
+      "text": "Merry Andy: To unlock this Joker, the player must reach Ante 8 in 12 rounds or less. This Joker shares an unlock requirement with the Speedrunner achievement. Usage Notes: If you generate Merry Andy through a Judgement, you will get the extra discards for the current hand without cards being discarded from your hand but will drop your hand size when you next draw."
+     }
+    ],
+    "skipped": [
+     [
+      107,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "I don't know: the selected context does not answer this question.",
+    "confidence": 0.458,
+    "abstained": true,
+    "supporting_chunk": null,
+    "outcome": "abstained_no_support",
+    "context_has_answer": false,
+    "timings_ms": {
+     "clean": 1.82,
+     "retrieval": 519.11,
+     "context": 0.72,
+     "model": 1212.17,
+     "retrieval_total": 520.36,
+     "total": 1734.34
+    }
+   }
+  },
+  "What rarity is Brainstrom?": {
+   "kind": "typo",
+   "expected": [
+    "rare"
+   ],
+   "approx": {
+    "prompt_question": "What rarity is Brainstorm?",
+    "corrections": [
+     [
+      "Brainstrom",
+      "Brainstorm"
+     ]
+    ],
+    "context": [
+     {
+      "id": 114,
+      "title": "Brainstorm",
+      "score": 7.067,
+      "text": "Brainstorm: Brainstorm (Joker). Effect: Copies the ability of leftmost Joker. Rarity: Rare. Unlock Requirement: Discard a Royal Flush. Buy Price: $10. Sell Price: $5. Type: Effect. Copyable: Yes. Perishable: Yes. Eternal: Yes. Brainstorm is a Rare Effect Joker that copies the effect of the player's leftmost Joker. Unlike Blueprint, moving Brainstorm around will not change what it copies, only when it does so. To change the Joker that is being copied, a different Joker will need to be moved to the leftmost position. There are some Jokers that cannot be copied, and putting Brainstorm itself in the leftmost position will cause it to do nothing. If Blueprint is in the left-most position, Brainstorm will copy the same joker Blueprint is copying. Brainstorm's compatibility with other Jokers can be seen in its tooltip."
+     },
+     {
+      "id": 118,
+      "title": "Brainstorm",
+      "score": 4.762,
+      "text": "Brainstorm: Decks: By its nature, any deck can make effective use of Brainstorm. Its effect is highly flexible and can benefit nearly any archetype of deck, aside from Madness without Eternal Stickers. Poker Hands: Any hand can benefit from Brainstorm in the usual ways. The only hand-specific Jokers that are incompatible with Brainstorm are independent effects such as Shortcut. Jokers: Due to the difference in the way it copies a card, and the nature of Jokers triggering left to right, Brainstorm will always be in Blueprint's shadow — by a small amount."
+     },
+     {
+      "id": 124,
+      "title": "Brainstorm",
+      "score": 4.459,
+      "text": "Brainstorm: If the collection were a set of joker slots, Brainstorm would be copying Stuntman. The texture of this Joker has protruding areas on the right and down sides, slightly exceeding the boundaries of a standard Joker. This may represent the ragged edge of the napkin after being torn off. The other Joker with this similar property is Hallucination. Brainstorm appears on the artwork of the Mega Buffoon Pack."
+     }
+    ],
+    "skipped": [
+     [
+      120,
+      "excede el limite de palabras"
+     ],
+     [
+      119,
+      "excede el limite de palabras"
+     ],
+     [
+      116,
+      "excede el limite de palabras"
+     ],
+     [
+      121,
+      "excede el limite de palabras"
+     ],
+     [
+      122,
+      "excede el limite de palabras"
+     ],
+     [
+      99,
+      "excede el limite de palabras"
+     ],
+     [
+      703,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Rare",
+    "confidence": 0.789,
+    "abstained": false,
+    "supporting_chunk": 114,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 4.77,
+     "retrieval": 10.45,
+     "context": 0.7,
+     "model": 1207.44,
+     "retrieval_total": 11.48,
+     "total": 1223.7
+    }
+   },
+   "exact": {
+    "prompt_question": "What rarity is Brainstorm?",
+    "corrections": [
+     [
+      "Brainstrom",
+      "Brainstorm"
+     ]
+    ],
+    "context": [
+     {
+      "id": 1362,
+      "title": "Ankh",
+      "score": 3.623,
+      "text": "Ankh: Trivia: An \"Ankh\" (☥) is a symbol of life and immortality in ancient Egyptian culture and is said to be a precursor to the original Christian cross, despite the two being completely separate religious symbols. When Ankh duplicates a Joker, the color of spawning animation changes with the rarity of Joker. For example, if a Rare Joker is duplicated, the animation will be red. Ankh is the only item with this property, as most items do not have a spawning animation (such as Judgement), or can only generate a specific rarity (such as Riff-Raff)."
+     },
+     {
+      "id": 583,
+      "title": "Joker",
+      "score": 3.468,
+      "text": "Joker: When the game tries to generate a Joker of a given Rarity, if all Jokers of that Rarity are unavailable (already owned without Showman, banned by a Challenge Deck, unmet requirements, etc), it will generate Joker instead as a fallback. The only exception to this is the Rare Tag, which will instead \"Nope!\" and do nothing. Joker is the only Joker with a cost of $2. Joker appears on an Ante Up! shirt in a merch collaboration with Fangamer. The two other jokers that appear on the same shirt include Popcorn and Cavendish. Before the main menu shows up, Joker will pop up from the bottom of the screen."
+     },
+     {
+      "id": 575,
+      "title": "Joker",
+      "score": 3.359,
+      "text": "Joker: Joker (Joker). Effect: +4 Mult. Rarity: Common. Unlock Requirement: Available from start. Buy Price: $2. Sell Price: $1. Type: Additive Mult. Activation: Independent. Copyable: Yes. Perishable: Yes. Eternal: Yes. Joker is a Common Additive Mult Joker. It provides +4 Mult to all played hands."
+     },
+     {
+      "id": 47,
+      "title": "Banner",
+      "score": 3.234,
+      "text": "Banner: Banner (Joker). Effect: +30 Chips for each remaining discard. Rarity: Common. Unlock Requirement: Available from start. Buy Price: $5. Sell Price: $2. Type: Chips. Activation: Independent. Copyable: Yes. Perishable: Yes. Eternal: Yes. Banner is a Common Chips Joker that provides +30 Chips for each remaining discard when a hand is played."
+     }
+    ],
+    "skipped": [],
+    "answer": "I don't know: the selected context does not answer this question.",
+    "confidence": 0.831,
+    "abstained": true,
+    "supporting_chunk": null,
+    "outcome": "abstained_no_support",
+    "context_has_answer": false,
+    "timings_ms": {
+     "clean": 7.47,
+     "retrieval": 306.28,
+     "context": 1.81,
+     "model": 1349.14,
+     "retrieval_total": 308.7,
+     "total": 1665.31
+    }
+   }
+  },
+  "What does Fibonaci do?": {
+   "kind": "typo",
+   "expected": [
+    "+8"
+   ],
+   "approx": {
+    "prompt_question": "What is the effect of Fibonacci?",
+    "corrections": [
+     [
+      "Fibonaci",
+      "Fibonacci"
+     ]
+    ],
+    "context": [
+     {
+      "id": 375,
+      "title": "Fibonacci",
+      "score": 16.238,
+      "text": "Fibonacci: Fibonacci (Joker). Effect: Each played Ace, 2, 3, 5, or 8 gives +8 Mult when scored. Rarity: Uncommon. Unlock Requirement: Available from start. Buy Price: $8. Sell Price: $4. Type: Additive Mult. Activation: On Scored. Copyable: Yes. Perishable: Yes. Eternal: Yes. Fibonacci is an Uncommon Additive Mult Joker that gives +8 Mult every time an Ace, 2, 3, 5, or 8 scores."
+     },
+     {
+      "id": 376,
+      "title": "Fibonacci",
+      "score": 15.836,
+      "text": "Fibonacci: Decks: Thanks to the absence of face cards, Abandoned Deck has a greater concentration of cards favorable by Fibonacci, and thus works really well with it. Mad World will also work as well, although this deck doesn't start with any Aces. Poker hands: As Three of a Kind, Full House and Four of a Kind all utilize a number of the same rank, they often work really well with Fibonacci. Low-ended Straight also makes great use of Fibonacci. Flush is difficult early on, but can earn +40 Mult from Fibonacci in an unmodified deck, and diligent suit conversion can make triggering Fibonacci a simple matter of picking ranks."
+     },
+     {
+      "id": 381,
+      "title": "Fibonacci",
+      "score": 15.107,
+      "text": "Fibonacci: The card art shows a Fibonacci spiral, an approximation of the Golden spiral. The distance between the center and the spiral gets multiplied by a certain factor for every quarter turn it makes. This factor approaches the golden ratio (≈1.618) as the Fibonacci numbers approach infinity. There's a single green off-color pixel between the spiral and the small blue square, which has been present since the very first public release. In other media: Fibonacci is referenced as a weapon in the Ante Chamber DLC of Vampire Survivors, albeit with the appearance of Seltzer."
+     }
+    ],
+    "skipped": [
+     [
+      377,
+      "excede el limite de palabras"
+     ],
+     [
+      380,
+      "excede el limite de palabras"
+     ],
+     [
+      379,
+      "excede el limite de palabras"
+     ],
+     [
+      378,
+      "excede el limite de palabras"
+     ],
+     [
+      97,
+      "excede el limite de palabras"
+     ],
+     [
+      806,
+      "excede el limite de palabras"
+     ],
+     [
+      931,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "+8 Mult when scored",
+    "confidence": 0.325,
+    "abstained": false,
+    "supporting_chunk": 375,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 1.97,
+     "retrieval": 9.42,
+     "context": 0.83,
+     "model": 1235.07,
+     "retrieval_total": 10.95,
+     "total": 1247.99
+    }
+   },
+   "exact": {
+    "prompt_question": "What is the effect of Fibonacci?",
+    "corrections": [
+     [
+      "Fibonaci",
+      "Fibonacci"
+     ]
+    ],
+    "context": [],
+    "skipped": [],
+    "answer": "I don't know: the selected context does not answer this question.",
+    "confidence": 0.0,
+    "abstained": true,
+    "supporting_chunk": null,
+    "outcome": "abstained_no_support",
+    "context_has_answer": false,
+    "timings_ms": {
+     "clean": 2.6,
+     "retrieval": 278.67,
+     "context": 0.02,
+     "model": 0.02,
+     "retrieval_total": 278.77,
+     "total": 281.39
+    }
+   }
+  },
+  "Which jokers retrigger played cards?": {
+   "kind": "inflection",
+   "expected": [
+    "hack",
+    "dusk",
+    "hanging chad",
+    "seltzer",
+    "sock and buskin"
+   ],
+   "approx": {
+    "prompt_question": "Which jokers retrigger played cards?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 485,
+      "title": "Hack",
+      "score": 7.637,
+      "text": "Hack: Hack (Joker). Effect: Retrigger each played 2, 3, 4, or 5. Rarity: Uncommon. Unlock Requirement: Available from start. Buy Price: $6. Sell Price: $3. Type: Retrigger. Activation: On Scored. Copyable: Yes. Perishable: Yes. Eternal: Yes. Hack is an Uncommon Retrigger Joker that can retrigger played scoring low-rank cards, more specifically, 2s, 3s, 4s, and 5s. This can mitigate the lower chip count provided by low-rank cards, since they will be triggered twice."
+     },
+     {
+      "id": 520,
+      "title": "Hanging Chad",
+      "score": 7.536,
+      "text": "Hanging Chad: Hanging Chad (Joker). Effect: Retrigger first played card used in scoring 2 additional times. Rarity: Common. Unlock Requirement: Beat a Boss Blind with a High Card. Buy Price: $4. Sell Price: $2. Type: Retrigger. Activation: On Scored. Copyable: Yes. Perishable: Yes. Eternal: Yes. Hanging Chad is a Common Retrigger Joker that can retrigger the first scoring played card in a poker hand twice. This includes any card modifiers and/or extra+ Chips from Hiker, making these cards effectively three times more potent."
+     },
+     {
+      "id": 924,
+      "title": "Seltzer",
+      "score": 7.519,
+      "text": "Seltzer: Seltzer (Joker). Effect: Retrigger all cards played for the next 10 hands. Rarity: Uncommon. Unlock Requirement: Available from start. Buy Price: $6. Sell Price: $3. Type: Retrigger. Activation: On Scored. Copyable: Yes. Perishable: Yes. Eternal: ✗ No. Seltzer is an Uncommon Retrigger Joker that temporarily boosts played hands' effect by re-triggering each scored card. It lasts for a total of 10 hands and will disappear after the 10th hand is played and retriggered (denoted by the text \"Drank!\")."
+     },
+     {
+      "id": 699,
+      "title": "Mime",
+      "score": 7.381,
+      "text": "Mime: Mime (Joker). Effect: Retrigger all card held in hand abilities. Rarity: Uncommon. Unlock Requirement: Available from start. Buy Price: $5. Sell Price: $2. Type: Retrigger. Activation: On Held. Copyable: Yes. Perishable: Yes. Eternal: Yes. Mime is an Uncommon Retrigger Joker that can retrigger all held in hand effects (cards that are not played but remain in hand)."
+     }
+    ],
+    "skipped": [],
+    "answer": "I don't know: the selected context does not answer this question.",
+    "confidence": 0.466,
+    "abstained": true,
+    "supporting_chunk": null,
+    "outcome": "abstained_with_support",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 4.1,
+     "retrieval": 27.1,
+     "context": 1.0,
+     "model": 2341.87,
+     "retrieval_total": 31.24,
+     "total": 2377.21
+    }
+   },
+   "exact": {
+    "prompt_question": "Which jokers retrigger played cards?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 485,
+      "title": "Hack",
+      "score": 8.332,
+      "text": "Hack: Hack (Joker). Effect: Retrigger each played 2, 3, 4, or 5. Rarity: Uncommon. Unlock Requirement: Available from start. Buy Price: $6. Sell Price: $3. Type: Retrigger. Activation: On Scored. Copyable: Yes. Perishable: Yes. Eternal: Yes. Hack is an Uncommon Retrigger Joker that can retrigger played scoring low-rank cards, more specifically, 2s, 3s, 4s, and 5s. This can mitigate the lower chip count provided by low-rank cards, since they will be triggered twice."
+     },
+     {
+      "id": 924,
+      "title": "Seltzer",
+      "score": 8.066,
+      "text": "Seltzer: Seltzer (Joker). Effect: Retrigger all cards played for the next 10 hands. Rarity: Uncommon. Unlock Requirement: Available from start. Buy Price: $6. Sell Price: $3. Type: Retrigger. Activation: On Scored. Copyable: Yes. Perishable: Yes. Eternal: ✗ No. Seltzer is an Uncommon Retrigger Joker that temporarily boosts played hands' effect by re-triggering each scored card. It lasts for a total of 10 hands and will disappear after the 10th hand is played and retriggered (denoted by the text \"Drank!\")."
+     },
+     {
+      "id": 520,
+      "title": "Hanging Chad",
+      "score": 8.034,
+      "text": "Hanging Chad: Hanging Chad (Joker). Effect: Retrigger first played card used in scoring 2 additional times. Rarity: Common. Unlock Requirement: Beat a Boss Blind with a High Card. Buy Price: $4. Sell Price: $2. Type: Retrigger. Activation: On Scored. Copyable: Yes. Perishable: Yes. Eternal: Yes. Hanging Chad is a Common Retrigger Joker that can retrigger the first scoring played card in a poker hand twice. This includes any card modifiers and/or extra+ Chips from Hiker, making these cards effectively three times more potent."
+     },
+     {
+      "id": 699,
+      "title": "Mime",
+      "score": 8.009,
+      "text": "Mime: Mime (Joker). Effect: Retrigger all card held in hand abilities. Rarity: Uncommon. Unlock Requirement: Available from start. Buy Price: $5. Sell Price: $2. Type: Retrigger. Activation: On Held. Copyable: Yes. Perishable: Yes. Eternal: Yes. Mime is an Uncommon Retrigger Joker that can retrigger all held in hand effects (cards that are not played but remain in hand)."
+     }
+    ],
+    "skipped": [],
+    "answer": "I don't know: the selected context does not answer this question.",
+    "confidence": 0.643,
+    "abstained": true,
+    "supporting_chunk": null,
+    "outcome": "abstained_with_support",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 7.34,
+     "retrieval": 1116.81,
+     "context": 0.67,
+     "model": 2290.56,
+     "retrieval_total": 1118.72,
+     "total": 3416.63
+    }
+   }
+  },
+  "What does the Egg joker do?": {
+   "kind": "direct",
+   "expected": [
+    "$3"
+   ],
+   "approx": {
+    "prompt_question": "What is the effect of the Egg joker?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 347,
+      "title": "Egg",
+      "score": 12.567,
+      "text": "Egg: Egg (Joker). Effect: Gains $3 of sell value at end of round. Rarity: Common. Unlock Requirement: Available from start. Buy Price: $4. Sell Price: $2. Type: Economy. Activation: N/A (Passive). Copyable: ✗ No. Perishable: Yes. Eternal: Yes. Egg is a Common Economy Joker which gains $3 of sell value each round, and has no other effect. It can help with some joker synergies, or simply be cashed in after a few rounds for a small profit."
+     },
+     {
+      "id": 348,
+      "title": "Egg",
+      "score": 11.958,
+      "text": "Egg: Usage Notes: The Omelette challenge starts the player with 5 copies of Egg. Decks: The Green Deck cannot generate interest, and can especially benefit from alternative income sources like Egg. Poker hands: This Joker does not add Chips or Mult, so no hand benefits or suffers from it. Jokers: Swashbuckler can combo with Egg to gain Mult each round, but will lose it if Egg is sold. While Debuffed, Egg will still provide Mult for Swashbuckler. Ceremonial Dagger can be used to sacrifice Egg for a permanent Mult bonus."
+     },
+     {
+      "id": 350,
+      "title": "Egg",
+      "score": 11.731,
+      "text": "Egg: Since Painted Deck and Blast Off only have 4 Joker slots instead of the typical 5, taking Egg is much more risky since it doesn't immediately help the player score and its only purpose is to be sold. Cruelty makes it even more difficult and risky to use Egg, as this deck only has 3 Joker slots. Non-Perishable makes every Joker Eternal, including Egg, which means it cannot be sold. Jokers: Throwback encourages skipping blinds to scale the XMult of the Joker, once again giving Egg less opportunity to increase its sell value."
+     },
+     {
+      "id": 564,
+      "title": "Ice Cream",
+      "score": 6.133,
+      "text": "Ice Cream: Ice Cream is one of the few \"food jokers\" to get merch from Makeship in the recently campaigned Food Joker Pin Set alongside Popcorn and Egg."
+     }
+    ],
+    "skipped": [
+     [
+      351,
+      "excede el limite de palabras"
+     ],
+     [
+      349,
+      "excede el limite de palabras"
+     ],
+     [
+      352,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Gains $3 of sell value at end of round",
+    "confidence": 0.556,
+    "abstained": false,
+    "supporting_chunk": 347,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 8.25,
+     "retrieval": 17.9,
+     "context": 0.56,
+     "model": 1390.62,
+     "retrieval_total": 19.67,
+     "total": 1418.54
+    }
+   },
+   "exact": {
+    "prompt_question": "What is the effect of the Egg joker?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 347,
+      "title": "Egg",
+      "score": 12.955,
+      "text": "Egg: Egg (Joker). Effect: Gains $3 of sell value at end of round. Rarity: Common. Unlock Requirement: Available from start. Buy Price: $4. Sell Price: $2. Type: Economy. Activation: N/A (Passive). Copyable: ✗ No. Perishable: Yes. Eternal: Yes. Egg is a Common Economy Joker which gains $3 of sell value each round, and has no other effect. It can help with some joker synergies, or simply be cashed in after a few rounds for a small profit."
+     },
+     {
+      "id": 348,
+      "title": "Egg",
+      "score": 12.2,
+      "text": "Egg: Usage Notes: The Omelette challenge starts the player with 5 copies of Egg. Decks: The Green Deck cannot generate interest, and can especially benefit from alternative income sources like Egg. Poker hands: This Joker does not add Chips or Mult, so no hand benefits or suffers from it. Jokers: Swashbuckler can combo with Egg to gain Mult each round, but will lose it if Egg is sold. While Debuffed, Egg will still provide Mult for Swashbuckler. Ceremonial Dagger can be used to sacrifice Egg for a permanent Mult bonus."
+     },
+     {
+      "id": 350,
+      "title": "Egg",
+      "score": 12.132,
+      "text": "Egg: Since Painted Deck and Blast Off only have 4 Joker slots instead of the typical 5, taking Egg is much more risky since it doesn't immediately help the player score and its only purpose is to be sold. Cruelty makes it even more difficult and risky to use Egg, as this deck only has 3 Joker slots. Non-Perishable makes every Joker Eternal, including Egg, which means it cannot be sold. Jokers: Throwback encourages skipping blinds to scale the XMult of the Joker, once again giving Egg less opportunity to increase its sell value."
+     },
+     {
+      "id": 564,
+      "title": "Ice Cream",
+      "score": 6.465,
+      "text": "Ice Cream: Ice Cream is one of the few \"food jokers\" to get merch from Makeship in the recently campaigned Food Joker Pin Set alongside Popcorn and Egg."
+     }
+    ],
+    "skipped": [
+     [
+      351,
+      "excede el limite de palabras"
+     ],
+     [
+      352,
+      "excede el limite de palabras"
+     ],
+     [
+      349,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "Gains $3 of sell value at end of round",
+    "confidence": 0.556,
+    "abstained": false,
+    "supporting_chunk": 347,
+    "outcome": "correct",
+    "context_has_answer": true,
+    "timings_ms": {
+     "clean": 157.73,
+     "retrieval": 932.38,
+     "context": 1.27,
+     "model": 1618.5,
+     "retrieval_total": 936.35,
+     "total": 2712.58
+    }
+   }
+  },
+  "Does the game have a joker called Pikachu?": {
+   "kind": "no_answer",
+   "expected": [],
+   "approx": {
+    "prompt_question": "Does the game have a joker called Pikachu?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 1646,
+      "title": "Negative",
+      "score": 7.938,
+      "text": "Negative: Near the end of the Balatro launch trailer, Mr. Bones appears to have an altered negative. In other media: In the same update where the Ante Chamber DLC was introduced in Vampire Survivors, a game mechanic that mainly gives the player stat bonuses, the Survarot, was introduced. This game mechanic includes card editions, most of which are directly referenced from Balatro. This is the case for this edition as well, though it is called \"Inverted\" in Vampire Survivors."
+     },
+     {
+      "id": 183,
+      "title": "Canio",
+      "score": 7.608,
+      "text": "Canio: The other legendary Jokers are Chicot, Perkeo, Triboulet, and Yorick. In some early versions of the game, the card was misspelled as \"Caino\". This is still true in internal references to the card within the game's code. Canio is a certain type of jester or clown called a Pierrot, which is defined as a French male character dressed in a loose white costume with a sad-painted white face and a pointed hat. In other media: Canio appears as a playable character in the Ante Chamber DLC of Vampire Survivors. Canio appears as an artifact in Monster Train 2."
+     },
+     {
+      "id": 1002,
+      "title": "Spare Trousers",
+      "score": 7.531,
+      "text": "Spare Trousers: Using Planet cards to level up Spare Trousers' applicable hands can partially compensate for the joker's late-game strength falloff. Trivia: The background of the card art consists of a pattern of little trousers (also called pants in some parts of the world). The name of this Joker could be a play on the fact that having a spare pair of trousers also means that you have Two Pairs of trousers, hence its effect revolving around Two Pair hands."
+     }
+    ],
+    "skipped": [
+     [
+      1326,
+      "excede el limite de palabras"
+     ],
+     [
+      1346,
+      "excede el limite de palabras"
+     ],
+     [
+      2233,
+      "excede el limite de palabras"
+     ],
+     [
+      1348,
+      "excede el limite de palabras"
+     ],
+     [
+      1353,
+      "excede el limite de palabras"
+     ],
+     [
+      80,
+      "excede el limite de palabras"
+     ],
+     [
+      1331,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "I don't know: the selected context does not answer this question.",
+    "confidence": 0.983,
+    "abstained": true,
+    "supporting_chunk": null,
+    "outcome": "correct_abstention",
+    "context_has_answer": false,
+    "timings_ms": {
+     "clean": 11.24,
+     "retrieval": 15.53,
+     "context": 0.56,
+     "model": 962.65,
+     "retrieval_total": 17.28,
+     "total": 991.17
+    }
+   },
+   "exact": {
+    "prompt_question": "Does the game have a joker called Pikachu?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 1646,
+      "title": "Negative",
+      "score": 8.016,
+      "text": "Negative: Near the end of the Balatro launch trailer, Mr. Bones appears to have an altered negative. In other media: In the same update where the Ante Chamber DLC was introduced in Vampire Survivors, a game mechanic that mainly gives the player stat bonuses, the Survarot, was introduced. This game mechanic includes card editions, most of which are directly referenced from Balatro. This is the case for this edition as well, though it is called \"Inverted\" in Vampire Survivors."
+     },
+     {
+      "id": 1002,
+      "title": "Spare Trousers",
+      "score": 7.927,
+      "text": "Spare Trousers: Using Planet cards to level up Spare Trousers' applicable hands can partially compensate for the joker's late-game strength falloff. Trivia: The background of the card art consists of a pattern of little trousers (also called pants in some parts of the world). The name of this Joker could be a play on the fact that having a spare pair of trousers also means that you have Two Pairs of trousers, hence its effect revolving around Two Pair hands."
+     },
+     {
+      "id": 1326,
+      "title": "Earth",
+      "score": 7.639,
+      "text": "Earth: In versions before 0.9.0l-DEMO the background of Planet cards were grey instead of the cyan used since. In other media: This planet card (along with the planet icon), all of the other non-secret Planet cards, and the Rocket joker, are all referenced in Vampire Survivors, specifically in a weapon called the \"Celestial Booster.\" The Negative depiction of Earth is referenced in another weapon from the game, the Negative Space, which is the evolved version of the Celestial Booster."
+     },
+     {
+      "id": 80,
+      "title": "Blackboard",
+      "score": 6.509,
+      "text": "Blackboard: Trivia: The art is reminiscent of blackboards (sometimes called chalkboards) found in schools and other learning environments, including the piece of chalk used to draw and write on it. Despite the name, they are not always made of black material and can often be found in grey, green, or dark blue. In many situations, they have been replaced with whiteboards (also called dry-erase boards)."
+     }
+    ],
+    "skipped": [
+     [
+      1346,
+      "redundante"
+     ],
+     [
+      183,
+      "excede el limite de palabras"
+     ],
+     [
+      2233,
+      "excede el limite de palabras"
+     ],
+     [
+      1348,
+      "excede el limite de palabras"
+     ],
+     [
+      1353,
+      "excede el limite de palabras"
+     ],
+     [
+      1331,
+      "excede el limite de palabras"
+     ]
+    ],
+    "answer": "I don't know: the selected context does not answer this question.",
+    "confidence": 0.787,
+    "abstained": true,
+    "supporting_chunk": null,
+    "outcome": "correct_abstention",
+    "context_has_answer": false,
+    "timings_ms": {
+     "clean": 10.77,
+     "retrieval": 782.36,
+     "context": 1.34,
+     "model": 1354.09,
+     "retrieval_total": 784.88,
+     "total": 2149.75
+    }
+   }
+  },
+  "What is the capital of France?": {
+   "kind": "no_answer",
+   "expected": [],
+   "approx": {
+    "prompt_question": "What is the capital of France?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 1603,
+      "title": "Seed Money",
+      "score": 7.622,
+      "text": "Seed Money: Credit Card enables going $20 in debt, well below the minimum interest level. Trivia: \"Seed money\" is a technical term referring to the initial investment of capital that new projects or businesses receive when they are not self-sustaining and need help covering initial expenses such as marketing, research, or office space. The voucher giving extra interest reflects this; the player is given a little extra income to help sustain their run but not enough to the point where they can carelessly spend."
+     },
+     {
+      "id": 1138,
+      "title": "Triboulet",
+      "score": 6.753,
+      "text": "Triboulet: Boss Blinds: The Plant can be a run killer as debuffed Queens and Kings do not trigger Triboulet. Trivia: Little biographical information is available about the jester Triboulet. It is known that in France, there have been at least three jesters referred to as \"Triboulet\", with the first one serving René of Anjou and also being a playwright, the second serving Louis XII, and the third one serving Francis I (and possibly also Louis XII). The second Triboulet died during Louis XII's reign, and he and the Third Triboulet later became confused as one person."
+     },
+     {
+      "id": 250,
+      "title": "Chicot",
+      "score": 6.145,
+      "text": "Chicot: Any run that relies on The Serpent's effect will no longer work with Chicot. Trivia: Chicot (c. 1540–1591), real name Jean-Antoine d'Anglerais, was the jester of King Henry III of France, and later Henry IV. He was sharp-tongued, very cunning, spoke with the king without formalities, and often participated in battle. Chicot disabling Boss Blinds in the game is likely a reference to this. This Joker is animated, with Chicot hovering just above the red card face. The other Legendary Jokers are Canio, Perkeo, Triboulet and Yorick. Chicot's eyes are positioned slightly higher on his face than the other 4 Legendary Jokers. This is the only Legendary joker that is not Blueprint or Brainstorm compatible."
+     }
+    ],
+    "skipped": [],
+    "answer": "I don't know: the selected context does not answer this question.",
+    "confidence": 0.972,
+    "abstained": true,
+    "supporting_chunk": null,
+    "outcome": "correct_abstention",
+    "context_has_answer": false,
+    "timings_ms": {
+     "clean": 8.19,
+     "retrieval": 12.85,
+     "context": 0.87,
+     "model": 1394.7,
+     "retrieval_total": 13.85,
+     "total": 1416.74
+    }
+   },
+   "exact": {
+    "prompt_question": "What is the capital of France?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 1603,
+      "title": "Seed Money",
+      "score": 7.622,
+      "text": "Seed Money: Credit Card enables going $20 in debt, well below the minimum interest level. Trivia: \"Seed money\" is a technical term referring to the initial investment of capital that new projects or businesses receive when they are not self-sustaining and need help covering initial expenses such as marketing, research, or office space. The voucher giving extra interest reflects this; the player is given a little extra income to help sustain their run but not enough to the point where they can carelessly spend."
+     },
+     {
+      "id": 1138,
+      "title": "Triboulet",
+      "score": 6.753,
+      "text": "Triboulet: Boss Blinds: The Plant can be a run killer as debuffed Queens and Kings do not trigger Triboulet. Trivia: Little biographical information is available about the jester Triboulet. It is known that in France, there have been at least three jesters referred to as \"Triboulet\", with the first one serving René of Anjou and also being a playwright, the second serving Louis XII, and the third one serving Francis I (and possibly also Louis XII). The second Triboulet died during Louis XII's reign, and he and the Third Triboulet later became confused as one person."
+     },
+     {
+      "id": 250,
+      "title": "Chicot",
+      "score": 6.145,
+      "text": "Chicot: Any run that relies on The Serpent's effect will no longer work with Chicot. Trivia: Chicot (c. 1540–1591), real name Jean-Antoine d'Anglerais, was the jester of King Henry III of France, and later Henry IV. He was sharp-tongued, very cunning, spoke with the king without formalities, and often participated in battle. Chicot disabling Boss Blinds in the game is likely a reference to this. This Joker is animated, with Chicot hovering just above the red card face. The other Legendary Jokers are Canio, Perkeo, Triboulet and Yorick. Chicot's eyes are positioned slightly higher on his face than the other 4 Legendary Jokers. This is the only Legendary joker that is not Blueprint or Brainstorm compatible."
+     }
+    ],
+    "skipped": [],
+    "answer": "I don't know: the selected context does not answer this question.",
+    "confidence": 0.972,
+    "abstained": true,
+    "supporting_chunk": null,
+    "outcome": "correct_abstention",
+    "context_has_answer": false,
+    "timings_ms": {
+     "clean": 6.61,
+     "retrieval": 557.68,
+     "context": 1.06,
+     "model": 1355.97,
+     "retrieval_total": 558.85,
+     "total": 1921.44
+    }
+   }
+  },
+  "What is the price of the Superman joker?": {
+   "kind": "no_answer",
+   "expected": [],
+   "approx": {
+    "prompt_question": "What is the price of the Superman joker?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 575,
+      "title": "Joker",
+      "score": 6.147,
+      "text": "Joker: Joker (Joker). Effect: +4 Mult. Rarity: Common. Unlock Requirement: Available from start. Buy Price: $2. Sell Price: $1. Type: Additive Mult. Activation: Independent. Copyable: Yes. Perishable: Yes. Eternal: Yes. Joker is a Common Additive Mult Joker. It provides +4 Mult to all played hands."
+     },
+     {
+      "id": 1242,
+      "title": "Judgement",
+      "score": 5.808,
+      "text": "Judgement: Judgement (Tarot card). Type: Tarot. Effect: Creates a random Joker card, (Must have room). Unlock Requirement: Available from start. Buy Price: $3. Sell Price: $1. Judgement is a Tarot card that allows the player to create a random Joker."
+     },
+     {
+      "id": 1469,
+      "title": "Wraith",
+      "score": 5.641,
+      "text": "Wraith: Wraith (Spectral card). Type: Spectral. Effect: Creates a random Rare Joker, sets money to $0. Unlock Requirement: Available from start. Buy Price: $4. Sell Price: $2. Wraith is a Spectral card that spawns a Rare Joker if there is room, but also sets money to $0."
+     },
+     {
+      "id": 47,
+      "title": "Banner",
+      "score": 5.528,
+      "text": "Banner: Banner (Joker). Effect: +30 Chips for each remaining discard. Rarity: Common. Unlock Requirement: Available from start. Buy Price: $5. Sell Price: $2. Type: Chips. Activation: Independent. Copyable: Yes. Perishable: Yes. Eternal: Yes. Banner is a Common Chips Joker that provides +30 Chips for each remaining discard when a hand is played."
+     }
+    ],
+    "skipped": [],
+    "answer": "I don't know: the selected context does not answer this question.",
+    "confidence": 0.865,
+    "abstained": true,
+    "supporting_chunk": null,
+    "outcome": "correct_abstention",
+    "context_has_answer": false,
+    "timings_ms": {
+     "clean": 18.58,
+     "retrieval": 29.92,
+     "context": 1.28,
+     "model": 787.66,
+     "retrieval_total": 34.02,
+     "total": 840.26
+    }
+   },
+   "exact": {
+    "prompt_question": "What is the price of the Superman joker?",
+    "corrections": [],
+    "context": [
+     {
+      "id": 575,
+      "title": "Joker",
+      "score": 6.885,
+      "text": "Joker: Joker (Joker). Effect: +4 Mult. Rarity: Common. Unlock Requirement: Available from start. Buy Price: $2. Sell Price: $1. Type: Additive Mult. Activation: Independent. Copyable: Yes. Perishable: Yes. Eternal: Yes. Joker is a Common Additive Mult Joker. It provides +4 Mult to all played hands."
+     },
+     {
+      "id": 1242,
+      "title": "Judgement",
+      "score": 6.243,
+      "text": "Judgement: Judgement (Tarot card). Type: Tarot. Effect: Creates a random Joker card, (Must have room). Unlock Requirement: Available from start. Buy Price: $3. Sell Price: $1. Judgement is a Tarot card that allows the player to create a random Joker."
+     },
+     {
+      "id": 1469,
+      "title": "Wraith",
+      "score": 6.066,
+      "text": "Wraith: Wraith (Spectral card). Type: Spectral. Effect: Creates a random Rare Joker, sets money to $0. Unlock Requirement: Available from start. Buy Price: $4. Sell Price: $2. Wraith is a Spectral card that spawns a Rare Joker if there is room, but also sets money to $0."
+     },
+     {
+      "id": 9,
+      "title": "Abstract Joker",
+      "score": 6.033,
+      "text": "Abstract Joker: Abstract Joker (Joker). Effect: +3 Mult for each Joker card, (Currently +0 Mult). Rarity: Common. Unlock Requirement: Available from start. Buy Price: $4. Sell Price: $2. Type: Additive Mult. Activation: Independent. Copyable: Yes. Perishable: Yes. Eternal: Yes. Abstract Joker is a Common Additive Mult Joker that provides +3 Mult for every Joker card currently held, including itself."
+     }
+    ],
+    "skipped": [],
+    "answer": "I don't know: the selected context does not answer this question.",
+    "confidence": 0.814,
+    "abstained": true,
+    "supporting_chunk": null,
+    "outcome": "correct_abstention",
+    "context_has_answer": false,
+    "timings_ms": {
+     "clean": 16.44,
+     "retrieval": 887.73,
+     "context": 0.7,
+     "model": 833.05,
+     "retrieval_total": 890.05,
+     "total": 1739.54
+    }
+   }
+  }
+ }
+}
