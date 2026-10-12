@@ -1,0 +1,35 @@
+{
+ "chunks": 2249,
+ "tokens": 212146,
+ "terms_without_stopwords": 137787,
+ "vocabulary_size": 5496,
+ "trie_nodes": 15908,
+ "card_names": 364,
+ "posting_pairs": 102000,
+ "joined_chars": 1184595,
+ "stopwords_in_list": 89,
+ "build_ms_full": 1730.8,
+ "peak_memory_mb": 11.0,
+ "scaling": [
+  {
+   "chunks": 562,
+   "tokens": 55163,
+   "build_ms": 463.2
+  },
+  {
+   "chunks": 1124,
+   "tokens": 110610,
+   "build_ms": 1134.9
+  },
+  {
+   "chunks": 1686,
+   "tokens": 161430,
+   "build_ms": 1292.6
+  },
+  {
+   "chunks": 2249,
+   "tokens": 212146,
+   "build_ms": 1730.8
+  }
+ ]
+}
